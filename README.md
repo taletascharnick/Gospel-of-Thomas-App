@@ -1,6 +1,6 @@
 # Gospel of Thomas Reflection App
 
-A contemplative Vue 3 application dedicated to the Gospel of Thomas, offering in-depth reflections on each saying and guidance for entering a meditative space.
+A contemplative Vue 3 application dedicated to the Gospel of Thomas, offering in-depth reflections on each saying and guidance for entering a meditative space. Yes.
 
 ## Project Overview
 
