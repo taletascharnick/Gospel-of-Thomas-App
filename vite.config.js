@@ -4,8 +4,8 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [vue()],
-  // Change '/gospel-of-thomas/' to match your exact GitHub repository name
-  base: '/gospel-of-thomas/',
+  // Must exactly match your GitHub repository name (case-sensitive)
+  base: '/Gospel-of-Thomas-App/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
