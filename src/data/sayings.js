@@ -268,12 +268,90 @@ The final line — there is nothing hidden that will not become known — has bo
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 21–114  Stubs — add text and reflections via admin
+  // SAYINGS 21–24  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 94 }, (_, i) => ({
-    id: i + 21,
-    number: i + 21,
-    text: `Saying ${i + 21} — add the text via the admin panel.`,
+  {
+    id: 21,
+    number: 21,
+    text: `Mary said to Jesus, "What do your disciples resemble?" He said, "What they resemble is children living in a plot of land that is not theirs. When the owners of the land come they will say, 'Surrender our land to us.' They, for their part, strip naked in their presence in order to give it back to them, and they give them their land. Thus I say that the owner of an estate, knowing that a bandit is coming, will keep watch before the bandit comes and not let the bandit break into the house of the estate and steal the possessions. You (plur.), then, be on your guard against the world. Arm yourselves with great power lest the brigands find a way to get to you; for the trouble that you expect will come. Let an experienced person dwell in your midst! When the crop had matured, that person came in haste, sickle in hand, and harvested it. Whoever has ears to hear should listen!"`,
+    reflection: `This saying is a cornerstone for understanding the Gnostic leanings often attributed to the Gospel of Thomas.
+
+The Children represent the spiritually enlightened — the disciples. They are "little" because they are innocent of worldly attachments. The Field represents the material world or the physical body; it does not belong to the spirit but is a temporary dwelling. Stripping Naked is not about literal nudity. In the context of Thomas, "undressing" symbolises shedding the material body or discarding worldly identity to return to a purely spiritual state. The Thief — a common motif also found in the New Testament — represents the unexpected arrival of a spiritual crisis, used here to emphasise constant mindfulness.
+
+While the "Thief in the Night" imagery appears in Matthew 24:43 and Luke 12:39, the "Children in the Field" parable is unique to the Gospel of Thomas. It shifts the focus from the Second Coming of Christ to the internal realisation of the soul's detachment from the earth.
+
+In the Thomasine tradition, the "world" is a predatory force that seeks to lull the spirit into a sleep of forgetfulness. To "watch" means to recognise that the material world is a distraction. Your "house" is your inner spirit. If you are not home — that is, if you are not mindful — the "thief" (worldly desires, ego, social pressures) can break in and carry away your goods, your divine spark, your clarity.
+
+Ancient houses in the Near East were often made of mud brick. A thief would not just pick a lock; they would dig through the wall. The vigil is meant to catch the intruder before the structural integrity of your inner life is compromised. If you are not paying attention to what you allow in — toxic information, mindless habits, negative environments — you are leaving the door open.`,
+    contemplationPrompt: `What areas of your life are you treating as your "home," even though they are temporary or owned by someone else? If the owners showed up today, how much of your identity would be lost with them?
+
+What "garments" — titles, reputations, past grievances — are you wearing so tightly that they feel like your own skin? Could you stand naked, without your achievements or possessions, and still know who you are?
+
+What is currently digging through your walls? Where is the weak point in your perimeter where you tend to lose your focus or your peace? When you are scrolling through your phone or rushing through your day, who is "at home" in your mind?`,
+    concepts: [],
+    relatedSayings: [4, 22, 27, 37, 56, 80, 103],
+    published: true
+  },
+  {
+    id: 22,
+    number: 22,
+    text: `Jesus saw some infants who were being suckled. He said to his disciples: "These infants being suckled are like those who enter the kingdom." They said to him: "If we then become children, shall we enter the kingdom?" Jesus said to them: "When you make the two one, and when you make the inside as the outside, and the outside as the inside, and the upper as the lower, and when you make the male and the female into a single one, so that the male is not male and the female not female, and when you make eyes in place of an eye, and a hand in place of a hand, and a foot in place of a foot, an image in place of an image — then shall you enter the kingdom."`,
+    reflection: `Jesus points to nursing infants as the ultimate insiders of the kingdom. Why? Because an infant does not yet perceive the world through labels, judgements, or divisions. To them, there is no "me" versus "other," no subject versus object. They exist in a state of undifferentiated wholeness.
+
+To enter the kingdom, Jesus describes a radical re-integration of the opposites that usually define our lives. Making the two into one means moving past the "this vs. that" mentality. Inside and outside: ensuring your internal reality — thoughts, spirit — matches your external reality — actions, body. Upper and lower: bridging the divine and the mundane. Male and female: transcending gendered ego roles to reach a state of oneness where you are not defined by biological or social binaries. You enter the kingdom when you stop slicing the world into pieces and start seeing the underlying unity in everything.
+
+We begin in a state of oneness because we do not know any better. There is no "me" and "not-me" — just existence. It is beautiful, but it is unconscious. Then we enter duality: good vs. evil, male vs. female, success vs. failure. We get lost here because we mistake the divisions for the final truth. The third stage — conscious oneness — is the Kingdom. By finding the divine spark within, we collapse the dualities. We realise the outside and the inside were never actually separate.
+
+The journey is not about becoming something new. It is about remembering what you were before the world told you that you were separate from it.`,
+    contemplationPrompt: `Am I excluding half of my potential because I have labelled it as "not me"? The Spark is neither male nor female; it is the source of both.`,
+    concepts: [],
+    relatedSayings: [3, 11, 50, 106],
+    published: true
+  },
+  {
+    id: 23,
+    number: 23,
+    text: `Jesus said: "I shall choose you, one out of a thousand and two out of ten thousand, and they shall stand as a single one."`,
+    reflection: `Choosing someone does not mean they are more worthy; it means they are ready. The ego loves to interpret "chosen" as "special" or "superior." But in the context of deep inner work, being chosen is more like a crop being ready for harvest. A green tomato is not less worthy than a red one — it simply needs more time on the vine. To force the process before the individual is ready is harmful.
+
+In depth psychology — Carl Jung's work on individuation, for instance — facing the unconscious mind, dismantling ego-stories, and looking at our shadows requires a strong, stable internal container. When we are not ready, forcing this work can lead to fragmentation, severe anxiety, or a breakdown. The ego braces against it because it feels threatened.
+
+Some spiritual traditions call this the Bodhisattva path: those who do the arduous inner work do not do it to escape the world, but to return to it and assist others. By facing your own darkness and finding wholeness, you change the energetic blueprint available to those around you. You model a new way of being. You prove that freedom is possible, which quietly gives others permission to seek it when their time comes.
+
+When we are ready, we can observe our inner workings without falling apart. We outgrow our limiting narratives and integrate the difficult parts of ourselves — fulfilling the end of this saying: we stand as a single one. Whole, unified, and integrated.
+
+You are ready when you can choose yourself.`,
+    contemplationPrompt: `Where am I still waiting for external permission to choose myself? What specific, outgrown story about my identity am I holding onto just because it makes other people comfortable? When I feel "unready," am I actually just bracing against the process rather than trusting my own wholeness?`,
+    concepts: [],
+    relatedSayings: [3, 22, 70, 111],
+    published: true
+  },
+  {
+    id: 24,
+    number: 24,
+    text: `His disciples said: "Teach us about the place where you are, for it is necessary for us to seek it." He said to them: "He who has ears, let him hear! There is light within a man of light, and he lights the whole world. If he does not shine, there is darkness."`,
+    reflection: `The disciples are looking for a geographical or external spiritual "place" where Jesus resides so they can travel there to find it. Jesus dismisses the idea of a destination out in the world and points them inward instead.
+
+The "person of light" refers to an individual who has awakened to the divine spark within themselves. In the Thomasine tradition, enlightenment is not found by following a leader to a specific location. It is found by recognising the primordial truth that already exists inside you. When this inner light is realised and lived, it naturally radiates outward, giving clarity and light to the rest of the world. Conversely, failing to recognise and live from this inner light leaves the individual — and those around them — in darkness and confusion.
+
+The disciples' question is the same one we ask whenever we look outward for answers that can only be found within: Which teacher should I follow? Which tradition holds the truth? Which method will finally fix me? Jesus turns the question around. The place you are seeking is not somewhere you can travel to. It is what you are looking out from right now.`,
+    contemplationPrompt: `Where am I outsourcing my certainty? Are there areas in my life where I look to an external expert, tradition, or trend to tell me what is true or right?
+
+What does my "light" actually look like? If I strip away the expectations of my profession, my culture, and my peers, what are the core, unborrowed truths that remain?
+
+Am I mistaking the map for the territory — spending so much time studying the paths others have walked that I am neglecting to walk my own?`,
+    concepts: [],
+    relatedSayings: [3, 70, 113],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 25–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 90 }, (_, i) => ({
+    id: i + 25,
+    number: i + 25,
+    text: `Saying ${i + 25} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
