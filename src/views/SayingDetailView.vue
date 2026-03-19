@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- Reading progress bar -->
+    <div class="reading-progress" :style="{ width: readingProgress + '%' }" aria-hidden="true" />
     <!-- 404 state -->
     <div v-if="!saying" class="container" style="padding-top:3rem; text-align:center;">
       <p style="color:var(--text-muted);">Saying not found.</p>
@@ -84,7 +86,7 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
 import ActionSidebar from '../components/ActionSidebar.vue'
 import ConceptSidebar from '../components/ConceptSidebar.vue'
@@ -112,4 +114,15 @@ const nextSaying = computed(() => {
 
 // Close concept sidebar when navigating between sayings
 watch(sayingId, () => { conceptsOpen.value = false })
+
+// Reading progress
+const readingProgress = ref(0)
+function updateProgress() {
+  const el = document.documentElement
+  const scrolled = el.scrollTop || document.body.scrollTop
+  const total = el.scrollHeight - el.clientHeight
+  readingProgress.value = total > 0 ? Math.min(100, (scrolled / total) * 100) : 0
+}
+onMounted(() => window.addEventListener('scroll', updateProgress, { passive: true }))
+onUnmounted(() => window.removeEventListener('scroll', updateProgress))
 </script>

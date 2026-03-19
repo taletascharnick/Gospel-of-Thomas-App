@@ -14,9 +14,10 @@
 
     <div class="sayings-grid">
       <SayingCard
-        v-for="saying in visibleSayings"
+        v-for="(saying, i) in visibleSayings"
         :key="saying.id"
         :saying="saying"
+        :index="i"
       />
     </div>
 

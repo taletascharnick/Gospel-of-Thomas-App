@@ -839,3 +839,51 @@ p:last-child { margin-bottom: 0; }
   transition: transform 0.2s;
 }
 .toggle input:checked + .toggle-track::before { transform: translateX(1rem); }
+
+/* --- Nav: backdrop blur + auto-hide ---------------------------- */
+.nav-bar {
+  backdrop-filter: blur(12px) saturate(1.5);
+  -webkit-backdrop-filter: blur(12px) saturate(1.5);
+  background: color-mix(in srgb, var(--bg) 85%, transparent) !important;
+  transform: translateY(0);
+  transition: background 0.3s, transform 0.3s ease;
+}
+.nav-bar--hidden {
+  transform: translateY(-100%);
+}
+
+/* --- Reading progress bar -------------------------------------- */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--accent);
+  z-index: 999;
+  transition: width 0.1s linear;
+  border-radius: 0 2px 2px 0;
+}
+
+/* --- Saying card entrance animation ---------------------------- */
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.saying-card {
+  animation: cardIn 0.35s ease both;
+}
+
+/* --- Saying card bookmark dot ---------------------------------- */
+.saying-card__number {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.saying-card__bookmark-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}

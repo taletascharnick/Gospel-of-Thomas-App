@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav-bar" role="navigation" aria-label="Site navigation">
+  <nav class="nav-bar" :class="{ 'nav-bar--hidden': hidden }" role="navigation" aria-label="Site navigation">
     <div class="container">
       <!-- Back link (only on non-home routes) -->
       <RouterLink
@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useTheme } from '../composables/useTheme.js'
 
@@ -52,4 +52,15 @@ const backLabel = computed(() => {
   if (route.name === 'saying') return 'Sayings'
   return 'Home'
 })
+
+// Auto-hide nav on scroll
+const hidden = ref(false)
+let lastY = 0
+function onScroll() {
+  const y = window.scrollY
+  hidden.value = y > 80 && y > lastY
+  lastY = y
+}
+onMounted(() => window.addEventListener('scroll', onScroll, { passive: true }))
+onUnmounted(() => window.removeEventListener('scroll', onScroll))
 </script>

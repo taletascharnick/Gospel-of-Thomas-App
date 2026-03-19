@@ -15,15 +15,13 @@
         <p class="home-hero__subtitle">Contemplative Reflections on the 114 Sayings</p>
       </section>
 
-      <!-- Featured quote -->
-      <blockquote class="home-quote">
-        <p class="home-quote__text">
-          "Let the one who seeks not stop seeking until they find.
-          When they find, they will be troubled.
-          When they are troubled, they will marvel —
-          and they will reign over all."
-        </p>
-        <footer class="home-quote__attribution">Saying 2</footer>
+      <!-- Featured quote: daily saying -->
+      <blockquote v-if="dailySaying" class="home-quote">
+        <p class="home-quote__text">{{ dailySaying.text }}</p>
+        <footer class="home-quote__attribution">
+          <RouterLink :to="`/sayings/${dailySaying.id}`" style="color:inherit;">Saying {{ dailySaying.number }}</RouterLink>
+          &nbsp;·&nbsp; Today's saying
+        </footer>
       </blockquote>
 
       <!-- What this is -->
@@ -78,8 +76,19 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import GuidanceModal from '../components/GuidanceModal.vue'
+import { useSayings } from '../composables/useSayings.js'
 
 const showGuidance = ref(!localStorage.getItem('got-guidance-seen'))
+
+const { publishedSayings } = useSayings()
+
+// Rotate through published sayings — one per day
+const dailySaying = computed(() => {
+  const list = publishedSayings.value
+  if (!list.length) return null
+  const dayIndex = Math.floor(Date.now() / 86400000)
+  return list[dayIndex % list.length]
+})
 </script>
