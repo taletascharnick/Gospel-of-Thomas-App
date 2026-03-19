@@ -17,8 +17,9 @@
   --max-width:    780px;
   --nav-height:   56px;
 
-  --font-serif: 'Cormorant Garamond', Georgia, serif;
-  --font-sans:  'Lato', system-ui, sans-serif;
+  --font-serif:   'Cormorant Garamond', Georgia, serif;
+  --font-sans:    'Lato', system-ui, sans-serif;
+  --font-reading: 'Lora', Georgia, serif;
 }
 
 [data-theme='dark'] {
@@ -50,7 +51,7 @@ body {
   font-family: var(--font-sans);
   background: var(--bg);
   color: var(--text);
-  line-height: 1.75;
+  line-height: 1.8;
   min-height: 100vh;
   transition: background 0.3s ease, color 0.3s ease;
 }
@@ -240,9 +241,9 @@ p:last-child { margin-bottom: 0; }
 }
 
 .saying-card__text {
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
-  line-height: 1.55;
+  font-family: var(--font-reading);
+  font-size: 0.97rem;
+  line-height: 1.65;
   color: var(--text);
   /* Clamp to 4 lines */
   display: -webkit-box;
@@ -291,8 +292,8 @@ p:last-child { margin-bottom: 0; }
 
 .saying-detail__text {
   font-family: var(--font-serif);
-  font-size: clamp(1.25rem, 3.5vw, 1.6rem);
-  line-height: 1.7;
+  font-size: clamp(1.35rem, 3.8vw, 1.7rem);
+  line-height: 1.75;
   font-style: italic;
   color: var(--text);
   margin-bottom: 2.5rem;
@@ -309,17 +310,18 @@ p:last-child { margin-bottom: 0; }
 }
 
 .saying-detail__reflection {
-  font-size: 1rem;
-  line-height: 1.85;
+  font-family: var(--font-reading);
+  font-size: 1.08rem;
+  line-height: 2;
   color: var(--text);
   white-space: pre-wrap;
 }
 
 .saying-detail__prompt {
-  font-family: var(--font-serif);
-  font-size: 1.15rem;
+  font-family: var(--font-reading);
+  font-size: 1.1rem;
   font-style: italic;
-  line-height: 1.7;
+  line-height: 1.85;
   color: var(--text-muted);
   padding: 1.25rem 1.5rem;
   border-left: 3px solid var(--accent);
@@ -547,10 +549,10 @@ p:last-child { margin-bottom: 0; }
 }
 
 .home-quote__text {
-  font-family: var(--font-serif);
-  font-size: clamp(1.2rem, 3.5vw, 1.55rem);
+  font-family: var(--font-reading);
+  font-size: clamp(1.15rem, 3.2vw, 1.45rem);
   font-style: italic;
-  line-height: 1.65;
+  line-height: 1.75;
   color: var(--text);
   margin-bottom: 0.75rem;
 }
@@ -587,8 +589,9 @@ p:last-child { margin-bottom: 0; }
 }
 
 .home-section__body {
-  font-size: 0.92rem;
-  line-height: 1.75;
+  font-family: var(--font-reading);
+  font-size: 1rem;
+  line-height: 1.85;
   color: var(--text-muted);
 }
 
