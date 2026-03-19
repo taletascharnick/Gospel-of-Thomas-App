@@ -4,12 +4,12 @@
     <div v-if="!isAuthenticated" class="admin-auth">
       <h1 class="admin-auth__title">Admin</h1>
       <p class="admin-auth__sub">
-        {{ hasPassword() ? 'Enter your password to continue.' : 'Set a password to protect this panel.' }}
+        {{ (isEnvAuth || hasPassword()) ? 'Enter your password to continue.' : 'Set a password to protect this panel.' }}
       </p>
 
       <form @submit.prevent="handleAuth">
         <div class="form-group">
-          <label for="admin-pw">{{ hasPassword() ? 'Password' : 'New password' }}</label>
+          <label for="admin-pw">{{ (isEnvAuth || hasPassword()) ? 'Password' : 'New password' }}</label>
           <input
             id="admin-pw"
             v-model="passwordInput"
@@ -20,7 +20,7 @@
           />
         </div>
 
-        <div v-if="!hasPassword()" class="form-group">
+        <div v-if="!isEnvAuth && !hasPassword()" class="form-group">
           <label for="admin-pw-confirm">Confirm password</label>
           <input
             id="admin-pw-confirm"
@@ -35,11 +35,11 @@
         <p v-if="authError" class="form-error">{{ authError }}</p>
 
         <button type="submit" class="btn btn-primary" style="width:100%; margin-top:0.5rem;">
-          {{ hasPassword() ? 'Sign in' : 'Set password &amp; enter' }}
+          {{ (isEnvAuth || hasPassword()) ? 'Sign in' : 'Set password &amp; enter' }}
         </button>
       </form>
 
-      <p style="margin-top:1.5rem; font-size:0.8rem; color:var(--text-muted); line-height:1.6;">
+      <p v-if="!isEnvAuth" style="margin-top:1.5rem; font-size:0.8rem; color:var(--text-muted); line-height:1.6;">
         Note: This is a lightweight, personal-use panel. The password hash is stored
         in your browser's localStorage. It is suitable for solo content authoring
         but does not provide server-side access control.
@@ -56,7 +56,7 @@
           Import JSON
           <input type="file" accept=".json" style="display:none;" @change="handleImport" />
         </label>
-        <button class="btn btn-ghost" @click="showChangePassword = !showChangePassword">
+        <button v-if="!isEnvAuth" class="btn btn-ghost" @click="showChangePassword = !showChangePassword">
           Change password
         </button>
         <button class="btn btn-ghost" @click="logout">Sign out</button>
@@ -225,7 +225,7 @@ import { ref, computed } from 'vue'
 import { useAdmin } from '../composables/useAdmin.js'
 import { useSayings } from '../composables/useSayings.js'
 
-const { isAuthenticated, hasPassword, setPassword, login, logout } = useAdmin()
+const { isAuthenticated, isEnvAuth, hasPassword, setPassword, login, logout } = useAdmin()
 const { sayings, updateSaying, exportContent, importContent } = useSayings()
 
 // ─── Auth ────────────────────────────────────────────────────────
@@ -235,7 +235,7 @@ const authError     = ref('')
 
 async function handleAuth() {
   authError.value = ''
-  if (!hasPassword()) {
+  if (!isEnvAuth && !hasPassword()) {
     if (passwordInput.value !== confirmInput.value) {
       authError.value = 'Passwords do not match.'
       return
