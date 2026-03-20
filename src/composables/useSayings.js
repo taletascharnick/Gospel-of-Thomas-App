@@ -14,7 +14,14 @@ const overrides = ref(loadOverrides())
 
 export function useSayings() {
   const sayings = computed(() =>
-    baseSayings.map(s => ({ ...s, ...(overrides.value[s.id] || {}) }))
+    baseSayings.map(s => {
+      const override = overrides.value[s.id] || {}
+      const merged = { ...s, ...override }
+      // Base data's published: true always wins — prevents stale localStorage
+      // overrides from hiding sayings that have been fully added to the source file.
+      if (s.published === true) merged.published = true
+      return merged
+    })
   )
 
   const publishedSayings = computed(() =>

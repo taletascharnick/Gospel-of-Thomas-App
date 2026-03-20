@@ -26,6 +26,16 @@
           <span aria-hidden="true">{{ theme === 'light' ? '☽' : '☀' }}</span>
         </button>
 
+        <button
+          class="btn-icon"
+          :aria-label="updateLabel"
+          :title="updateLabel"
+          :disabled="updateState === 'checking'"
+          @click="checkForUpdate"
+        >
+          <span aria-hidden="true" :class="{ 'spin': updateState === 'checking' }">↻</span>
+        </button>
+
         <RouterLink to="/admin" class="btn-icon" aria-label="Admin panel" title="Admin">
           <span aria-hidden="true">⚙</span>
         </RouterLink>
@@ -53,7 +63,47 @@ const backLabel = computed(() => {
   return 'Home'
 })
 
-// Auto-hide nav on scroll
+// ── Update / sync ────────────────────────────────────────────────
+// States: 'idle' | 'checking' | 'updated' | 'current'
+const updateState = ref('idle')
+const updateLabel = computed(() => {
+  if (updateState.value === 'checking') return 'Checking for update…'
+  if (updateState.value === 'updated')  return 'Updated! Reloading…'
+  if (updateState.value === 'current')  return 'Already up to date'
+  return 'Check for update'
+})
+
+async function checkForUpdate() {
+  if (!('serviceWorker' in navigator)) {
+    window.location.reload()
+    return
+  }
+  updateState.value = 'checking'
+  try {
+    const reg = await navigator.serviceWorker.getRegistration()
+    if (!reg) { window.location.reload(); return }
+
+    await reg.update()
+
+    const waiting = reg.waiting
+    if (waiting) {
+      // New version ready — activate it and reload
+      waiting.postMessage({ type: 'SKIP_WAITING' })
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        updateState.value = 'updated'
+        window.location.reload()
+      })
+    } else {
+      // Already on the latest version
+      updateState.value = 'current'
+      setTimeout(() => { updateState.value = 'idle' }, 2500)
+    }
+  } catch {
+    window.location.reload()
+  }
+}
+
+// ── Auto-hide nav on scroll ──────────────────────────────────────
 const hidden = ref(false)
 let lastY = 0
 function onScroll() {
@@ -64,3 +114,13 @@ function onScroll() {
 onMounted(() => window.addEventListener('scroll', onScroll, { passive: true }))
 onUnmounted(() => window.removeEventListener('scroll', onScroll))
 </script>
+
+<style scoped>
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.spin {
+  display: inline-block;
+  animation: spin 0.8s linear infinite;
+}
+</style>
