@@ -281,6 +281,13 @@ p:last-child { margin-bottom: 0; }
   padding-bottom: 4rem;
 }
 
+/* On mobile, push content down so it clears the action bar row */
+@media (max-width: 899px) {
+  .saying-detail {
+    padding-top: 4.5rem;
+  }
+}
+
 .saying-detail__label {
   font-family: var(--font-sans);
   font-size: 0.75rem;
@@ -339,11 +346,16 @@ p:last-child { margin-bottom: 0; }
 /* --- Action Bar ------------------------------------------------- */
 .action-bar {
   position: fixed;
-  bottom: 1.25rem;
-  right: 1.25rem;
+  top: var(--nav-height);
+  left: 0;
+  right: 0;
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.4rem 1rem;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
   z-index: 100;
 }
 
@@ -351,7 +363,13 @@ p:last-child { margin-bottom: 0; }
   .action-bar {
     top: calc(var(--nav-height) + 6rem);
     bottom: auto;
+    left: auto;
     right: calc(50% - var(--max-width) / 2 - 3.5rem);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    background: transparent;
+    border-bottom: none;
   }
 }
 
