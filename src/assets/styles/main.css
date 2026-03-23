@@ -321,7 +321,39 @@ p:last-child { margin-bottom: 0; }
   font-size: 1.08rem;
   line-height: 2;
   color: var(--text);
-  white-space: pre-wrap;
+}
+
+.saying-detail__reflection p,
+.saying-detail__prompt p {
+  margin-bottom: 1.2em;
+}
+
+.saying-detail__reflection h1,
+.saying-detail__reflection h2,
+.saying-detail__reflection h3,
+.saying-detail__reflection h4,
+.saying-detail__prompt h1,
+.saying-detail__prompt h2,
+.saying-detail__prompt h3,
+.saying-detail__prompt h4 {
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: var(--text);
+}
+
+.saying-detail__reflection ul,
+.saying-detail__reflection ol,
+.saying-detail__prompt ul,
+.saying-detail__prompt ol {
+  padding-left: 1.6em;
+  margin-bottom: 1.2em;
+}
+
+.saying-detail__reflection li,
+.saying-detail__prompt li {
+  margin-bottom: 0.4em;
 }
 
 .saying-detail__prompt {
