@@ -353,30 +353,37 @@ Am I mistaking the map for the territory — spending so much time studying the 
     number: 25,
     text: 'Jesus said: Love your brother as your soul; watch over him like the apple of your eye.',
     reflection: `I. The Nature of the Soul: The Divine Spark
-In Gnostic thought, the soul is not a ghostly passenger or a psychological byproduct. Instead, it is the Divine Spark—a literal fragment of the Light inhabiting a physical body.
-• Beyond Kinship: Many times we love based on "ego-level" connections—DNA, shared politics, or tribal loyalty. This love is conditional.
-• The Shared Source: To love a brother "as your soul" is to look past his personality, flaws, or opinions and recognize the Living Father (the source of all consciousness) animating him. You are loving the essential light within him that is identical to the light within you.
 
-II. The "Apple of Your Eye" Metaphor
+**The soul is the Divine Spark — a literal fragment of the Light inhabiting a physical body.**
+
+This text immediately reminds of love your neighbour as yourself. But it goes deeper. It is not just "as yourself" — it is "as your soul." The soul is not the ego, the personality, or the social self. It is the divine essence within you that is identical to the divine essence within others.
+When we are told to love our brother "as our soul," we are being asked to love him not for what he does or doesn't do, but for the divine essence within him (for who he really is - not what we are seeing on the surface).  
+It is a literal instruction to recognise that the person in front of you is not just a separate individual, but a manifestation of the same divine essence that animates you.
+
+Many times we love based on "ego-level" connections—DNA, shared politics, or tribal loyalty. This love is conditional. To love a brother "as your soul" is to look past his personality, flaws, or opinions and recognize the Living Father (the source of all consciousness) animating him. You are loving the essential light within him that is identical to the light within you.
+
+**The "Apple of Your Eye" Metaphor**
+
 The phrase "apple of your eye" is more than an ancient idiom; it is a lesson in biological and spiritual vulnerability.
 
-1. The Anatomy of Protection
 In antiquity, the pupil was called the "apple" of the eye. It is the literal opening through which light enters the body. While it is the most vital part of our sensory experience, it is also the most fragile.
 
-2. The Reflexive Action
 Consider the blink reflex. If an object moves toward your eye, you don't pause to deliberate. You don't weigh the pros and cons of protection. Your body acts instinctively and instantly.
-The Lesson: Protecting your brother should be as reflexive as blinking. His safety is not a "choice" you make; it is a biological necessity for your shared spiritual body.
+Protecting your brother should be as reflexive as blinking. His wellbeing and safety is not a "choice" you make; it is a biological necessity for your shared spiritual body.
 
-III. The "Other Self" Paradox
+**The "Other Self" Paradox**
+
 In the Gospel of Thomas, Jesus speaks of making the "two into one." When you watch over another like the apple of your eye, the rigid boundary between "me" and "you" begins to dissolve.
-• The Gateway: The eye is the gateway to the soul. By making someone the "apple of your eye," you are looking at them from a soul-level rather than an egoic level.
-• Attention as Love: This text suggests that attention is the highest form of love. By directing your "eyes" (your conscious awareness) toward another's well-being, you acknowledge that their spiritual safety is tethered to your own.
 
-IV. The Reality of Unity
+• Attention as Love: By directing your "eyes" toward another's well-being, you acknowledge that their spiritual safety is tethered to your own.
+
+**The Reality of Unity**
 In a state of unity, the Golden Rule moves from a moral command to a logical fact. You cannot mistreat your brother without simultaneously wounding yourself.
-• Clouded Vision: To fail in loving your brother is to cloud your own spiritual vision. If you cannot see the light in him, you will eventually lose the ability to see the light in yourself.
-• Creating the World: You don't care for others simply to "stay safe." You do it because you realize that by living this way, you are manifesting a world suited for the Divine Spark, rather than a world built for the competing demands of the ego.`,
-    contemplationPrompt: `When I look within, do I immediately fixate on my shortcomings, my anxieties, or my unhealed parts? Can I use my inner light to illuminate these shadow aspects without identifying with them? To love your own soul is to hold even your darkest, most complex psychological patterns in a space of non-judgmental awareness. To be able to see someone else's light, it helps to see yours as you are one.
+
+To fail in loving your brother is to cloud your own spiritual vision. If you cannot see the light in him, it probably means you only see darkness in others because you have not yet fully recognised the light within you.
+
+This text becomes more than a command or rule. You don't care for others simply to "stay safe." You do it because you realize that by living this way, you are manifesting a world suited for the Divine Spark, rather than a world built for the competing demands of the ego.`,
+    contemplationPrompt: `When I look within or without, do I immediately fixate on my/another's shortcomings, my/another's anxieties, or my/another's unhealed parts? Can I use my inner light to illuminate these shadow aspects without identifying with them? 
 
 When I am interacting with someone—especially someone difficult—where is my focal point? Can I intentionally adjust my depth of field? Practice looking past the immediate static of their ego. Remind yourself that you are looking at an "other-self"—the exact same Source experiencing the universe from a different set of coordinates and through a different complex system of conditioning.
 
@@ -392,7 +399,7 @@ Is my recognition of the soul in others becoming a reflex, or does it still requ
 The cornea—the clear, protective outer layer of the eye—is highly reflective. It functions as a convex mirror. If you stand close enough to look directly into someone else's pupil, the physics of light dictate that you will see a miniature reflection of your own face superimposed over their iris and pupil. You literally cannot look deeply into the "soul" of another person without seeing yourself reflected back in the process.
 
 2. The Psychological Mirror: Projection and the Shadow
-We rarely see people exactly as they are. Instead, we see them through the lens of our own conditioning. If we carry unresolved anger, we are hyper-vigilant to hostility in others. The people who trigger the strongest emotional reactions in us—whether intense infatuation or deep irritation—are usually holding up a mirror to our own unconscious archetypes. Recognizing this transforms every frustrating interaction into a profound opportunity for self-awareness.
+We rarely see people exactly as they are. Instead, we see them through the lens of our own preconceived ideas, stories and conditioning. If we carry unresolved anger, we are hyper-vigilant to hostility in others. The people who trigger the strongest emotional reactions in us—whether intense infatuation or deep irritation—are usually holding up a mirror to our own unconscious archetypes. Recognizing this transforms every frustrating interaction into a profound opportunity for self-awareness.
 
 3. The Metaphysical Mirror: The "Other-Self"
 If we view reality through the lens of unified consciousness, the separation between "you" and "me" is just a structural illusion necessary for experiencing the universe. The individual soul is not disconnected from the Source; it is a fractal reflection of it. Therefore, every "other" is quite literally an "other-self"—the exact same consciousness peering out from a different set of biological coordinates. When you look into the eye of your brother and recognize the divine spark, the Creator is using your eyes to look at Itself through the eyes of the other. This is the ultimate fulfillment of Saying 22's instruction to make "the inside like the outside."
@@ -401,7 +408,7 @@ If the eye is a mirror, then judgment is a form of self-harm, and deep appreciat
       },
       {
         term: 'Divine Spark',
-        definition: 'In Gnostic thought, the Divine Spark (pneuma) is a fragment of the divine light that inhabits the physical body. It is the essential, imperishable nature within each person—identical in source to the light in every other being.'
+        definition: 'In Gnostic thought, the Divine Spark is a fragment of the divine light that inhabits the physical body. It is the essential, imperishable nature within each person—identical in source to the light in every other being.'
       },
       {
         term: 'The Blink Reflex',
