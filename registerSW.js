@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Gospel-of-Thomas-App/sw.js', { scope: '/Gospel-of-Thomas-App/' })})}
