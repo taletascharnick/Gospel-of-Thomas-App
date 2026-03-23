@@ -351,10 +351,10 @@ Am I mistaking the map for the territory — spending so much time studying the 
   {
     id: 25,
     number: 25,
-    text: 'Jesus said: Love your brother as your soul; watch over him like the apple of your eye.',
+    text: '##Jesus said: Love your brother as your soul; watch over him like the apple of your eye.',
     reflection: `I. The Nature of the Soul: The Divine Spark
 
-**The soul is the Divine Spark — a literal fragment of the Light inhabiting a physical body.**
+###The soul is the Divine Spark — a literal fragment of the Light inhabiting a physical body.
 
 This text immediately reminds of love your neighbour as yourself. But it goes deeper. It is not just "as yourself" — it is "as your soul." The soul is not the ego, the personality, or the social self. It is the divine essence within you that is identical to the divine essence within others.
 When we are told to love our brother "as our soul," we are being asked to love him not for what he does or doesn't do, but for the divine essence within him (for who he really is - not what we are seeing on the surface).  
@@ -362,7 +362,7 @@ It is a literal instruction to recognise that the person in front of you is not 
 
 Many times we love based on "ego-level" connections—DNA, shared politics, or tribal loyalty. This love is conditional. To love a brother "as your soul" is to look past his personality, flaws, or opinions and recognize the Living Father (the source of all consciousness) animating him. You are loving the essential light within him that is identical to the light within you.
 
-**The "Apple of Your Eye" Metaphor**
+### The "Apple of Your Eye" Metaphor
 
 The phrase "apple of your eye" is more than an ancient idiom; it is a lesson in biological and spiritual vulnerability.
 
@@ -371,13 +371,9 @@ In antiquity, the pupil was called the "apple" of the eye. It is the literal ope
 Consider the blink reflex. If an object moves toward your eye, you don't pause to deliberate. You don't weigh the pros and cons of protection. Your body acts instinctively and instantly.
 Protecting your brother should be as reflexive as blinking. His wellbeing and safety is not a "choice" you make; it is a biological necessity for your shared spiritual body.
 
-**The "Other Self" Paradox**
+When you watch over another like the apple of your eye, the rigid boundary between "me" and "you" begins to dissolve. By directing your "eyes" toward another's well-being, you acknowledge that their spiritual safety is tethered to your own.
 
-In the Gospel of Thomas, Jesus speaks of making the "two into one." When you watch over another like the apple of your eye, the rigid boundary between "me" and "you" begins to dissolve.
-
-• Attention as Love: By directing your "eyes" toward another's well-being, you acknowledge that their spiritual safety is tethered to your own.
-
-**The Reality of Unity**
+###The Reality of Unity
 In a state of unity, the Golden Rule moves from a moral command to a logical fact. You cannot mistreat your brother without simultaneously wounding yourself.
 
 To fail in loving your brother is to cloud your own spiritual vision. If you cannot see the light in him, it probably means you only see darkness in others because you have not yet fully recognised the light within you.
@@ -420,12 +416,76 @@ If the eye is a mirror, then judgment is a form of self-harm, and deep appreciat
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 26–114  Stubs — add text and reflections via admin
+  // SAYING 26  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 89 }, (_, i) => ({
-    id: i + 26,
-    number: i + 26,
-    text: `Saying ${i + 26} — add the text via the admin panel.`,
+  {
+    id: 26,
+    number: 26,
+    text: 'Jesus said: You see the mote which is in your brother\'s eye; but you do not see the beam which is in your own eye. When you cast out the beam from your own eye, then you will see (clearly) to cast out the mote from your brother\'s eye.',
+    reflection: `This is a text many of us already know from the Bible (Matthew 7:3-5; Luke 6:41-42). Sometimes passages like these are frequently used as a moralistic weapon — a warning against hypocrisy. Unfortunately, many times we stop here. However, this text is a deep psychological and spiritual tool for self-awareness. It brings us closer to the truth of human nature.
+
+**The "Mote" as a Mirror**
+
+The "mote" acts as a mirror. This is referred to as projection or interacting with our "shadow." We unconsciously take the traits, insecurities, or flaws that we cannot accept within ourselves and project them onto the people around us.
+
+When a minor flaw in someone else triggers a disproportionately large emotional reaction in us — anger, extreme annoyance, or disgust — it is almost always a sign that we are reacting to our own reflection. It causes us to attack the projection rather than seeing the person's soul.
+
+Jesus uses the deliberate image of a massive, load-bearing beam to show the absurdity of trying to fix or point out something that bothers us in another, while we cannot see at all. Our ego protects us from seeing our own massive unhealed wounds, allowing us to hyper-fixate on the microscopic dust in others instead. It is easier for us to try to fix someone else's problem than to sit with our own. However, while we are blind it is not wise to do so.
+
+**The Necessity of Self-Compassion**
+
+One cannot go within blindly and expect to see anything else but darkness. It will be too hard to look at the hurt and the pain within when you only see yourself as the "small self / false self." Identifying with the truth of yourself — really being the divine spark — is how you can enter with love, care, and acceptance. Finding the courage to look inward with a forgiving and compassionate eye immediately softens the lens through which you see everyone else.
+
+This is the crux of true healing. Many people realise they need to look at their own flaws, but they do so with a harsh, judgmental, and punishing inner critic. Fighting inner darkness with more darkness — shame, guilt, self-hatred — only deepens the wound. Real transformation requires radical self-compassion. We have to look at our own "beams" with the same grace and unconditional love that we are ultimately trying to extend to our brother with the "mote."`,
+    contemplationPrompt: `Think of a recent moment when someone's behaviour triggered a strong reaction in you — anger, intense annoyance, or judgment.
+
+- What was the specific trait or action that bothered me so deeply?
+- If I strip away the details of the story, what is the core emotion I felt (e.g., disrespected, unseen, out of control, inadequate)?
+- Why does this specific trait or action feel so threatening or offensive to me?
+- Can I feel the emotion without identifying with it?
+
+Now, take the trait that frustrated you in the other person and gently look for it within yourself.
+
+- Where does this exact trait exist in my own life, even if it shows up in a different context or in a hidden way?
+- Is this a part of myself that I deeply dislike, deny, or try to hide from others?
+- Am I currently treating myself the way I perceive this person is treating me?
+
+This is the crucial step of refusing to fight darkness with darkness.
+
+- When I recognise this "beam" within myself, what is my immediate internal reaction? Do I attack myself, or do I offer myself grace?
+- What is the original wound or fear that caused me to develop this flaw or defence mechanism in the first place?
+- If I were looking at a dear friend who had this exact same flaw and wound, what compassionate words would I say to them? Can I say them to myself?
+
+Bring the person who originally triggered you back into your mind's eye.
+
+- Now that I see they were unknowingly mirroring my own unhealed pain, how does my perspective of them shift?
+- Can I see their frustrating behaviour not as an attack on me, but as a symptom of their own struggle or lack of awareness?
+- What would it look like to interact with them next time from a place of shared humanity, rather than from a place of defence and projection?`,
+    concepts: [
+      {
+        term: 'Projection (Shadow)',
+        definition: 'A psychological process in which we unconsciously attribute to others the traits, insecurities, or impulses we cannot accept within ourselves. Carl Jung called the unacknowledged inner reservoir of these rejected qualities the "shadow." The intensity of our reaction to a flaw in another is often directly proportional to how deeply buried that same quality is within us.'
+      },
+      {
+        term: 'The Beam and the Mote',
+        definition: 'Jesus deliberately contrasts a massive load-bearing timber (beam) with a tiny speck of dust (mote). The absurdity of the image is the point: we are constitutionally blind to our own enormous unhealed wounds while our ego grants us perfect vision to detect the smallest imperfections in others.'
+      },
+      {
+        term: 'Radical Self-Compassion',
+        definition: 'The practice of turning inward with the same unconditional grace and forgiveness one wishes to extend outward. Without it, self-examination becomes another form of self-harm. True inner sight requires the light of compassion — not the harsh glare of the inner critic — as its lamp.'
+      }
+    ],
+    relatedSayings: [3, 24, 25, 34, 70],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 27–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 88 }, (_, i) => ({
+    id: i + 27,
+    number: i + 27,
+    text: `Saying ${i + 27} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],

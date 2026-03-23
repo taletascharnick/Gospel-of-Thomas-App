@@ -20,13 +20,13 @@
 
         <!-- Reflection -->
         <p class="saying-detail__section-heading">Reflection</p>
-        <div class="saying-detail__reflection">{{ saying.reflection }}</div>
+        <div class="saying-detail__reflection" v-html="parsedReflection" />
 
         <!-- Contemplation prompt -->
         <template v-if="saying.contemplationPrompt">
           <hr class="divider" />
           <p class="saying-detail__section-heading">Contemplation</p>
-          <blockquote class="saying-detail__prompt">{{ saying.contemplationPrompt }}</blockquote>
+          <blockquote class="saying-detail__prompt" v-html="parsedPrompt" />
         </template>
 
         <!-- Related sayings -->
@@ -88,6 +88,7 @@
 <script setup>
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
+import { marked } from 'marked'
 import ActionSidebar from '../components/ActionSidebar.vue'
 import ConceptSidebar from '../components/ConceptSidebar.vue'
 import { useSayings } from '../composables/useSayings.js'
@@ -98,6 +99,8 @@ const { sayings, getSaying } = useSayings()
 
 const sayingId   = computed(() => Number(props.id || route.params.id))
 const saying     = computed(() => getSaying(sayingId.value))
+const parsedReflection = computed(() => saying.value?.reflection ? marked.parse(saying.value.reflection) : '')
+const parsedPrompt     = computed(() => saying.value?.contemplationPrompt ? marked.parse(saying.value.contemplationPrompt) : '')
 const conceptsOpen = ref(false)
 
 const prevSaying = computed(() => {
