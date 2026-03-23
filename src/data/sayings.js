@@ -364,8 +364,6 @@ Am I mistaking the map for the territory — spending so much time studying the 
     text: 'Jesus said: Love your brother as your soul; watch over him like the apple of your eye.',
     reflection: `### I. The Nature of the Soul: The Divine Spark
 
-The soul is the Divine Spark — a literal fragment of the Light inhabiting a physical body.
-
 This text immediately reminds of love your neighbour as yourself. But it goes deeper. It is not just "as yourself" — it is "as your soul." The soul is not the ego, the personality, or the social self. It is the divine essence within you that is identical to the divine essence within others.
 When we are told to love our brother "as our soul," we are being asked to love him not for what he does or doesn't do, but for the divine essence within him (for who he really is - not what we are seeing on the surface).  
 It is a literal instruction to recognise that the person in front of you is not just a separate individual, but a manifestation of the same divine essence that animates you.
@@ -402,20 +400,21 @@ Is my recognition of the soul in others becoming a reflex, or does it still requ
         term: 'The Eye as a Mirror',
         definition: `When you start to view the eye as a reflective surface rather than just a receptor, the instruction to "watch over him like the apple of your eye" takes on a completely new dimension. You are no longer just guarding the other person; you are guarding the very mechanism through which you understand yourself.
 
-The Literal Mirror: The Physics of the Cornea
-The cornea—the clear, protective outer layer of the eye—is highly reflective. It functions as a convex mirror. If you stand close enough to look directly into someone else's pupil, the physics of light dictate that you will see a miniature reflection of your own face superimposed over their iris and pupil. You literally cannot look deeply into the "soul" of another person without seeing yourself reflected back in the process.
+### 1. The Literal Mirror: The Physics of the Cornea
 
+The cornea — the clear, protective outer layer of the eye — is highly reflective. It functions as a convex mirror. If you stand close enough to look directly into someone else's pupil, the physics of light dictate that you will see a miniature reflection of your own face superimposed over their iris and pupil. You literally cannot look deeply into the "soul" of another person without seeing yourself reflected back in the process.
 
-The Psychological Mirror: Projection and the Shadow
-We rarely see people exactly as they are. Instead, we see them through the lens of our own preconceived ideas, stories and conditioning. If we carry unresolved anger, we are hyper-vigilant to hostility in others. The people who trigger the strongest emotional reactions in us—whether intense infatuation or deep irritation—are usually holding up a mirror to our own unconscious archetypes. Recognizing this transforms every frustrating interaction into a profound opportunity for self-awareness.
+### 2. The Psychological Mirror: Projection and the Shadow
 
+We rarely see people exactly as they are. Instead, we see them through the lens of our own preconceived ideas, stories, and conditioning. If we carry unresolved anger, we are hyper-vigilant to hostility in others. The people who trigger the strongest emotional reactions in us — whether intense infatuation or deep irritation — are usually holding up a mirror to our own unconscious archetypes. Recognising this transforms every frustrating interaction into a profound opportunity for self-awareness.
 
-The Metaphysical Mirror: The "Other-Self"
+### 3. The Metaphysical Mirror: The "Other-Self"
 
-If we view reality through the lens of unified consciousness, the separation between "you" and "me" is just a structural illusion necessary for experiencing the universe. The individual soul is not disconnected from the Source; it is a fractal reflection of it. Therefore, every "other" is quite literally an "other-self"—the exact same consciousness peering out from a different set of biological coordinates. When you look into the eye of your brother and recognize the divine spark, the Creator is using your eyes to look at Itself through the eyes of the other. This is the ultimate fulfillment of Saying 22's instruction to make "the inside like the outside."
+If we view reality through the lens of unified consciousness, the separation between "you" and "me" is just a structural illusion necessary for experiencing the universe. The individual soul is not disconnected from the Source; it is a fractal reflection of it. Therefore, every "other" is quite literally an "other-self" — the exact same consciousness peering out from a different set of biological coordinates. When you look into the eye of your brother and recognise the divine spark, the Creator is using your eyes to look at Itself through the eyes of the other. This is the ultimate fulfilment of Saying 22's instruction to make "the inside like the outside."
 
+---
 
-If the eye is a mirror, then judgment is a form of self-harm, and deep appreciation is a form of self-love. What you refuse to love in the "other-self" is a part of yourself you have exiled into darkness.`
+If the eye is a mirror, then judgement is a form of self-harm, and deep appreciation is a form of self-love. What you refuse to love in the "other-self" is a part of yourself you have exiled into darkness.`
       },
       {
         term: 'Divine Spark',

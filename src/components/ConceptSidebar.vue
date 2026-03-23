@@ -19,7 +19,7 @@
             class="concept-entry"
           >
             <div class="concept-entry__term">{{ concept.term }}</div>
-            <p class="concept-entry__definition">{{ concept.definition }}</p>
+            <div class="concept-entry__definition" v-html="parsedDefinition(concept.definition)" />
           </div>
         </template>
 
@@ -32,8 +32,14 @@
 </template>
 
 <script setup>
+import { marked } from 'marked'
+
 defineProps({
   concepts: { type: Array, required: true }
 })
 defineEmits(['close'])
+
+function parsedDefinition(text) {
+  return text ? marked.parse(text) : ''
+}
 </script>

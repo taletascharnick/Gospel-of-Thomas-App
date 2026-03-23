@@ -488,6 +488,29 @@ p:last-child { margin-bottom: 0; }
   color: var(--text);
 }
 
+.concept-entry__definition p {
+  margin-bottom: 0.9em;
+}
+
+.concept-entry__definition h1,
+.concept-entry__definition h2,
+.concept-entry__definition h3,
+.concept-entry__definition h4 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
+
+.concept-entry__definition hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1em 0;
+}
+
 .concept-entry + .concept-entry {
   padding-top: 1.25rem;
   border-top: 1px solid var(--border);
