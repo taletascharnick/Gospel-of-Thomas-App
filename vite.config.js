@@ -31,7 +31,19 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,woff2}'],
         cleanupOutdatedCaches: true,
         skipWaiting: true,
-        clientsClaim: true
+        clientsClaim: true,
+        navigateFallback: '/Gospel-of-Thomas-App/index.html',
+        runtimeCaching: [
+          {
+            // Always try the network first for page navigations (HTML)
+            urlPattern: ({ request }) => request.mode === 'navigate',
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'pages-cache',
+              networkTimeoutSeconds: 3
+            }
+          }
+        ]
       }
     })
   ],
