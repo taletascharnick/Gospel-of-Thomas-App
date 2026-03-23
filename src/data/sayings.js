@@ -362,7 +362,7 @@ It is a literal instruction to recognise that the person in front of you is not 
 
 Many times we love based on "ego-level" connections—DNA, shared politics, or tribal loyalty. This love is conditional. To love a brother "as your soul" is to look past his personality, flaws, or opinions and recognize the Living Father (the source of all consciousness) animating him. You are loving the essential light within him that is identical to the light within you.
 
-**The "Apple of Your Eye" Metaphor**
+The "Apple of Your Eye" Metaphor
 
 The phrase "apple of your eye" is more than an ancient idiom; it is a lesson in biological and spiritual vulnerability.
 
@@ -374,6 +374,7 @@ Protecting your brother should be as reflexive as blinking. His wellbeing and sa
 When you watch over another like the apple of your eye, the rigid boundary between "me" and "you" begins to dissolve. By directing your "eyes" toward another's well-being, you acknowledge that their spiritual safety is tethered to your own.
 
 The Reality of Unity
+
 In a state of unity, the Golden Rule moves from a moral command to a logical fact. You cannot mistreat your brother without simultaneously wounding yourself.
 
 To fail in loving your brother is to cloud your own spiritual vision. If you cannot see the light in him, it probably means you only see darkness in others because you have not yet fully recognised the light within you.
@@ -391,15 +392,16 @@ Is my recognition of the soul in others becoming a reflex, or does it still requ
         term: 'The Eye as a Mirror',
         definition: `When you start to view the eye as a reflective surface rather than just a receptor, the instruction to "watch over him like the apple of your eye" takes on a completely new dimension. You are no longer just guarding the other person; you are guarding the very mechanism through which you understand yourself.
 
-**The Literal Mirror: The Physics of the Cornea**
+The Literal Mirror: The Physics of the Cornea
 The cornea—the clear, protective outer layer of the eye—is highly reflective. It functions as a convex mirror. If you stand close enough to look directly into someone else's pupil, the physics of light dictate that you will see a miniature reflection of your own face superimposed over their iris and pupil. You literally cannot look deeply into the "soul" of another person without seeing yourself reflected back in the process.
 
 
-**The Psychological Mirror: Projection and the Shadow**
+The Psychological Mirror: Projection and the Shadow
 We rarely see people exactly as they are. Instead, we see them through the lens of our own preconceived ideas, stories and conditioning. If we carry unresolved anger, we are hyper-vigilant to hostility in others. The people who trigger the strongest emotional reactions in us—whether intense infatuation or deep irritation—are usually holding up a mirror to our own unconscious archetypes. Recognizing this transforms every frustrating interaction into a profound opportunity for self-awareness.
 
 
-**The Metaphysical Mirror: The "Other-Self"**
+The Metaphysical Mirror: The "Other-Self"
+
 If we view reality through the lens of unified consciousness, the separation between "you" and "me" is just a structural illusion necessary for experiencing the universe. The individual soul is not disconnected from the Source; it is a fractal reflection of it. Therefore, every "other" is quite literally an "other-self"—the exact same consciousness peering out from a different set of biological coordinates. When you look into the eye of your brother and recognize the divine spark, the Creator is using your eyes to look at Itself through the eyes of the other. This is the ultimate fulfillment of Saying 22's instruction to make "the inside like the outside."
 
 
@@ -449,6 +451,7 @@ This is the crux of true healing. Many people realise they need to look at their
 - Can I feel the emotion without identifying with it?
 
 
+
 **Now, take the trait that frustrated you in the other person and gently look for it within yourself.**
 
 
@@ -457,12 +460,14 @@ This is the crux of true healing. Many people realise they need to look at their
 - Am I currently treating myself the way I perceive this person is treating me?
 
 
+
 **This is the crucial step of refusing to fight darkness with darkness.**
 
 
 - When I recognise this "beam" within myself, what is my immediate internal reaction? Do I attack myself, or do I offer myself grace?
 - What is the original wound or fear that caused me to develop this flaw or defence mechanism in the first place?
 - If I were looking at a dear friend who had this exact same flaw and wound, what compassionate words would I say to them? Can I say them to myself?
+
 
 
 **Bring the person who originally triggered you back into your mind's eye.**
