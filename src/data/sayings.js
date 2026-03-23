@@ -276,7 +276,10 @@ The final line — there is nothing hidden that will not become known — has bo
     text: `Mary said to Jesus, "What do your disciples resemble?" He said, "What they resemble is children living in a plot of land that is not theirs. When the owners of the land come they will say, 'Surrender our land to us.' They, for their part, strip naked in their presence in order to give it back to them, and they give them their land. Thus I say that the owner of an estate, knowing that a bandit is coming, will keep watch before the bandit comes and not let the bandit break into the house of the estate and steal the possessions. You (plur.), then, be on your guard against the world. Arm yourselves with great power lest the brigands find a way to get to you; for the trouble that you expect will come. Let an experienced person dwell in your midst! When the crop had matured, that person came in haste, sickle in hand, and harvested it. Whoever has ears to hear should listen!"`,
     reflection: `This saying is a cornerstone for understanding the Gnostic leanings often attributed to the Gospel of Thomas.
 
-The Children represent the spiritually enlightened — the disciples. They are "little" because they are innocent of worldly attachments. The Field represents the material world or the physical body; it does not belong to the spirit but is a temporary dwelling. Stripping Naked is not about literal nudity. In the context of Thomas, "undressing" symbolises shedding the material body or discarding worldly identity to return to a purely spiritual state. The Thief — a common motif also found in the New Testament — represents the unexpected arrival of a spiritual crisis, used here to emphasise constant mindfulness.
+- **The Children** represent the spiritually enlightened — the disciples. They are "little" because they are innocent of worldly attachments.
+- **The Field** represents the material world or the physical body; it does not belong to the spirit but is a temporary dwelling.
+- **Stripping Naked** is not about literal nudity. In the context of Thomas, "undressing" symbolises shedding the material body or discarding worldly identity to return to a purely spiritual state.
+- **The Thief** — a common motif also found in the New Testament — represents the unexpected arrival of a spiritual crisis, used here to emphasise constant mindfulness.
 
 While the "Thief in the Night" imagery appears in Matthew 24:43 and Luke 12:39, the "Children in the Field" parable is unique to the Gospel of Thomas. It shifts the focus from the Second Coming of Christ to the internal realisation of the soul's detachment from the earth.
 
@@ -298,7 +301,14 @@ What is currently digging through your walls? Where is the weak point in your pe
     text: `Jesus saw some infants who were being suckled. He said to his disciples: "These infants being suckled are like those who enter the kingdom." They said to him: "If we then become children, shall we enter the kingdom?" Jesus said to them: "When you make the two one, and when you make the inside as the outside, and the outside as the inside, and the upper as the lower, and when you make the male and the female into a single one, so that the male is not male and the female not female, and when you make eyes in place of an eye, and a hand in place of a hand, and a foot in place of a foot, an image in place of an image — then shall you enter the kingdom."`,
     reflection: `Jesus points to nursing infants as the ultimate insiders of the kingdom. Why? Because an infant does not yet perceive the world through labels, judgements, or divisions. To them, there is no "me" versus "other," no subject versus object. They exist in a state of undifferentiated wholeness.
 
-To enter the kingdom, Jesus describes a radical re-integration of the opposites that usually define our lives. Making the two into one means moving past the "this vs. that" mentality. Inside and outside: ensuring your internal reality — thoughts, spirit — matches your external reality — actions, body. Upper and lower: bridging the divine and the mundane. Male and female: transcending gendered ego roles to reach a state of oneness where you are not defined by biological or social binaries. You enter the kingdom when you stop slicing the world into pieces and start seeing the underlying unity in everything.
+To enter the kingdom, Jesus describes a radical re-integration of the opposites that usually define our lives:
+
+- **Making the two into one** — moving past the "this vs. that" mentality.
+- **Inside and outside** — ensuring your internal reality (thoughts, spirit) matches your external reality (actions, body).
+- **Upper and lower** — bridging the divine and the mundane.
+- **Male and female** — transcending gendered ego roles to reach a state of oneness where you are not defined by biological or social binaries.
+
+You enter the kingdom when you stop slicing the world into pieces and start seeing the underlying unity in everything.
 
 We begin in a state of oneness because we do not know any better. There is no "me" and "not-me" — just existence. It is beautiful, but it is unconscious. Then we enter duality: good vs. evil, male vs. female, success vs. failure. We get lost here because we mistake the divisions for the final truth. The third stage — conscious oneness — is the Kingdom. By finding the divine spark within, we collapse the dualities. We realise the outside and the inside were never actually separate.
 
@@ -352,7 +362,7 @@ Am I mistaking the map for the territory — spending so much time studying the 
     id: 25,
     number: 25,
     text: 'Jesus said: Love your brother as your soul; watch over him like the apple of your eye.',
-    reflection: `I. The Nature of the Soul: The Divine Spark
+    reflection: `### I. The Nature of the Soul: The Divine Spark
 
 The soul is the Divine Spark — a literal fragment of the Light inhabiting a physical body.
 
@@ -362,7 +372,7 @@ It is a literal instruction to recognise that the person in front of you is not 
 
 Many times we love based on "ego-level" connections—DNA, shared politics, or tribal loyalty. This love is conditional. To love a brother "as your soul" is to look past his personality, flaws, or opinions and recognize the Living Father (the source of all consciousness) animating him. You are loving the essential light within him that is identical to the light within you.
 
-The "Apple of Your Eye" Metaphor
+### The "Apple of Your Eye" Metaphor
 
 The phrase "apple of your eye" is more than an ancient idiom; it is a lesson in biological and spiritual vulnerability.
 
@@ -373,7 +383,7 @@ Protecting your brother should be as reflexive as blinking. His wellbeing and sa
 
 When you watch over another like the apple of your eye, the rigid boundary between "me" and "you" begins to dissolve. By directing your "eyes" toward another's well-being, you acknowledge that their spiritual safety is tethered to your own.
 
-The Reality of Unity
+### The Reality of Unity
 
 In a state of unity, the Golden Rule moves from a moral command to a logical fact. You cannot mistreat your brother without simultaneously wounding yourself.
 
@@ -479,11 +489,11 @@ This is the crux of true healing. Many people realise they need to look at their
     concepts: [
       {
         term: 'Projection (Shadow)',
-        definition: 'A psychological process in which we unconsciously attribute to others the traits, insecurities, or impulses we cannot accept within ourselves. Carl Jung called the unacknowledged inner reservoir of these rejected qualities the "shadow." The intensity of our reaction to a flaw in another is often directly proportional to how deeply buried that same quality is within us.'
+        definition: 'A psychological process in which we unconsciously attribute to others the traits, insecurities, or impulses we cannot accept within ourselves. Carl Jung called the unacknowledged inner reservoir of these rejected qualities the "shadow." The intensity of our reaction to a flaw in another is often directly proportional to how deeply buried that same quality is within us. Note that the quality may not be bad. We also bury good qualities that we are afraid to claim. Projection can be positive or negative, but it always distorts our perception of others and ourselves.'
       },
       {
         term: 'The Beam and the Mote',
-        definition: 'Jesus deliberately contrasts a massive load-bearing timber (beam) with a tiny speck of dust (mote). The absurdity of the image is the point: we are constitutionally blind to our own enormous unhealed wounds while our ego grants us perfect vision to detect the smallest imperfections in others.'
+        definition: 'Jesus deliberately contrasts a massive load-bearing timber (beam) with a tiny speck of dust (mote). The absurdity of the image is the point: we are constitutionally blind to our own unhealed wounds while our ego grants us perfect vision to detect the smallest imperfections in others. The ego is not bad. It tries to protect us, but it harms ourselves and others when we try to fix others without first doing the inner work to see ourselves clearly.'
       },
       {
         term: 'Radical Self-Compassion',
