@@ -351,10 +351,10 @@ Am I mistaking the map for the territory — spending so much time studying the 
   {
     id: 25,
     number: 25,
-    text: '##Jesus said: Love your brother as your soul; watch over him like the apple of your eye.',
+    text: 'Jesus said: Love your brother as your soul; watch over him like the apple of your eye.',
     reflection: `I. The Nature of the Soul: The Divine Spark
 
-###The soul is the Divine Spark — a literal fragment of the Light inhabiting a physical body.
+The soul is the Divine Spark — a literal fragment of the Light inhabiting a physical body.
 
 This text immediately reminds of love your neighbour as yourself. But it goes deeper. It is not just "as yourself" — it is "as your soul." The soul is not the ego, the personality, or the social self. It is the divine essence within you that is identical to the divine essence within others.
 When we are told to love our brother "as our soul," we are being asked to love him not for what he does or doesn't do, but for the divine essence within him (for who he really is - not what we are seeing on the surface).  
@@ -362,7 +362,7 @@ It is a literal instruction to recognise that the person in front of you is not 
 
 Many times we love based on "ego-level" connections—DNA, shared politics, or tribal loyalty. This love is conditional. To love a brother "as your soul" is to look past his personality, flaws, or opinions and recognize the Living Father (the source of all consciousness) animating him. You are loving the essential light within him that is identical to the light within you.
 
-### The "Apple of Your Eye" Metaphor
+**The "Apple of Your Eye" Metaphor**
 
 The phrase "apple of your eye" is more than an ancient idiom; it is a lesson in biological and spiritual vulnerability.
 
@@ -373,7 +373,7 @@ Protecting your brother should be as reflexive as blinking. His wellbeing and sa
 
 When you watch over another like the apple of your eye, the rigid boundary between "me" and "you" begins to dissolve. By directing your "eyes" toward another's well-being, you acknowledge that their spiritual safety is tethered to your own.
 
-###The Reality of Unity
+The Reality of Unity
 In a state of unity, the Golden Rule moves from a moral command to a logical fact. You cannot mistreat your brother without simultaneously wounding yourself.
 
 To fail in loving your brother is to cloud your own spiritual vision. If you cannot see the light in him, it probably means you only see darkness in others because you have not yet fully recognised the light within you.
@@ -391,14 +391,17 @@ Is my recognition of the soul in others becoming a reflex, or does it still requ
         term: 'The Eye as a Mirror',
         definition: `When you start to view the eye as a reflective surface rather than just a receptor, the instruction to "watch over him like the apple of your eye" takes on a completely new dimension. You are no longer just guarding the other person; you are guarding the very mechanism through which you understand yourself.
 
-1. The Literal Mirror: The Physics of the Cornea
+**The Literal Mirror: The Physics of the Cornea**
 The cornea—the clear, protective outer layer of the eye—is highly reflective. It functions as a convex mirror. If you stand close enough to look directly into someone else's pupil, the physics of light dictate that you will see a miniature reflection of your own face superimposed over their iris and pupil. You literally cannot look deeply into the "soul" of another person without seeing yourself reflected back in the process.
 
-2. The Psychological Mirror: Projection and the Shadow
+
+**The Psychological Mirror: Projection and the Shadow**
 We rarely see people exactly as they are. Instead, we see them through the lens of our own preconceived ideas, stories and conditioning. If we carry unresolved anger, we are hyper-vigilant to hostility in others. The people who trigger the strongest emotional reactions in us—whether intense infatuation or deep irritation—are usually holding up a mirror to our own unconscious archetypes. Recognizing this transforms every frustrating interaction into a profound opportunity for self-awareness.
 
-3. The Metaphysical Mirror: The "Other-Self"
+
+**The Metaphysical Mirror: The "Other-Self"**
 If we view reality through the lens of unified consciousness, the separation between "you" and "me" is just a structural illusion necessary for experiencing the universe. The individual soul is not disconnected from the Source; it is a fractal reflection of it. Therefore, every "other" is quite literally an "other-self"—the exact same consciousness peering out from a different set of biological coordinates. When you look into the eye of your brother and recognize the divine spark, the Creator is using your eyes to look at Itself through the eyes of the other. This is the ultimate fulfillment of Saying 22's instruction to make "the inside like the outside."
+
 
 If the eye is a mirror, then judgment is a form of self-harm, and deep appreciation is a form of self-love. What you refuse to love in the "other-self" is a part of yourself you have exiled into darkness.`
       },
@@ -437,26 +440,33 @@ Jesus uses the deliberate image of a massive, load-bearing beam to show the absu
 One cannot go within blindly and expect to see anything else but darkness. It will be too hard to look at the hurt and the pain within when you only see yourself as the "small self / false self." Identifying with the truth of yourself — really being the divine spark — is how you can enter with love, care, and acceptance. Finding the courage to look inward with a forgiving and compassionate eye immediately softens the lens through which you see everyone else.
 
 This is the crux of true healing. Many people realise they need to look at their own flaws, but they do so with a harsh, judgmental, and punishing inner critic. Fighting inner darkness with more darkness — shame, guilt, self-hatred — only deepens the wound. Real transformation requires radical self-compassion. We have to look at our own "beams" with the same grace and unconditional love that we are ultimately trying to extend to our brother with the "mote."`,
-    contemplationPrompt: `Think of a recent moment when someone's behaviour triggered a strong reaction in you — anger, intense annoyance, or judgment.
+    contemplationPrompt: `**Think of a recent moment when someone's behaviour triggered a strong reaction in you — anger, intense annoyance, or judgment**.
+
 
 - What was the specific trait or action that bothered me so deeply?
 - If I strip away the details of the story, what is the core emotion I felt (e.g., disrespected, unseen, out of control, inadequate)?
 - Why does this specific trait or action feel so threatening or offensive to me?
 - Can I feel the emotion without identifying with it?
 
-Now, take the trait that frustrated you in the other person and gently look for it within yourself.
+
+**Now, take the trait that frustrated you in the other person and gently look for it within yourself.**
+
 
 - Where does this exact trait exist in my own life, even if it shows up in a different context or in a hidden way?
 - Is this a part of myself that I deeply dislike, deny, or try to hide from others?
 - Am I currently treating myself the way I perceive this person is treating me?
 
-This is the crucial step of refusing to fight darkness with darkness.
+
+**This is the crucial step of refusing to fight darkness with darkness.**
+
 
 - When I recognise this "beam" within myself, what is my immediate internal reaction? Do I attack myself, or do I offer myself grace?
 - What is the original wound or fear that caused me to develop this flaw or defence mechanism in the first place?
 - If I were looking at a dear friend who had this exact same flaw and wound, what compassionate words would I say to them? Can I say them to myself?
 
-Bring the person who originally triggered you back into your mind's eye.
+
+**Bring the person who originally triggered you back into your mind's eye.**
+
 
 - Now that I see they were unknowingly mirroring my own unhealed pain, how does my perspective of them shift?
 - Can I see their frustrating behaviour not as an attack on me, but as a symptom of their own struggle or lack of awareness?
