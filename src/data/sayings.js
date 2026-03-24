@@ -512,7 +512,7 @@ This is the crux of true healing. Many people realise they need to look at their
     text: 'Jesus said, "If you do not fast as regards the world, you will not find the kingdom. If you do not observe the Sabbath as a Sabbath, you will not see the father."',
     reflection: `### Fasting
 
-Fasting is not about performance or the literal aspects (such as physical starvation or showing off one's piety). "[F]asting as regards the world" is a necessary detachment from external noise, anxiety and the pursuit of validation.
+Fasting is not about performance or the literal aspects of fasting (such as physical starvation). "Fasting as regards" the world is a necessary detachment from external noise, anxiety and the pursuit of validation.
 
 ### The Internal Kingdom
 
@@ -528,7 +528,7 @@ True authority must come from within rather than being surrendered to external f
 
 Jesus talks about observing the Sabbath. Keeping the Sabbath is not a rigid law, but is about having a mandatory pause from striving, producing and surviving. It is a space designed for receiving rather than acting.
 
-The Gnostics didn't keep laws for law's sake. The Sabbath was a day of rest. This was the day that one didn't create (not create wealth or other things) but rested like the Creator did. If the Creator needed rest, why wouldn't we. This rest is necessary to see the father. We can't see the higher/more important things in life, while we are striving and performing. When we are reminded why we are here and what is important, we can create from wholeness.
+The Gnostics didn't keep laws for law's sake. The Sabbath was a day of rest. This was the day that one didn't create (not create wealth or other things) but rested like the Creator did. If the Creator needed rest, why wouldn't we. This rest is necessary to see the father. We can't see what is really important to us, while we are striving and performing. 
 
 ### Balance
 
