@@ -509,7 +509,7 @@ This is the crux of true healing. Many people realise they need to look at their
   {
     id: 27,
     number: 27,
-    text: 'Jesus said, "If you do not fast as regards the world, you will not find the kingdom. If you do not observe the Sabbath as a Sabbath, you will not see the father."',
+    text: 'Jesus said, If you do not fast as regards the world, you will not find the kingdom. If you do not observe the Sabbath as a Sabbath, you will not see the father.',
     reflection: `### Fasting
 
 Fasting is not about performance or the literal aspects of fasting (such as physical starvation). "Fasting as regards" the world is a necessary detachment from external noise, anxiety and the pursuit of validation.
