@@ -504,12 +504,71 @@ This is the crux of true healing. Many people realise they need to look at their
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 27–114  Stubs — add text and reflections via admin
+  // SAYING 27  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 88 }, (_, i) => ({
-    id: i + 27,
-    number: i + 27,
-    text: `Saying ${i + 27} — add the text via the admin panel.`,
+  {
+    id: 27,
+    number: 27,
+    text: 'Jesus said, "If you do not fast as regards the world, you will not find the kingdom. If you do not observe the Sabbath as a Sabbath, you will not see the father."',
+    reflection: `### Fasting
+
+Fasting is not about performance or the literal aspects (such as physical starvation or showing off one's piety). "[F]asting as regards the world" is a necessary detachment from external noise, anxiety and the pursuit of validation.
+
+### The Internal Kingdom
+
+The kingdom cannot be found in the world but is found within. It is important to find the space where you can close the door behind you and go within.
+
+Sometimes we believe that if we work hard enough, we will earn enough and then we will be able to rest. The invitation is to live now. To meet the kingdom now.
+
+If you seek peace outside of yourself, you won't find it.
+
+True authority must come from within rather than being surrendered to external forces. For example, waiting for the politicians to change the constitution before you can feel at peace or waiting for a person to call you before you don't feel alone.
+
+### Sabbath
+
+Jesus talks about observing the Sabbath. Keeping the Sabbath is not a rigid law, but is about having a mandatory pause from striving, producing and surviving. It is a space designed for receiving rather than acting.
+
+The Gnostics didn't keep laws for law's sake. The Sabbath was a day of rest. This was the day that one didn't create (not create wealth or other things) but rested like the Creator did. If the Creator needed rest, why wouldn't we. This rest is necessary to see the father. We can't see the higher/more important things in life, while we are striving and performing. When we are reminded why we are here and what is important, we can create from wholeness.
+
+### Balance
+
+The goal isn't to become a permanent ascetic or to remain silent forever. In fact, it is not a goal to achieve. It is about recognising your wholeness and being present. One cannot strive or become it. You are already it. You just need to be reminded of it. These practices help us to engage with the world and create from a place of inner abundance, rather than from a frantic state of survival.
+
+In our hyper-connected, productivity-obsessed culture, the idea of "running away from silence" is a very real epidemic. Jesus' words are an invitation to take a step back, to "fast from the world". It is not a punishment but a necessary recalibration to make us feel "safe or at home" in our own minds.`,
+    contemplationPrompt: `What specific "noise" (expectations, media, opinions) am I currently giving authority over my own inner peace?
+
+If I were to truly "fast" from the world for one hour today — closing the door and embracing silence — what am I most afraid of encountering, and what am I hoping to find?
+
+In what ways am I performing my strength or goodness for others, rather than quietly cultivating it for myself?
+
+What internal conditions need to be met for me to truly feel "safe or at home" within my own mind and body?
+
+If I stopped trying to earn my place in the world, what would naturally emerge from me?`,
+    concepts: [
+      {
+        term: 'Fasting',
+        definition: `Literal Definition: The willing abstinence or reduction from some or all food, drink, or both, for a period of time. It is traditionally practiced for religious observances, health reasons, or ethical protests.
+
+Spiritual/Metaphorical Definition: Deliberately stripping away distractions, comforts, or habits (such as social media, negative thinking, or material consumption) to cultivate inner discipline, clear the mind, and focus on spiritual or personal growth. In the context of this saying, it means starving the ego or the "world's" demands to feed the inner self.`
+      },
+      {
+        term: 'Sabbath',
+        definition: `Literal Definition: A day of religious observance and abstinence from work. In Judaism, it is observed from Friday evening to Saturday evening. In most Christian traditions, it is observed on Sunday. The concept originates from the biblical creation story, where God rested on the seventh day.
+
+Spiritual/Metaphorical Definition: A dedicated, intentional period of rest and renewal. It is a boundary set against the endless cycle of producing, consuming, and achieving. It represents a state of "being" rather than "doing," allowing a person to reconnect with themselves, their community, or the divine without the pressure to create value or wealth.`
+      }
+    ],
+    relatedSayings: [3, 70, 89, 113],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 28–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 87 }, (_, i) => ({
+    id: i + 28,
+    number: i + 28,
+    text: `Saying ${i + 28} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
