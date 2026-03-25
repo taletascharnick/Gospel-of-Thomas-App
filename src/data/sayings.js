@@ -563,12 +563,55 @@ Spiritual/Metaphorical Definition: A dedicated, intentional period of rest and r
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 28–114  Stubs — add text and reflections via admin
+  // SAYING 28  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 87 }, (_, i) => ({
-    id: i + 28,
-    number: i + 28,
-    text: `Saying ${i + 28} — add the text via the admin panel.`,
+  {
+    id: 28,
+    number: 28,
+    text: 'Jesus said: I stood in the midst of the world, and I appeared to them in the flesh. I found them all drunk; I found none of them thirsting, and my soul was afflicted for the sons of men; for they are blind in their heart, and they do not see that they came empty into the world, (and) empty they seek to leave the world again. But now they are drunk. When they have thrown off their wine, they will repent.',
+    reflection: `### The Incarnate Teacher and the Burden of Flesh
+
+Jesus speaks here from the perspective of an awakened consciousness that has actively entered the human experience ("appeared to them in the flesh"). By taking on a physical form, he became subject to the same biological, root-level realities—hunger, thirst, fatigue—as the rest of humanity. Yet, his affliction is not physical; it is a profound grief over the collective unconsciousness of those around him.
+
+### Drunkenness vs. The Necessity of Thirst
+
+To be "drunk" in this context is to be completely intoxicated by the material world and the ego's endless loop of desires. Jesus laments finding no one "thirsting." Spiritual thirst is the vital prerequisite for seeking; it is the deep, unsettling realization that mundane life is not enough. A thirsty soul seeks the "living water" of truth and connection to the divine source. When humanity loses this thirst and settles for the numbing effects of worldly indulgence, the collective state of the world descends into suffering and illusion.
+
+### Blindness of the Heart and the "Sons of Men"
+
+By calling them the "sons of men," Jesus highlights how deeply people have identified with their mortal, physical lineage, entirely forgetting their divine origins. To be "blind in their heart" points to a severe spiritual disconnection. They are operating purely from their base survival instincts and egoic drives (the root), completely bypassing the heart—the center of true spiritual vision, empathy, and recognition of the interconnected whole.
+
+### The Unconscious Cycle of Emptiness
+
+Coming into the world "empty" and leaving "empty" describes a state of total spiritual amnesia. It speaks to the tragedy of moving through an entire incarnation—arriving without the memory of one's divine spark, and leaving the physical realm having gained no self-knowledge, despite having spent a lifetime accumulating fleeting, material illusions.
+
+### Sobering Up: The True Meaning of Repentance
+
+"Throwing off their wine" represents a deliberate detoxification from societal conditioning and material obsession. It is the reclamation of spiritual sovereignty. Crucially, "they will repent" is not a demand for moral groveling or guilt over sins. In the esoteric sense, this reflects metanoia—a fundamental, radical transformation of mind and heart. It is the exact moment the soul shakes off its amnesia, steps out of the dream-state, and makes the active, conscious choice to wake up to its true nature.`,
+    contemplationPrompt: 'What do I need to give up/let go of to return to my original state of wholeness?',
+    concepts: [
+      {
+        term: 'Drunk',
+        definition: `In this specific spiritual framework, "Drunk" is not a reference to alcohol, but a metaphor for a profound lack of spiritual sobriety. It signifies a soul that has become so entangled in the material world that it has lost its connection to its divine origin. It can be broken down into three key aspects:
+
+Forgetfulness (Amnesia): The soul "forgets" its heavenly home and its true identity as a spark of the divine. It becomes preoccupied with the needs and desires of the body.
+
+Unconsciousness: This refers to living on "autopilot." People are physically awake but spiritually asleep, unaware of the deeper reality or the presence of the Light within them.
+
+Ignorance (Agnoia): In Gnostic thought, ignorance is the primary "sin." It is the failure to recognize that the material world is a temporary illusion.`
+      }
+    ],
+    relatedSayings: [],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 29–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 86 }, (_, i) => ({
+    id: i + 29,
+    number: i + 29,
+    text: `Saying ${i + 29} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
