@@ -588,7 +588,7 @@ Coming into the world "empty" and leaving "empty" describes a state of total spi
 ### Sobering Up: The True Meaning of Repentance
 
 "Throwing off their wine" represents a deliberate detoxification from societal conditioning and material obsession. It is the reclamation of spiritual sovereignty. Crucially, "they will repent" is not a demand for moral groveling or guilt over sins. In the esoteric sense, this reflects metanoia—a fundamental, radical transformation of mind and heart. It is the exact moment the soul shakes off its amnesia, steps out of the dream-state, and makes the active, conscious choice to wake up to its true nature.`,
-    contemplationPrompt: 'What do I need to give up/let go of to return to my original state of wholeness?',
+    contemplationPrompt: 'What do I need to give up/shed/let go of to recognize the reality of my wholeness? Many times we belief that we must add something to ourselves to be whole. But in reality, we need to take away the things that are covering our wholeness.',
     concepts: [
       {
         term: 'Drunk',
@@ -606,12 +606,47 @@ Ignorance (Agnoia): In Gnostic thought, ignorance is the primary "sin." It is th
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 29–114  Stubs — add text and reflections via admin
+  // SAYING 29  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 86 }, (_, i) => ({
-    id: i + 29,
-    number: i + 29,
-    text: `Saying ${i + 29} — add the text via the admin panel.`,
+  {
+    id: 29,
+    number: 29,
+    text: 'Jesus said: If the flesh came into existence because of the spirit, it is a marvel. But if the spirit (came into existence) because of the body, it is a marvel of marvels. But as for me, I wonder at this, how this great wealth made its home in this poverty.',
+    reflection: `This saying reminds us of our hidden potential, or the divine spark within. We are capable of being and doing great things. However, we often choose to remain in a cage rather than embracing the opportunity we have here and now.
+
+The saying frames the tension between our eternal nature and our temporary human experience. People frequently argue about the nature of existence: are we spiritual beings having a human experience, or is the spirit simply born from the physical (the materialist view)? Jesus doesn't express disgust at the physical body; he expresses amazement. He says, "it is a wonder of wonders." He is marvelling at the sheer paradox of incarnation—how the infinite, limitless spirit managed to squeeze itself into a finite, fragile, physical form.
+
+Jesus plays with the question of which came first—the body or the spirit. By calling it a "wonder of wonders" if the spirit came from the body (the materialist view), he is gently pointing out the absurdity of thinking that the profound depth of human consciousness could merely be a byproduct of physical matter.
+
+The word "but" acts as a wake-up call. Jesus points to a truth that goes much deeper than a religious or philosophical debate. By pointing out the stark contrast between our internal "wealth" and external "poverty," the saying invites us to stop living as beggars chasing worldly scraps when we hold the treasury of the universe within us.`,
+    contemplationPrompt: `Is there more to me than what I have been led to believe?
+
+Am I chasing temporary highs to ignore a deeper calling? We often use the fleeting distractions of the material world to numb the profound, and sometimes overwhelming, truth of our own divine spark. Chasing these highs is not just a search for pleasure; it is often a defense mechanism. It is a way to safely remain asleep in the cage rather than stepping into the immense responsibility, and ultimate freedom, of being a co-creator.`,
+    concepts: [
+      {
+        term: 'Flesh vs. Spirit',
+        definition: 'In the original Greek language often used to discuss these texts, Sarx refers to the physical flesh/human nature and the temporary, material world. Pneuma is the breath, the spirit, or the divine spark. The saying highlights the ultimate paradox of these two opposing forces occupying the same space.'
+      },
+      {
+        term: 'Great Wealth / The Fullness / Pleroma',
+        definition: 'In early mystical and Gnostic Christian traditions, the spiritual realm is often referred to as the Pleroma, meaning "fullness" or absolute abundance. This is the "great wealth" Jesus mentions—our true home, our infinite potential, and our co-creative power.'
+      },
+      {
+        term: 'Poverty (The Emptiness / Kenoma)',
+        definition: 'Conversely, the material world is seen as a place of lack, decay, and limitation. The physical body is the poverty that temporarily houses the wealth of the spirit. It is impoverished not because it is evil, but because it is finite and relies on "temporary highs" rather than eternal substance.'
+      }
+    ],
+    relatedSayings: [3, 28, 70, 112],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 30–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 85 }, (_, i) => ({
+    id: i + 30,
+    number: i + 30,
+    text: `Saying ${i + 30} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
