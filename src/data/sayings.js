@@ -641,12 +641,49 @@ Am I chasing temporary highs to ignore a deeper calling? We often use the fleeti
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 30–114  Stubs — add text and reflections via admin
+  // SAYING 30  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 85 }, (_, i) => ({
-    id: i + 30,
-    number: i + 30,
-    text: `Saying ${i + 30} — add the text via the admin panel.`,
+  {
+    id: 30,
+    number: 30,
+    text: 'Jesus said: Where there are three gods, they are gods; where there are two or one, I am with him.',
+    reflection: `Saying 30 offers a striking counterpoint to the canonical promise of Matthew 18:20: "For where two or three gather in my name, there am I with them" (NIV). While the traditional gospel champions the institutional ideal of community fellowship, the Gnostic text suggests something far more intimate: that the divine presence is profoundly accessible to the solitary individual or a unified pair. This anti-institutional stance is not merely a theological shift; it acknowledges the inherent difficulty of maintaining true, unguarded spiritual connection within larger gatherings.
+
+### The Weight of the Collective
+
+Groups operate differently from individuals. When a larger group forms (like three people), a collective consciousness takes over. The need to "fit the mold" activates our deeply ingrained survival mechanisms, causing the persona (the mask we wear for society) to eclipse our authentic inner voice. In this environment, vulnerability becomes a risk. We tend to leave our bodies (become disembodied) and shift our focus entirely to the external. The solitary state, or the safety of one-on-one connection, strips away the static of group convention, allowing the true Self to emerge.
+
+### The Fractal Self
+
+The individual is also a community and that pattern repeats in nature. It is a fractal view of existence, where the microcosm perfectly mirrors the macrocosm. Just as a complex system is made of interconnected layers and feedback loops that reflect the behaviour of the whole, the individual psyche is a multiplicity of experiences, unconscious drives, and archetypes unified into a single being. You do not need an external crowd to be part of a gathering; you are already a rich, complex community within yourself.
+
+### Omnipresence
+
+Another saying (77) ends with: "Split a piece of wood, and I am there. Lift up the stone, and you will find me there" — allowing for more context to the above text.
+
+If the divine permeates absolutely everything — from the quiet solitude of a single mind to the physical matter of the earth itself — then the rigid boundaries between being "in the church" and walking one's own path completely dissolve. It neutralizes the need to judge how others seek connection, recognizing that no one can ever truly be separated from the whole.`,
+    contemplationPrompt: 'When will we stop limiting the divine?',
+    concepts: [
+      {
+        term: 'The Process of Individuation (Jung)',
+        definition: 'In Jungian terms, moving from the "three" or "two" (fragmentation, conflict, or duality of the conscious and unconscious) toward the "one" represents the integration of the psyche. The "I am with him" can be viewed as the realization of the Self — the divine spark or organizing principle within.'
+      },
+      {
+        term: 'The Law of One',
+        definition: 'The overarching concept that all things are ultimately expressions of a single, unified creator, echoing the idea that the divine is most fully realized in unity ("where there is one").'
+      }
+    ],
+    relatedSayings: [77, 108],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 31–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 84 }, (_, i) => ({
+    id: i + 31,
+    number: i + 31,
+    text: `Saying ${i + 31} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
