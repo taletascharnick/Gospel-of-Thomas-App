@@ -678,12 +678,73 @@ If the divine permeates absolutely everything — from the quiet solitude of a s
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 31–114  Stubs — add text and reflections via admin
+  // SAYING 31  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 84 }, (_, i) => ({
-    id: i + 31,
-    number: i + 31,
-    text: `Saying ${i + 31} — add the text via the admin panel.`,
+  {
+    id: 31,
+    number: 31,
+    text: "Jesus said, \"A prophet is not acceptable in that prophet's own native town. A physician does not heal people who are acquainted with that physician.\"",
+    reflection: `### See also: Luke 4:22–30
+
+> All spoke well of Him and marveled at the gracious words that came from His lips. "Isn't this the son of Joseph?" they asked. Jesus said to them, "Surely you will quote this proverb to Me: 'Physician, heal yourself! Do here in Your hometown what we have heard that You did in Capernaum.'" Then He added, "Truly I tell you, no prophet is accepted in his hometown. But I tell you truthfully that there were many widows in Israel in the time of Elijah, when the sky was shut for three and a half years and great famine swept over all the land. Yet Elijah was not sent to any of them, but to the widow of Zarephath in Sidon. And there were many lepers in Israel in the time of Elisha the prophet. Yet not one of them was cleansed — only Naaman the Syrian." On hearing this, all the people in the synagogue were enraged. They got up, drove Him out of the town, and led Him to the brow of the hill on which the town was built, in order to throw Him over the cliff. But Jesus passed through the crowd and went on His way.
+
+---
+
+### "Who Do You Think You Are?"
+
+This passage is about the human condition. It brings two very relatable, human questions to the surface: *Who do you think you are?* and *Why would a person, like me, be able to do something that is perceived to be miraculous?* We often experience a deep sense of doubt about our own inner knowing. This doubt stems directly from the misconception that we are mere physical beings, which leads to a fundamental misunderstanding of who we truly are.
+
+### The Trap of Familiarity and Separation
+
+When you grow up in a small town, people "know" the human version of you. They see you as a child, a friend, or simply a person who makes mistakes. Because of this familiarity, they can easily become blind to the reality that Source is found within you — just as it is found within them.
+
+This highlights our human tendency to separate the mundane from the miraculous:
+
+- **The Illusion of Separation:** We habitually separate our oneness with God/Source from our everyday human life.
+- **Limiting the Divine:** We operate under the assumption that a "mere human" shouldn't be able to perform miracles or do the work that is supposedly reserved only for God.
+
+While this separation gives us the unique, tangible experience of being a person in a physical body, it also deeply hurts us. It closes us off to healing because we refuse to remain open to it. We fail to believe that an ordinary person can assist us, and worse, we fail to believe that we possess the power to heal ourselves.
+
+### The Conditions We Place on Grace
+
+In this space of separation and closed-mindedness, we miss out on the grace that is available to us daily — simply because we don't want to receive it in the form it takes.
+
+We place strict conditions on miracles:
+
+- **The "Right" Package:** We expect divine help to look a certain way and to come exclusively from the outside.
+- **The Demand for a Spectacle:** We act as if God is far away, believing that if a miracle isn't spectacular and witnessed by everyone, it isn't real.
+- **Missing the Quiet Miracles:** We struggle to accept that profound healing can happen in the quiet, mundane spaces of our own homes, or through the hands of people we already know.
+
+Ultimately, we have been conditioned to limit our possibilities. And by insisting on those limitations, we are forced to constantly experience them.`,
+    contemplationPrompt: `**1. Examining Internal Blocks**
+What thoughts or beliefs do I hold that close me off to assistance or healing in a specific form? Reflect on times you may have rejected help or growth because it didn't come in the "package" you expected. How does the illusion of separation keep you from receiving grace?
+
+**2. Shifting Perspective**
+Can I find miracles in the mundane and within myself? Consider the quiet, everyday moments where Source is present. How can you better recognize the divine in your ordinary human experience without needing a grand spectacle?
+
+**3. Projecting Limitations**
+Do I make others feel like nothing good can come from them because I expect the miraculous to only come from something "out of the ordinary"? Examine how you view the people closest to you. Are you guilty of the "hometown crowd" mentality — limiting the potential of your friends, family, or community because you are too familiar with their human flaws?`,
+    concepts: [
+      {
+        term: 'Physician, heal thyself',
+        definition: 'An ancient proverb, famously quoted in Luke 4:23, advising people to fix their own faults or problems before trying to correct others. It suggests that advisors should first apply their wisdom to themselves — similar to "charity begins at home" or "people in glass houses shouldn\'t throw stones."'
+      },
+      {
+        term: 'The Illusion of Separation',
+        definition: 'The limiting belief that the divine (God/Source) and the physical human experience are divided. This misconception leads us to search for miracles exclusively in spectacular, external events, causing us to miss the inherent grace, oneness, and healing power present within ourselves and the mundane world.'
+      }
+    ],
+    relatedSayings: [],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 32–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 83 }, (_, i) => ({
+    id: i + 32,
+    number: i + 32,
+    text: `Saying ${i + 32} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
