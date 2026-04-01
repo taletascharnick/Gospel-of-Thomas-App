@@ -739,12 +739,77 @@ Do I make others feel like nothing good can come from them because I expect the 
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 32–114  Stubs — add text and reflections via admin
+  // SAYING 32  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 83 }, (_, i) => ({
-    id: i + 32,
-    number: i + 32,
-    text: `Saying ${i + 32} — add the text via the admin panel.`,
+  {
+    id: 33,
+    number: 33,
+    text: 'Jesus said, "Whatever you (sing.) hear with your ear, proclaim upon your (plur.) rooftops into the other ear. Indeed, no one lights a lamp and puts it under a vessel, nor puts it in a hidden place. Rather it is put on a lampstand so that each who enters and leaves might see its light."',
+    reflection: `### I. The Mystery of the Two Ears
+
+In this passage, Jesus describes a cycle of resonance.
+
+- **The First Ear (The Download):** This is the inner, receptive ear. It's that high-pitched "ringing" in the ear or the sudden "download" of insight. It is the moment truth enters the soul.
+- **The Waiting Period:** We wait for this "ringing" to become conscious so we can actually live it.
+- **The Second Ear (The Reflection):** Interestingly, the text suggests the "other ear" needs to hear it again. When we proclaim the truth on the "rooftops" of our lives, we hear it back. The inner listening and the outer experience become symmetrical. We broadcast the truth, and in doing so, we confirm it within ourselves.
+
+We carry a divine spark within us, but we often mistake the "vessel" for the light itself.
+
+- **The Identity Crisis:** If we take on the identity of the vessel (our ego, our social form, our physical appearance), we are essentially trying to hide our true self.
+- **Form vs. Truth:** Sometimes the "form" of a message — the rituals, the rules, or the rigid structures — actually takes away from the truth of the message.
+- **The Lampstand:** The lampstand represents the interaction. When the spark is placed on the lampstand, it is no longer hidden. Everyone who "enters and leaves" can see it. The truth is meant to be functional, not just internal.
+
+### III. The Shadow of Secrecy (The Hidden Places)
+
+Historically, many societies kept wisdom only to themselves. Groups like the ancient Mystery Schools or even certain religious hierarchies believed the light was "too bright" for the common person, so they put the lamp in "hidden places."
+
+Jesus' instruction is a radical departure from this gatekeeping. He argues that truth isn't a secret to be hoarded by an elite few; it is a reality to be shared with anyone walking through the door.
+
+### IV. Integration: The Whole Brain & The Whole Life
+
+To truly move the light from the vessel to the lampstand, we must listen with both sides (the left and right hemispheres of the brain).
+
+When we integrate our logic and our intuition, the light burns in such a way that we physically cannot keep it within our vessel.
+
+Repeating for importance: just as a message repeated is a sign of its importance, the repetition of our inner truth through our outer actions creates a life of integrity.
+
+### V. The Embodied Light (The Dish-Washing Moment)
+
+The ultimate goal of this "rooftop proclamation" is not a sermon; it is embodiment. When the light is on the lampstand, it shows up in the most mundane, real-life moments:
+
+- It shows in our dancing.
+- It shows in our lips and how we speak to others.
+- It shows in the way we wash the dishes.`,
+    contemplationPrompt: `When you stop identifying as the "vessel" and start identifying as the "spark," what changes about the way you handle your daily chores or your interactions with others?
+
+---
+
+*May we have the patience to sit with the "ringing" until it becomes a clear word. May we have the courage to take the lid off our vessels and let the divine spark be placed on the lampstand. Let our inner listening and our outer living become a perfect, symmetrical reflection of the Light.*`,
+    concepts: [
+      {
+        term: 'The Vessel',
+        definition: "It's necessary for carrying the oil, but if you put it over the flame, the flame dies from lack of oxygen. When we over-identify with our \"form\" (our status, our body, our fears), we smother the light."
+      },
+      {
+        term: 'Left Ear / Right Brain',
+        definition: 'Often associated with intuition, holism, and "hearing" the divine spark.'
+      },
+      {
+        term: 'Right Ear / Left Brain',
+        definition: 'Often associated with logic, speech, and "proclaiming" the word. By "listening with both sides," you are essentially describing congruence. When what we know internally matches what we do externally, the "vessel" becomes transparent.'
+      }
+    ],
+    relatedSayings: [22, 24, 70],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 33–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 82 }, (_, i) => ({
+    id: i + 33,
+    number: i + 33,
+    text: `Saying ${i + 33} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
