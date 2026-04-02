@@ -804,12 +804,72 @@ The ultimate goal of this "rooftop proclamation" is not a sermon; it is embodime
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 33–114  Stubs — add text and reflections via admin
+  // SAYING 33  Stub
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 82 }, (_, i) => ({
-    id: i + 33,
-    number: i + 33,
-    text: `Saying ${i + 33} — add the text via the admin panel.`,
+  {
+    id: 33, number: 33,
+    text: 'Saying 33 — add the text via the admin panel.',
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYING 34  Full content
+  // ─────────────────────────────────────────────────────────────
+  {
+    id: 34,
+    number: 34,
+    text: 'Jesus said: If a blind man leads a blind man, they both fall into a pit.',
+    reflection: `### From Proverb to Paradox
+
+The saying, "If a blind man leads a blind man, they both fall into a pit," functions as both a warning and a psychological mirror. While often interpreted as a call for religious leaders to have a "correct" understanding of scripture, the teaching goes far deeper than professional competency. It speaks to the source of the light we use to navigate our lives.
+
+### The Internal Blind Leader
+
+We often act as our own blind guides. When we try to "fix" a personal struggle using the "darkness" of shame, guilt, or self-judgment, we are essentially a blind person trying to lead a blind person. You cannot use the energy of the problem (judgment) to find the energy of the solution (growth). To look at your own "darkness" with more darkness only ensures that you remain in the pit. Growth requires a shift in frequency — moving from the blindness of "fixing" to the sight of "understanding."
+
+### The Specialist's Blindness
+
+In our society, we often defer to "experts" or "specialists." However, a specialist who only treats symptoms is oblivious to the holistic flow of life. If a guide — whether a doctor, a CEO, or a spiritual teacher — is blind to the deeper laws of how the world works, they may lead us toward a temporary fix that results in a greater fall later. This is why the inner listening is so vital; it acts as a secondary verification for the "expert" advice we receive.
+
+### The Symmetry of Sight
+
+This saying also points to the Reflective Symmetry of our lives. The leaders we follow and the "pit" we fall into are often reflections of our own internal state of consciousness. If we carry "divine light" within, we become sensitive to when a path is leading nowhere. Like the parable of the harvest, where the master sees the readiness of the wheat while the workers see only the surface, true sight allows us to perceive the timing and fruitfulness of a situation.
+
+### Conclusion
+
+Remaining true to our "inner knowing" is not an act of rebellion, but an act of sight. It is the refusal to follow a promise that doesn't align with the truth we see in the light of our own expanded consciousness.`,
+    contemplationPrompt: `Is the voice currently guiding my self-improvement one of sight (compassion and clarity) or one of blindness (shame and urgency)?
+
+Where in my life am I following an "expert" simply because I am afraid to trust my own internal light?
+
+Am I rushing toward a destination simply because I fear the stillness required to see a better path?
+
+If I were to stop following my "old ways" today, what part of my inner light would finally have the space to speak?`,
+    concepts: [
+      {
+        term: 'The Mirror of Reflective Symmetry',
+        definition: 'This is the principle that our external reality and the leaders we choose are often direct reflections of our internal state of consciousness. When the "inner listening" is ignored, the "outer experience" becomes chaotic or misdirected, leading both the follower and the guide into a pit. True sight begins when we recognise that the world doesn\'t just happen to us; it reflects the clarity or the blindness we carry within. To change the direction of the "fall," one must first illuminate the inner landscape so that the outer path becomes clear.'
+      },
+      {
+        term: 'Spiritual Discernment (The Single Eye)',
+        definition: 'This refers to the ability to see beyond the "symptoms" or the surface-level promises of a leader. While a specialist may have intellectual knowledge, spiritual discernment is a holistic state of being where one\'s internal light is strong enough to detect when a path will not bear fruit. It is the refusal to use "darkness to look at darkness," meaning it rejects shame, guilt, and ignorance as tools for growth, opting instead for the "one-eyed" perspective of the heart that sees the Divine even when the world is blind.'
+      }
+    ],
+    relatedSayings: [3, 5, 24, 91],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 35–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 80 }, (_, i) => ({
+    id: i + 35,
+    number: i + 35,
+    text: `Saying ${i + 35} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
