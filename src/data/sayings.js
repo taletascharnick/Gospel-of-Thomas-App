@@ -866,10 +866,54 @@ If I were to stop following my "old ways" today, what part of my inner light wou
   // ─────────────────────────────────────────────────────────────
   // SAYINGS 35–114  Stubs — add text and reflections via admin
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 80 }, (_, i) => ({
-    id: i + 35,
-    number: i + 35,
-    text: `Saying ${i + 35} — add the text via the admin panel.`,
+  {
+    id: 35, number: 35,
+    text: 'Saying 35 — add the text via the admin panel.',
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYING 36  Full content
+  // ─────────────────────────────────────────────────────────────
+  {
+    id: 36,
+    number: 36,
+    text: 'Jesus said: Be not anxious from morning to evening and from evening to morning about what you shall put on.',
+    reflection: `### See also: Luke 12:22–28
+
+> "Consider how the wild flowers grow. They do not labor or spin. Yet I tell you, not even Solomon in all his splendor was dressed like one of these."
+
+At first glance this text is about not worrying about basic needs — to trust that you will be taken care of (which is true). But unfortunately it may also lead us to think that we should wait on something or someone outside of us to provide for us. We don't see ourselves as part of, or a participant in, the process — and we don't understand that we create what we don't want to create when we worry about these things day and night. Furthermore, it may also point to how we worry about being perceived by others. This scarcity/fear mindset steals from our inner peace and knowing.
+
+This verse may therefore remind us to embody abundance and not lack. When our minds are busy with worries all the time, there is not much space to see the potential, opportunities and love that surrounds us. Our perspective and thought patterns shape our world view. This is why creating space in the mind — being quiet — is so helpful, as it brings us back to center, where all lives and is possible, making us hear our inner guidance and living from oneness.`,
+    contemplationPrompt: 'What generational or childhood pattern are you carrying that is affecting your perception of the world?',
+    concepts: [
+      {
+        term: 'Spinning',
+        definition: `Literal Definition: The ancient manual process of twisting raw fibers (such as wool or flax) into thread or yarn using a spindle and distaff. This was a mandatory, labor-intensive precursor to weaving cloth.
+
+Symbolic Meaning:
+- Anxiety & Materialism: Represents the restless human effort to provide for future physical needs and the "manufacture" of one's own security.
+- The Fabricated Self: In Gnostic thought, it symbolizes the "weaving" of the material body or the ego — external layers that hide the true, divine spirit.
+
+Theological Application: To "not spin" is an exhortation to abandon worldly worry and return to a state of "primordial nakedness," relying on one's inherent spiritual nature rather than human-made protections.`
+      }
+    ],
+    relatedSayings: [37, 21],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 37–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 78 }, (_, i) => ({
+    id: i + 37,
+    number: i + 37,
+    text: `Saying ${i + 37} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
