@@ -908,12 +908,43 @@ Theological Application: To "not spin" is an exhortation to abandon worldly worr
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 37–114  Stubs — add text and reflections via admin
+  // SAYING 37  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 78 }, (_, i) => ({
-    id: i + 37,
-    number: i + 37,
-    text: `Saying ${i + 37} — add the text via the admin panel.`,
+  {
+    id: 37,
+    number: 37,
+    text: 'His disciples said: On what day will you be revealed to us, and on what day shall we see you? Jesus said: When you unclothe yourselves and are not ashamed and take your garments and lay them beneath your feet like the little children (and) trample on them, then [you will see] the Son of the Living One, and you will not be afraid.',
+    reflection: `At first glance, we are reminded of Jesus' resurrection and what the disciples believed would be his return. They asked: "On what day will you be revealed to us?" Just like the disciples, our minds and egos seek assurance. We want to know the date and time, as we struggle with uncertainty. There are two questions here: one is about revelation, and the other is about seeing Jesus again. In a sense, the disciples realise that they can't see Jesus as he is yet, and they want to know when they will know who he is or see the real being. The second question relates to seeing him physically again. Many Christians also await the second coming of Christ, where Jesus will return in the flesh.
+
+Jesus' answer is that when we have shed our egos and stories — when we no longer identify with them — and when we are no longer ashamed about who we are as we have learned who we truly are, if we are willing to lay our "garments (armour)" down and trample on them like children (being free of the guilt, shame, and old identities that don't fit), not yet being so enmeshed with our worldly role and story — we will see Christ. We will see the Son of the Living One, meaning that we will recognize ourselves as sons of the Living One, and we will no longer be afraid as we will recognize our oneness and the Christ within. Christ's return happens within us when we, as the sons of the living Father, arise to the truth.
+
+> *Baptism was a symbol of clothing yourself with Christ and leaving the old "false" self behind.*`,
+    contemplationPrompt: 'How do you personally practice laying down that "armour" in your daily life?',
+    concepts: [
+      {
+        term: 'Disrobe / Take up your garments',
+        definition: 'In many Gnostic texts, "garments" or "clothing" symbolize the physical body or the flesh. To disrobe is to shed attachment to the physical world and the limitations of mortal existence. Clothing also represents societal constructs, identity, status, and the ego. Stripping these away means letting go of the false self to reveal the true, divine spark within.'
+      },
+      {
+        term: 'Reversing the Fall',
+        definition: 'This is a direct reference to the Garden of Eden in Genesis. Before the Fall, Adam and Eve were naked and felt no shame (Genesis 2:25). After eating from the Tree of Knowledge, they realized they were naked, felt shame, and made clothes (Genesis 3:7). To disrobe without shame is to return to a pre-Fall state of original innocence and unity with the divine.'
+      },
+      {
+        term: 'Mastery over the Material',
+        definition: 'Trampling the garments underfoot symbolizes conquering or mastering the physical world and the flesh, rather than being ruled by them.'
+      }
+    ],
+    relatedSayings: [21, 46],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 38–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 77 }, (_, i) => ({
+    id: i + 38,
+    number: i + 38,
+    text: `Saying ${i + 38} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
