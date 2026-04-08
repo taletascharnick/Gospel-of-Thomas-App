@@ -739,7 +739,20 @@ Do I make others feel like nothing good can come from them because I expect the 
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYING 32  Full content
+  // SAYING 32  Stub
+  // ─────────────────────────────────────────────────────────────
+  {
+    id: 32, number: 32,
+    text: 'Saying 32 — add the text via the admin panel.',
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYING 33  Full content
   // ─────────────────────────────────────────────────────────────
   {
     id: 33,
@@ -801,19 +814,6 @@ The ultimate goal of this "rooftop proclamation" is not a sermon; it is embodime
     ],
     relatedSayings: [22, 24, 70],
     published: true
-  },
-
-  // ─────────────────────────────────────────────────────────────
-  // SAYING 33  Stub
-  // ─────────────────────────────────────────────────────────────
-  {
-    id: 33, number: 33,
-    text: 'Saying 33 — add the text via the admin panel.',
-    reflection: 'Reflection to be added. Use the admin panel to write your own.',
-    contemplationPrompt: '',
-    concepts: [],
-    relatedSayings: [],
-    published: false
   },
 
   // ─────────────────────────────────────────────────────────────
@@ -939,12 +939,47 @@ Jesus' answer is that when we have shed our egos and stories — when we no long
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 38–114  Stubs — add text and reflections via admin
+  // SAYING 38  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 77 }, (_, i) => ({
-    id: i + 38,
-    number: i + 38,
-    text: `Saying ${i + 38} — add the text via the admin panel.`,
+  {
+    id: 38,
+    number: 38,
+    text: 'Jesus said: Many times have you desired to hear these words which I speak to you, and you have no other from whom to hear them. Days will come when you will seek me (and) you will not find me.',
+    reflection: `Similar texts:
+- **Luke 17:22:** Jesus tells his disciples, "The time is coming when you will long to see one of the days of the Son of Man, but you won't see it."
+- **John 7:34:** Jesus tells the religious leaders, "You will look for me, but you will not find me; and where I am, you cannot come."
+
+This text may point to the reality of life where we experience moments of clarity due to having a teacher or higher consciousness that guides and calms us. But when the teacher is no longer there to guide or calm, it won't help to seek him, as you won't find him in this way. This shows just how important it is for the student to cultivate the light within. There will come challenges on your path where no teacher is available, and where you have to walk the road "seemingly" alone. As you progress in your development, there also comes a time when other people may not be able to help you, as they may not have grown to a place where they can assist. You will then have to figure things out on your own or in a different way. When a student relies solely on an external source for light, the absence of a guide leaves them in utter darkness.
+
+We can, therefore, move from a place of seeking outer guidance to finding the guidance within — guidance that has been internalized. The text further serves as a reminder to be present. The disciples have a rare opportunity to hear words that they would normally not hear. If they are truly present to hear and integrate the words spoken, it may assist them when they no longer have a teacher with them. "Days will come" indicates that this is not forever, but the student will experience a time when they feel alone and there is no clarity for moving forward.
+
+Even in our modern age, there are times when we may wish for guidance from Jesus about what he meant or the path ahead. This is a process of seeking and finding. However, there comes a time when seeking doesn't bring answers anymore, and one may then find the strength to go within and discover what was there all along.`,
+    contemplationPrompt: 'What happens when the person who guided you is gone? Have you integrated their wisdom enough to walk the road without them? Can you remind yourself of your own light?',
+    concepts: [
+      {
+        term: 'Internalization',
+        definition: 'The process by which an external source of comfort, guidance, or wisdom (like a teacher or mentor) is fully absorbed into your own psyche. The teacher\'s voice becomes your own intuition.'
+      },
+      {
+        term: 'The Divine Spark (or Inner Light)',
+        definition: 'The concept that a fragment of higher consciousness or divine wisdom resides inherently within every person, requiring only cultivation and awareness to illuminate one\'s path in times of darkness.'
+      },
+      {
+        term: 'Projection',
+        definition: 'The act of seeing your own unconscious qualities — such as your own latent wisdom, strength, or "light" — in someone else. When a student reveres a teacher, they are often projecting their own unacknowledged inner light onto that person until they are ready to claim it for themselves.'
+      }
+    ],
+    relatedSayings: [24, 70],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 39–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 76 }, (_, i) => ({
+    id: i + 39,
+    number: i + 39,
+    text: `Saying ${i + 39} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
