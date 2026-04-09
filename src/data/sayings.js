@@ -974,12 +974,51 @@ Even in our modern age, there are times when we may wish for guidance from Jesus
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 39–114  Stubs — add text and reflections via admin
+  // SAYING 39  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 76 }, (_, i) => ({
-    id: i + 39,
-    number: i + 39,
-    text: `Saying ${i + 39} — add the text via the admin panel.`,
+  {
+    id: 39,
+    number: 39,
+    text: 'Jesus said: The Pharisees and the scribes have taken the keys of knowledge (gnosis) (and) have hidden them. They did not go in, and those who wished to go in they did not allow. But you, be wise as serpents and innocent as doves.',
+    reflection: `Another translation: ['Jesus says, "The Pharisees and the scribes have] re[ceived the keys] of [knowledge and have] hid[den them; neither have they] enter[ed nor permitted those who would] enter. [But you] bec[ome wi]se a[s the serpents and g]uileless [as the dov]es' (see also Hennecke and Schneemelcher: 1.112-113)." (In Fragments, p. 33)
+
+Similar texts:
+- **Luke 11:52:** Woe to you experts in the law, because you have taken away the key to knowledge. You yourselves have not entered, and you have hindered those who were entering.
+- **Matthew 10:16:** I am sending you out like sheep among wolves. Therefore be as shrewd [discerning] as snakes and as innocent as doves.
+
+Historically, we have seen how knowledge that could help people gain understanding and improve their lives has been burned, hidden, or kept by a select few who believed only they could interpret the texts. Jesus points out how the lawmakers (the authorities) received the knowledge to improve their own lives and the lives of others, yet chose not to enter the kingdom. Some chose to control others by keeping the knowledge to themselves.
+
+They have not "permitted those who would enter" to do so, meaning that people who were seeking knowledge and open to it were actively kept from it by the authorities. People, who wanted the knowledge to be freely available for everyone (whether they were scientists or religious leaders), have been attacked or killed. They were seen as a threat to the authorities' perceived control.
+
+Jesus reminds us to be as wise, shrewd, and discerning as snakes. Snakes are careful creatures; they hide when people are near and do not reveal themselves, ensuring they are not killed when a person strikes at them out of fear. There are, in fact, many snakes in our surrounding, but we don't know that they are there. This allows them to work under the radar.
+
+Jesus also says to be as innocent as doves. This highlights the complex nature of the world. One must be vigilant because there are real dangers — forces and people who seek to withhold growth and light from others. However, we must still maintain our innocence to be able to hear the kingdom within. When we fight those who seek to destroy us, we risk becoming entangled in worldly affairs and we fight darkness with more darkness. Ultimately, this is about being smart and strategic so that we can remain innocent while living in this world. If we feel, for example, that a situation or action is not good for our soul, we should listen to that inner guidance.`,
+    contemplationPrompt: '',
+    concepts: [
+      {
+        term: 'The Keys of Knowledge',
+        definition: 'A metaphor for the tools, teachings, or insights required to unlock spiritual understanding and access the "kingdom."'
+      },
+      {
+        term: 'Shrewd / Discerning (Wise as serpents)',
+        definition: 'Having sharp powers of judgment; being highly observant, strategic, and cautious. It means being aware of your surroundings and potential dangers so you aren\'t needlessly harmed.'
+      },
+      {
+        term: 'Guileless / Innocent (Innocent as doves)',
+        definition: 'Devoid of deception, manipulation, or malice. In your reflection, this means maintaining the purity of your soul and not becoming corrupted, bitter, or vengeful, even when facing hostile forces.'
+      }
+    ],
+    relatedSayings: [3, 5, 102, 113],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 40–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 75 }, (_, i) => ({
+    id: i + 40,
+    number: i + 40,
+    text: `Saying ${i + 40} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
