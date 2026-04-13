@@ -1013,12 +1013,62 @@ Jesus also says to be as innocent as doves. This highlights the complex nature o
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 40–114  Stubs — add text and reflections via admin
+  // SAYING 40  Stub
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 75 }, (_, i) => ({
-    id: i + 40,
-    number: i + 40,
-    text: `Saying ${i + 40} — add the text via the admin panel.`,
+  {
+    id: 40, number: 40,
+    text: 'Saying 40 — add the text via the admin panel.',
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYING 41  Full content
+  // ─────────────────────────────────────────────────────────────
+  {
+    id: 41,
+    number: 41,
+    text: 'Jesus said: He who has in his hand, to him shall be given; and he who has not, from him shall be taken even the little that he has.',
+    reflection: `This statement may seem unfair to some, as many people believe that those who do not have will inherit everything and those who do have will lose what they have — which speaks to a jealous nature, one that seeks others to suffer as they suffer. They don't yet see a world where all can thrive. Some want to believe that if they struggle and possess fewer things now, they will receive a nice, big reward when they get to heaven. This is a scarcity perspective. It views resources and grace as finite, allowing a competitive nature to possess us.
+
+If we solely view the material world as a place of "haves" and "have-nots," we actively create that reality. I have often found that people who have many things to be grateful for frequently focus only on what they lack, and in doing so, create even more lack in their lives. This idea challenges us to understand that when we have something to give (when there is something "in our hand"), that is more than material possessions. We are the divine spark. We are thus not losing something by giving it away.
+
+Conversely, when we say that we have nothing to give, we are denying the gift of our divine spark. By looking only at our possessions and believing that they define us, we inevitably create more lack. We lose what we have because we do not live from our inner light. Things will change. Furniture may break. Material items may get lost or stolen, but it can't touch our light.
+
+Some equate this teaching with working hard in the material world to gain more, not realising that it is not about hard work either. In fact, many people work tirelessly due to a scarcity mindset — constantly feeling behind the curve or believing they never have enough yet.
+
+Interestingly, the material and mental worlds are deeply connected. As another commentator noted: to enter the Kingdom means to see the real world behind mental concepts. Such a person truly "possesses," and will therefore be given more — all the joy of life one can accept, which is Life itself. Those who continue to view the world through their mental concepts do not "possess." They live in their minds and are thus condemned to lose what they have, since what they have is subject to the law of change and perishes in the end.
+
+Ultimately, our inner attitude and perspective shape our world. We can try to make great choices, do everything right, and work incredibly hard, yet still feel like victims if we haven't dug up the treasure within and started living from Source.`,
+    contemplationPrompt: 'Our perception of the world and ourselves shapes what we do or don\'t see. Do you hold onto any beliefs or identities that keep you tethered to old patterns you have actually outgrown?',
+    concepts: [
+      {
+        term: 'Spiritual Abundance vs. Scarcity Mindset',
+        definition: 'The understanding that true wealth is an internal state of being rather than a collection of material assets. When a person operates from spiritual abundance — recognising their connection to Source or the "divine spark" — they experience the world as limitless, which naturally cultivates more grace, peace, and joy. Conversely, a scarcity mindset operates on the illusion of separation and finite resources. It breeds fear, jealousy, and competition, creating a self-fulfilling prophecy of lack, regardless of how much material wealth a person actually possesses.'
+      },
+      {
+        term: 'Gnosis (Self-Knowledge) / The Divine Spark',
+        definition: 'In the context of the Gospel of Thomas, salvation or "entering the Kingdom" is not about a future reward, but about waking up to your true nature right now. To "have in your hand" means to possess this direct, experiential knowledge (gnosis) of your own inner light. When you know who you truly are, you cannot lose yourself. When you lack this self-knowledge (identifying only with your body, mind, or possessions), you live in a state of spiritual poverty and are subject to losing even the fleeting things you think you own.'
+      },
+      {
+        term: 'Mental Concepts vs. Direct Reality (Non-Attachment)',
+        definition: 'The practice of seeing the world as it is, rather than through the filters, labels, and judgements created by the ego. Clinging to mental concepts creates a false reality that is entirely subject to the law of change and decay. To let go of these mental constructs is a form of non-attachment. By dropping the conceptual mind, a person "possesses" the present moment and Life itself, rather than being possessed by their thoughts and anxieties.'
+      }
+    ],
+    relatedSayings: [3, 29, 70, 109, 113],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 42–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 73 }, (_, i) => ({
+    id: i + 42,
+    number: i + 42,
+    text: `Saying ${i + 42} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
