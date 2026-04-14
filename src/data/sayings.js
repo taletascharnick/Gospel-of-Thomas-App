@@ -1062,13 +1062,45 @@ Ultimately, our inner attitude and perspective shape our world. We can try to ma
     published: true
   },
 
+  {
+    id: 42,
+    number: 42,
+    text: 'Jesus said: Become passers-by!',
+    reflection: `Other related texts:
+- **Romans 12:2:** Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God's will is — his good, pleasing and perfect will.
+- **John 17:14:** I have given them your word and the world has hated them, for they are not of the world any more than I am of the world.
+
+**Scholarly Quote:**
+
+Marvin Meyer writes: "This saying may also be translated 'Be wanderers'; compare descriptions in early Christian literature of wandering teachers and missionaries. Another possible but less likely translation is, 'Come into being as you pass away'; compare the use of the same word parage as 'pass away' in the first riddle in saying 11, and other statements similar to this translation of saying 42 (for example, 2 Corinthians 4:16; Acts of John 76: 'Die so that you may live'). Tjitze Baarda, 'Jesus Said: Be Passers-By,' suggests yet another possible translation, 'Be Hebrews,' with the understanding of Philo of Alexandria that the word 'Hebrews' may be taken as 'migrants.' A medieval author, Petrus Alphonsi, preserves a saying much like saying 42 in his Clerical Instruction: 'This world is, as it were, a bridge. Therefore, pass over it, only do not lodge there.'"
+
+Jesus is guiding his followers to be in the world without being of the world. Though brief, the text is rich with meaning. Becoming a "passer-by" requires a level of detachment, but this does not mean we cannot enjoy life or engage with society. Instead, it means remaining true to our inner light, even when pressured to conform to mainstream thought. We are meant to experience this world, learn from it, and then move forward. Often, we remain stuck — refusing to grow after learning new truths — because we fear becoming too different and losing our sense of belonging. Yet, if our true identity was not created here, it makes perfect sense to feel like a foreigner. You may feel as though you do not fit in; you are not meant to.
+
+This philosophy does not require nihilism or living in isolation; it simply requires staying true to the light within. The world, our personalities, our jobs, the weather, and other people will inevitably change, but our inner light is a constant. It provides the stability we need to avoid fear and hatred when we feel threatened by change. Society constantly tempts us to adopt false identities to fit a specific mold, and speaking the truth often leads to judgment or rejection. Our primal fear of rejection frequently prevents us from embracing our truth and following our inner guidance. However, when we live from Source, we learn to trust our inner world more than our external circumstances — and in doing so, we change the world around us. Not by forcing others to see what we see, but by living it. Conversely, when we allow ourselves to be ruled by the external world, our inner world fractures, trapping us in a cycle of chaos.
+
+The meaning of this text also shifts depending on the listener. For a disciple who has not yet realized their true nature and views Jesus primarily as an external Savior, becoming a "passer-by" might mean adhering to strict rules or dietary laws that others ignore. However, for those who understand they are not of this world, this text serves as a profound reminder of how to navigate earthly life.`,
+    contemplationPrompt: 'Jesus is guiding his followers to be in the world without being of the world. Though brief, the text is rich with meaning. Becoming a "passer-by" requires a level of detachment, but this does not mean we cannot enjoy life or engage with society. Instead, it means remaining true to our inner light, even when pressured to conform to mainstream thought. We are meant to experience this world, learn from it, and then move forward. Often, we remain stuck — refusing to grow after learning new truths — because we fear becoming too different and losing our sense of belonging. Yet, if our true identity was not created here, it makes perfect sense to feel like a foreigner. You may feel as though you do not fit in; you are not meant to.',
+    concepts: [
+      {
+        term: 'Passers-by (Detachment)',
+        definition: 'The practice of moving through the physical world — experiencing, learning, and engaging with it — without becoming deeply attached to it or conforming to its transient identities and expectations. It is the state of being in the world but not of the world.'
+      },
+      {
+        term: 'The Light Within (Source)',
+        definition: 'The constant, unchanging spiritual essence or true identity inside a person. It provides internal stability, guidance, and a sense of home that anchors an individual against the chaos, fears, and shifting nature of the external world.'
+      }
+    ],
+    relatedSayings: [21, 56, 80, 110, 111],
+    published: true
+  },
+
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 42–114  Stubs — add text and reflections via admin
+  // SAYINGS 43–114  Stubs — add text and reflections via admin
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 73 }, (_, i) => ({
-    id: i + 42,
-    number: i + 42,
-    text: `Saying ${i + 42} — add the text via the admin panel.`,
+  ...Array.from({ length: 72 }, (_, i) => ({
+    id: i + 43,
+    number: i + 43,
+    text: `Saying ${i + 43} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
