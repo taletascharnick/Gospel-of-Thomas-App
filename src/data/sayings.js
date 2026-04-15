@@ -1094,13 +1094,42 @@ The meaning of this text also shifts depending on the listener. For a disciple w
     published: true
   },
 
+  {
+    id: 43,
+    number: 43,
+    text: `His disciples said to him: Who are you, that you say these things to us? <Jesus said to them:> From what I say to you, do you not know who I am? But you have become like the Jews; for they love the tree (and) hate its fruit, and they love the fruit (and) hate the tree.`,
+    reflection: `There is a tension between who Jesus is and what people expected him to be. This is still true today. We often cannot see in others what we refuse to recognize within ourselves. Because the disciples did not recognize their own inner light, they couldn't reconcile Jesus' humanity with his divinity. They were expecting a conventional, worldly king – and therefore missed the reality of seeing the divine in the ordinary. This speaks to a common human blind spot: we struggle to accept extraordinary truths when they come in ordinary packages.
+
+Jesus compares his disciples to the Jews (you can replace Jews with any school of thought). The Jews hoarded knowledge. They loved being the teacher or the knowledgeable one. However, actually carrying the fruit – living the wisdom daily – requires stripping away the ego, engaging in deep self-reflection and fundamentally changing how one lives. It takes time, patience and requires change.
+
+We often split the tree and the fruit into palatable and unpalatable parts.
+
+- **Loving the fruit, hating the tree:** We might love the art, the philosophy, or the benefits someone provides, but we despise the flawed, plain, or complex human being who produced it.
+- **Loving the tree, hating the fruit:** We might love a person for their familiarity or plainness, but resent them when they grow, speak hard truths, or challenge our world view ("Who do you think you are?").
+
+By separating the tree and the fruit, we are avoiding the challenging reality of oneness. True wisdom is not just the words spoken or the person speaking them – it is the living integration of the two.`,
+    contemplationPrompt: `Considering this dynamic of "splitting" the tree and the fruit, where else in modern life or society do you see people struggling to accept the whole picture because they prefer to separate the message from the messenger?`,
+    concepts: [
+      {
+        term: 'Embodiment ("Carrying the Fruit")',
+        definition: 'The physical and practical manifestation of spiritual knowledge. It is the demanding process of moving beyond the mere intellectual hoarding of information to actively integrating, living, and reflecting that wisdom in everyday life through continuous change.'
+      },
+      {
+        term: 'Non-dualism (Oneness)',
+        definition: "The recognition that the source (the tree) and its output (the fruit) are an integrated, indivisible whole. It is the rejection of the ego's tendency to fragment reality into separate, opposing categories—such as dividing a person's ordinary humanity from their profound wisdom."
+      }
+    ],
+    relatedSayings: [3, 5, 24, 45, 52, 91, 108, 113],
+    published: true
+  },
+
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 43–114  Stubs — add text and reflections via admin
+  // SAYINGS 44–114  Stubs — add text and reflections via admin
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 72 }, (_, i) => ({
-    id: i + 43,
-    number: i + 43,
-    text: `Saying ${i + 43} — add the text via the admin panel.`,
+  ...Array.from({ length: 71 }, (_, i) => ({
+    id: i + 44,
+    number: i + 44,
+    text: `Saying ${i + 44} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
