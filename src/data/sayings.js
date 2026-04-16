@@ -1124,12 +1124,63 @@ By separating the tree and the fruit, we are avoiding the challenging reality of
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 44–114  Stubs — add text and reflections via admin
+  // SAYING 44  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 71 }, (_, i) => ({
-    id: i + 44,
-    number: i + 44,
-    text: `Saying ${i + 44} — add the text via the admin panel.`,
+  {
+    id: 44,
+    number: 44,
+    text: 'Jesus said: He who blasphemes against the Father will be forgiven, and he who blasphemes against the Son will be forgiven; but he who blasphemes against the Holy Spirit will not be forgiven, either on earth or in heaven.',
+    reflection: `### Understanding Some Context
+
+**The Meaning of Forgiveness**
+
+In orthodox dogma, "forgiveness" is often viewed as a legal pardon from a judge (New Testament translated as "forgiveness"). In the Septuagint the same word is translated as "freedom" or "release." In esoteric and mystical contexts, it is seen as "total release from bondage." What is the bondage that is referred to? It is returning to wholeness from a state of separation. If we look at sin as ignorance or a state of fragmentation, then being "forgiven" means being successfully reintegrated. It is the restoration of balance.
+
+**The Holy Spirit (Ruach)**
+
+Ruach in Hebrew means "spirit," "wind," or "breath." The Spirit is literally what births/gives life. Ruach is grammatically feminine in Hebrew. Rucha (Aramaic) is feminine. Many early Christian authors — in particular those belonging to so-called "Jewish Christianity" — spoke of the Holy Spirit as Mother. The Greek translation for Spirit is "Pneuma," which is a neutral noun. In the Catholic Church, the Holy Spirit is referred to in English as "He." This may also point to how people relate to aspects of the All.
+
+For this saying, in particular, it is important to understand the significance of the Holy Spirit as "Mother," "divine feminine," or feminine in nature. The Holy Spirit represents the animating life force, the inner connective tissue, the dark stillness (internal), the receptive womb of transformation. It is the subtle, internal voice of the Divine moving over the "waters" of our subconscious (see Genesis). The Father and Son (Masculine/Logos/Light) represent external manifestations of the Divine — structure, the law, the spoken word, the intellect, and the historical figure of Jesus.
+
+Therefore, if you reject, slander, or completely close yourself off to the internal, life-giving connective force (the Holy Spirit / Divine Feminine), you are severing the very mechanism of healing and wholeness. It is "unforgivable" not because God is too angry to forgive you, but because entirely shutting out the inner connective Spirit is like locking the door from the inside.
+
+**In Jungian Terms**
+
+If a person purely operates from the masculine principle (intellect, logic, structure, outward action) and totally rejects the feminine principle (intuition, feeling, the unconscious, receptivity), they become rigid and fragmented. If you make a mistake in the external world (the domain of the animus), the psyche can correct it. But if you blaspheme — meaning to hold in utter contempt and deny the existence of your own unconscious/anima (the inner feminine) — you block the path to wholeness.
+
+> *Note: In environments that overvalue the masculine, women often face intense pressure to exile their feminine essence, moulding themselves to fit a society that fails to nurture receptivity and intuition.*
+
+**The Collective Wound**
+
+The collective story has trampled on the feminine aspect. When cultures or religions suppress the Divine Mother, Sophia, or the Ruach, they create highly dogmatic, rigid, and ultimately destructive systems that lack empathy, inner connection, and oneness. A society that blasphemes its own feminine nature cannot find peace ("forgiveness") because it has destroyed the very principle of harmony.
+
+Jesus' warning in Saying 44 can be read as a law of spiritual physics. You can misunderstand the external teachings (the Son) or the abstract concept of God (the Father) and still find your way back to balance. But if you fundamentally reject the inner, connective, nurturing, and transformative life-force (the Divine Feminine/Holy Spirit), you remain in a state of eternal fragmentation — "unforgiven" — because you have rejected the only force capable of making the two into one.`,
+    contemplationPrompt: 'Where in my current routine am I treating stillness, sensitivity, or intuition as a vulnerability rather than the foundation of my own power?',
+    concepts: [
+      {
+        term: 'The Primordial Matrix (The Mother)',
+        definition: 'In both archetypal psychology and ancient cosmology, the feminine principle represents the primordial state of unmanifested potential. She is the darkness, the stillness, the void, and the "waters of the deep." She is the container — the infinite womb of creation — that must exist before anything specific can be formed within it. Psychologically, this mirrors the vast, collective unconscious out of which the conscious mind eventually emerges.'
+      },
+      {
+        term: 'The Active Spark (The Father)',
+        definition: 'If The Mother is the infinite, dark potential, The Father represents the active, differentiating spark. He is the "Let there be light," the structure, the spoken word (Logos), and the conscious ego — the masculine spark interacting with the feminine waters to initiate life, form, and order.'
+      },
+      {
+        term: 'Reversing the Orthodox Hierarchy',
+        definition: 'Traditional religious structures often place the Father first, treating the feminine as secondary or derived. By restoring the older, mystical understanding that the Divine Feminine — the Ruach or Holy Spirit — is the fundamental root of all things, we recognise that rejecting or "blaspheming" her means destroying the very foundation upon which the rest of the psyche and creation is built.'
+      }
+    ],
+    relatedSayings: [22, 101, 106],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 45–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 70 }, (_, i) => ({
+    id: i + 45,
+    number: i + 45,
+    text: `Saying ${i + 45} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
