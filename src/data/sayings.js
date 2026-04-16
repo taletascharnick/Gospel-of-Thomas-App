@@ -1167,7 +1167,7 @@ Jesus' warning in Saying 44 can be read as a law of spiritual physics. You can m
       },
       {
         term: 'Reversing the Orthodox Hierarchy',
-        definition: 'Traditional religious structures often place the Father first, treating the feminine as secondary or derived. By restoring the older, mystical understanding that the Divine Feminine — the Ruach or Holy Spirit — is the fundamental root of all things, we recognise that rejecting or "blaspheming" her means destroying the very foundation upon which the rest of the psyche and creation is built.'
+        definition: 'Traditional religious structures often place the Father first, treating the feminine as secondary or derived. By restoring the older, mystical understanding that the Divine Feminine — the Ruach or Holy Spirit — is the fundamental root of all things, we recognise that rejecting or "blaspheming" her means destroying the very foundation upon which the rest of the psyche and creation is built. This is not a hierarchy — it is a divine flow. The Mother does not rank above the Father; rather, she is the primordial ground from which the active spark of the Father naturally arises. One is the womb; the other is the seed. Together they form an unbroken, cyclical movement of creation rather than a ladder of authority.'
       }
     ],
     relatedSayings: [22, 101, 106],
