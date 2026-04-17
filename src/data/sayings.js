@@ -1134,7 +1134,7 @@ By separating the tree and the fruit, we are avoiding the challenging reality of
 
 **The Meaning of Forgiveness**
 
-In orthodox dogma, "forgiveness" is often viewed as a legal pardon from a judge (New Testament translated as "forgiveness"). In the Septuagint the same word is translated as "freedom" or "release." In esoteric and mystical contexts, it is seen as "total release from bondage." What is the bondage that is referred to? It is returning to wholeness from a state of separation. If we look at sin as ignorance or a state of fragmentation, then being "forgiven" means being successfully reintegrated. It is the restoration of balance.
+In orthodox dogma, "forgiveness" is often viewed as a legal pardon from a judge. But in esoteric, Gnostic, and psychological traditions, forgiveness is closer to its original Greek root in the New Testament, aphesis, which means "release," "letting go," or "return to wholeness." It is returning to wholeness from a state of separation. If we look at sin as ignorance or a state of fragmentation, then being "forgiven" means being successfully reintegrated. It is the restoration of balance.
 
 **The Holy Spirit (Ruach)**
 
@@ -1175,12 +1175,47 @@ Jesus' warning in Saying 44 can be read as a law of spiritual physics. You can m
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 45–114  Stubs — add text and reflections via admin
+  // SAYING 45  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 70 }, (_, i) => ({
-    id: i + 45,
-    number: i + 45,
-    text: `Saying ${i + 45} — add the text via the admin panel.`,
+  {
+    id: 45,
+    number: 45,
+    text: 'Jesus said, "Grapes are not harvested from thorn trees, nor are figs gathered from thorn bushes, for those do not bear fruit. Good people produce good from their store. Evil people produce wicked things from their evil store within their hearts, and say wicked things. For out of the heart\'s abundance they produce wicked things."',
+    reflection: `### See also: Matthew 7:15–20
+
+This saying teaches us a valuable life lesson where one judges (knows) someone by the fruit they bear rather than by outward appearance. People are identified by the consequences of their actions ("you will know them by their fruits"), rather than their outward appearance.
+
+One will not/cannot expect to harvest grapes from thorn trees, or gather figs from thorn bushes. These trees/bushes do not produce fruit. Therefore, it is important to discern whether a person produces from wholeness or fragmentation. It is not about judging others for being good or bad. Someone doing evil is not necessarily a malicious soul choosing the dark over the light; rather, they are acting out of ignorance of who they truly are. It is about understanding that someone who is hurt and in pain won't offer fruit from the abundance of their heart, because they have invested in pain, hurt, and suffering, and therefore deliver thorns.
+
+Fruit is simply the visible result of the unseen root system and the health of the soil. If a tree is drawing from depleted soil — or in human terms, a storehouse of unexamined pain, resentment, or trauma — it cannot produce nourishing fruit. It produces thorns as a defence mechanism, or spoiled fruit as a symptom of internal disease. The tree is not consciously choosing to be "wicked"; the output is a direct, systemic result of what it is being fed.
+
+The type of tree refers to the inner nature or character of a person. The fruit refers to the actions, works, teaching, or lifestyle that flow from the inner nature of the person. One won't create pain from a place of joy, gratefulness, and love.
+
+False prophets draw attention away from our inner light. While a false prophet can be an external person, it can also be understood as a fragmented voice within ourselves. A voice of ego, fear, or unresolved pain can easily masquerade as protection or wisdom (sheep's clothing). Ultimately, however, it acts as a wolf — devouring our energy, distracting us from the quiet, grounded truth of our actual nature, and making it harder to have the energy to bear fruit.`,
+    contemplationPrompt: `Think of a recent moment in your life where you reacted with frustration, defensiveness, or exhaustion — a moment where you felt yourself producing "thorns."
+
+When you pause and look quietly at the root of that reaction, is the voice driving it coming from your grounded center, or is it an old, fragmented fear dressed up as self-protection? What does that specific, hidden root need in order to integrate, so it no longer drains your energy and distracts from your inner light?`,
+    concepts: [
+      {
+        term: 'Ponēros (Evil/Bad)',
+        definition: 'In the context of the Greek New Testament, this goes beyond a simple moral failing. It signifies an actively destructive force or behavior born from being "burdened by toil." It represents the outward, harmful manifestation (the spoiled fruit) of an inner life that is in turmoil and burdened by unresolved pain.'
+      },
+      {
+        term: 'Fragmentation',
+        definition: 'A state of inner division where a person is operating from a place of unintegrated pain, trauma, or hurt (the "depleted soil"). In this state, a person\'s actions are often defensive and disconnected from their true nature, leading them to produce "thorns" rather than the nourishing fruit that comes from a state of wholeness and joy.'
+      }
+    ],
+    relatedSayings: [24, 70],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 46–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 69 }, (_, i) => ({
+    id: i + 46,
+    number: i + 46,
+    text: `Saying ${i + 46} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
