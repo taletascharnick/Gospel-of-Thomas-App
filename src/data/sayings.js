@@ -1210,12 +1210,37 @@ When you pause and look quietly at the root of that reaction, is the voice drivi
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 46–114  Stubs — add text and reflections via admin
+  // SAYING 46  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 69 }, (_, i) => ({
-    id: i + 46,
-    number: i + 46,
-    text: `Saying ${i + 46} — add the text via the admin panel.`,
+  {
+    id: 46,
+    number: 46,
+    text: 'Jesus said: From Adam to John the Baptist there is among the children of women none higher than John the Baptist, for his eyes were not destroyed (?). But I have said: Whoever among you becomes small will know the kingdom and will be higher than John.\nJesus says: "From Adam to John the Baptist, among those who have been born of women, there is none greater than John the Baptist! But for fear that the eyes <of such a one> should be lost I have said: He who among you shall be the small<est> shall know the Kingdom and be higher than John!"',
+    reflection: `John the Baptist is described as the greatest of those who came before. When Jesus mentions that John's "eyes were not destroyed"—or expresses the "fear that the eyes of such a one should be lost"—He is likely referring to the ability to see beyond the physical veil. This implies that many people have become entirely absorbed by the world (the physical plane) and can no longer access higher wisdom or consciousness. Therefore, when Jesus says "whoever becomes small," He is once again referring to becoming like a child rather than becoming like the world. This means that embracing higher wisdom and insight provides a person with the clarity to navigate life differently—learning to listen to the quiet truth of the inner kingdom rather than the noise and confusion of the external world.
+
+The smallness is about recognizing that the answer is simple and straightforward. When we strip away the ego, the need for status, and the endless overthinking that the "world" demands of us, what remains is that quiet, straightforward truth. Children don't overcomplicate reality with hidden agendas or anxieties about tomorrow; they accept and engage with what is right in front of them. Recognizing that the deepest answers are simple is the very essence of that "smallness."`,
+    contemplationPrompt: 'Where in your life has the noise and ambition of the world clouded your inner vision, and how might embracing "smallness"—a return to childlike simplicity and humility—help you reconnect with the quiet wisdom of your inner kingdom?',
+    concepts: [
+      {
+        term: 'The Kingdom (The Inner Realm)',
+        definition: 'In Thomas, the "Kingdom" is not a future, physical paradise or a place you go after death. Instead, it is a present state of expanded consciousness and spiritual realization. It is already here, embedded within and around us, but it requires a shift in perception (or unclouded "eyes") to see it.'
+      },
+      {
+        term: 'The Child / The Infant (Embracing "Smallness")',
+        definition: 'The "child" represents a person who is stripped of societal conditioning, ego, and the complications of the world. An infant does not yet divide the world into dualities; they experience reality simply and directly.'
+      }
+    ],
+    relatedSayings: [3, 70, 113],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 47–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 68 }, (_, i) => ({
+    id: i + 47,
+    number: i + 47,
+    text: `Saying ${i + 47} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
