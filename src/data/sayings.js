@@ -1235,12 +1235,65 @@ The smallness is about recognizing that the answer is simple and straightforward
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 47–114  Stubs — add text and reflections via admin
+  // SAYING 47  Stub
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 68 }, (_, i) => ({
-    id: i + 47,
-    number: i + 47,
-    text: `Saying ${i + 47} — add the text via the admin panel.`,
+  {
+    id: 47,
+    number: 47,
+    text: 'Saying 47 — add the text via the admin panel.',
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYING 48  Full content
+  // ─────────────────────────────────────────────────────────────
+  {
+    id: 48,
+    number: 48,
+    text: 'Jesus said: If two make peace with one another in this one house, they will say to the mountain: Be removed, and it will be removed.',
+    reflection: `When Jesus speaks of the "one house," he is talking about the temple of the self. If the internal architecture is divided against itself, the structure cannot stand, let alone move mountains. Conversely, when you do the work to build a unified internal base, your external impact naturally changes. You stop reacting from a place of unhealed wounds or an internal civil war. You are able to engage with other people, complex systems, and societal challenges with clear eyes and grounded energy. You no longer add your own unconscious chaos to the "greater whole"; instead, your internal stability becomes a stabilizing force for the environments you inhabit.
+
+This echoes the ancient philosophical principle: "As within, so without." The work you do on your own base is never strictly personal; it is the blueprint for how you build and influence the world around you.
+
+In psychological terms, the "masculine" and "feminine" are not about gender roles, but about modes of being. You correctly identified these through the lens of MBTI and ancient mythology:
+•\tThe Masculine (Logos/Thinking): Order, logic, discernment, and the "sword" that cuts through confusion.
+•\tThe Feminine (Eros/Feeling): Connection, intuition, compassion, and the "vessel" that holds and nurtures life.
+
+When these two are at war—for instance, when logic mocks intuition, or when emotion rejects structure—the "house" is divided. This internal friction consumes all our energy. We become so exhausted by our own inner civil war that a "mountain" (a life challenge) looks insurmountable.
+
+**Why the "Mountain" Moves**
+
+When you achieve internal peace, the "mountain" doesn't necessarily physically vanish; rather, your relationship to the obstacle changes.
+•\tFrom a Divided State: A challenge feels like an attack. You react with either pure cold logic (ignoring the human element) or pure overwhelmed emotion (losing the ability to act).
+•\tFrom a Whole State: You see the challenge clearly. You use the feminine aspect to empathize and understand the root of the problem, and the masculine aspect to strategize and execute a solution.
+
+For example, Hapi, the god of the Nile's inundation, was often depicted with both a beard and female breasts. This wasn't a statement on biology, but a symbol of fertility and total providence. To the ancients, true power and creativity required the union of both polarities. To be "one" is to be "fertile" in thought and spirit.`,
+    contemplationPrompt: 'How do you feel this internal integration changes the way you specifically handle stress or "mountains" in your daily life?',
+    concepts: [
+      {
+        term: 'Non-duality (Advaita)',
+        definition: 'A spiritual and philosophical concept found in many Eastern traditions asserting that the division we see in the world (self vs. other, mind vs. body, good vs. bad) is an illusion. Ultimately, all forces are expressions of a single, unified reality.'
+      },
+      {
+        term: 'Syzygy',
+        definition: 'Derived from a Greek word meaning "yoked together," Jung used this term to describe the union of opposites. It specifically refers to the divine couple, or the perfect internal balance and communication between one\'s Anima (inner feminine) and Animus (inner masculine).'
+      }
+    ],
+    relatedSayings: [22, 106, 114],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 49–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 66 }, (_, i) => ({
+    id: i + 49,
+    number: i + 49,
+    text: `Saying ${i + 49} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
