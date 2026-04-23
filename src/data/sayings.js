@@ -1288,12 +1288,56 @@ For example, Hapi, the god of the Nile's inundation, was often depicted with bot
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 49–114  Stubs — add text and reflections via admin
+  // SAYING 49  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 66 }, (_, i) => ({
-    id: i + 49,
-    number: i + 49,
-    text: `Saying ${i + 49} — add the text via the admin panel.`,
+  {
+    id: 49,
+    number: 49,
+    text: 'Jesus said: Blessed are the solitary and the elect, for you will find the kingdom, for you came forth from it, (and) you will return to it again.',
+    reflection: `**The hermit/sage/shaman/seer**
+This text reminds me of the hermit archetype. A hermit is isolated either by the group, by circumstances (e.g., illness), or by choosing to isolate themselves.
+
+**The Oracle or Seer:** In many ancient cultures, an individual was selected (often from youth) to serve as a conduit for information or prophecy. They were typically secluded in a temple, cave, or remote location away from the general public, only interacting when the community needed guidance.
+
+**The Shaman:** While practices vary widely by culture, a shaman is often "called" or chosen by the community (or the spirits). Because their role requires them to navigate between the physical and spiritual worlds, they frequently live on the fringes or outskirts of the village, maintaining a necessary distance from everyday social life. This distance helps them to see clearly without being influenced by social conventions.
+
+This isolation or solitude is where one finds the threshold (the in-between state). It is the place where the conscious and the unconscious meet. Jesus tells us that those who are alone or chosen are blessed. Interestingly, we see how solitary figures are usually chosen for certain roles in stories. Our society is conditioned to find solace and safety in groups, and many of us struggle to feel safe and good when we are on our own. Our survival instincts have taught us that it is dangerous to be alone. So, why does Jesus say that we are blessed if we are on our own? The invitation is to recognize that the inner planes—the space of solitude (stillness, darkness, void)—are where we find the kingdom.
+
+This recognition allows us to stop seeking and thirsting after things that can never quench our thirst. A quiet room behind a closed door is a place where there is no interference or noise (if nobody is at home 😊). It is a place inside us that looks dark from the outside but contains the real truth of ourselves. When we sit with ourselves, we can hear the truth of ourselves again. This is where the shedding of false structures takes place. It is a place we fear because society has taught us to fear the quiet and the dark (i.e., the feminine). However, the dark place we go to is where the feminine and masculine meet. This restores balance.
+
+Note: Jesus talks about the solitary and the elect. The elect can easily be viewed by the ego as meaning that someone is special or chosen because they are more important. This leads to an unfortunate cycle of jealousy and misunderstanding. For example, the *pharmakos* (a historical/sacrificial figure) was a person chosen by the community to be exiled or isolated in times of crisis to carry away the group's bad luck or guilt (i.e., the scapegoat).
+
+**Finding the kingdom**
+One will struggle to find the kingdom outside of oneself, as the world we live in often leads us away from the inner planes and tells us that everything worth having is outside of us. Learning to sit on your own with your fears, unwanted thoughts, stillness, and discomfort leads to more stability within. It helps us to make choices from a place of strength and not feel pressured when companies or others pressure us or make us feel uncomfortable. We are programmed to want to get away from feeling uncomfortable as quickly as possible, and this makes us vulnerable to predators. It is about learning to respect ourselves as whole and not fracturing ourselves for something that is not beneficial to us or others.
+
+**Coming forth**
+We have come forth from this wholeness and will return to it again. It reminds me of returning to dust again (in Genesis). Many scholars emphasize that Genesis 2:7 explicitly links the dust to the earth (*adamah*), referring specifically to local, terrestrial soil rather than cosmic debris. In Job 38:37-38, some interpretations connect *aphar* to metallic ore or dust that "sticks together," linking it to materials from the sky. For me, this returning to dust (cosmic parts) is not only about our physical bodies dying but also about returning to our fullness or wholeness.`,
+    contemplationPrompt: 'Do you think that only the solitary and elect come from the pleroma (fullness)?',
+    concepts: [
+      {
+        term: 'Pleroma',
+        definition: 'A Greek word meaning "fullness." In psychological and Gnostic contexts, it refers to the totality of all existence or the state of perfect wholeness where all opposites are unified.'
+      },
+      {
+        term: 'Pharmakos',
+        definition: 'An ancient Greek term for a person selected to be a scapegoat. This individual was exiled or sacrificed during times of crisis to purify the community and carry away its collective guilt or bad luck.'
+      },
+      {
+        term: 'The hermit/sage/shaman/seer',
+        definition: 'Archetypal figures who step away from standard society—whether by choice, selection, or circumstance—to act as bridges to the spiritual or unconscious realms, gaining wisdom that serves the collective.'
+      }
+    ],
+    relatedSayings: [16, 18, 75],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 50–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 65 }, (_, i) => ({
+    id: i + 50,
+    number: i + 50,
+    text: `Saying ${i + 50} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
