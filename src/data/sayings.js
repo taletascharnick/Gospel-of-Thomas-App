@@ -1332,12 +1332,64 @@ We have come forth from this wholeness and will return to it again. It reminds m
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 50–114  Stubs — add text and reflections via admin
+  // SAYING 50  Full content
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 65 }, (_, i) => ({
-    id: i + 50,
-    number: i + 50,
-    text: `Saying ${i + 50} — add the text via the admin panel.`,
+  {
+    id: 50,
+    number: 50,
+    text: "Jesus said: If they say to you: Whence have you come?, say to them: We have come from the light, the place where the light came into being of itself. It [established itself], and it revealed itself in their image. If they say to you: Who are you?, say: We are his sons, and we are the elect of the living Father. If they ask you: What is the sign of your Father in you?, say to them: It is movement and rest.",
+    reflection: `The questions asked are foundational questions and a map for consciousness on how to move in the world.
+
+"Whence have you come?" is a question of origin. This helps us to understand that consciousness originates from the light, which wasn't born from a person. It established that consciousness stands outside of physical matter. It helps us to then to see ourselves and our circumstances in a completely different way. It helps us to anchor/align, preventing us from getting lost in the superficial details and dualities of the world.
+
+"Who are you?" is the question of identity. When we identify with the innate traveller instead of with the temporary labels, ego and societal roles, it allows us to interact with the world from a place of wholeness rather than insecurity or fear. This is probably why texts like these were burned or hidden as it makes people less controllable.
+
+"What is the sign within you?" is the compass. It helps us to know how to move and when to rest. It helps us to return to balance/wholeness. Recognizing the natural cycles of action and stillness helps us to understand when we are genuinely progressing and when we are simply caught in "frantic movement" of unconscious, repetitive patterns.
+
+The Father/the innate Self is the part of you that can't be hurt or broken by life and experiences. It stands outside of time and physical matter. It can't be controlled and it can't be killed. It is the part that doesn't change. It is the stability and the foundation of a house that can withstand life's challenges.
+
+**Understanding movement and rest better**
+Society often applauds people who are constantly busy, achieving, and moving. However, as the text points out, this can be a disguise for profound stagnation. We tend to see only one side of the coin. Constant motion is one of the most effective ways to avoid sitting with oneself. If we never stop, we never have to face our deeper wounds or ask the difficult questions or reflect on our life. A person might change jobs, relationships or cities rapidly (appearing to grow), but if they are driven by the same unhealed insecurities or unconscious patterns, they haven't actually moved an inch. When someone is in a deep depressive episode or a period of severe burnout, to the outside eye — and often the person themselves — it looks like a complete breakdown or failure to function (move). In reality the psyche and nervous system might be forcing a hard stop because the previous way of living was unsustainable. Just like a seed buried in dark soil during winter appears dead, monumental structural changes are happening beneath the surface. It is a period of intense, albeit invisible, internal recalibration.
+
+When we apply this lens to ourselves and others, it fundamentally changes how we offer grace. If we view the "innate Self as whole," we stop judging a person's worth by their current season. We realize that the friend who seems stuck in a rut might actually be doing the hardest internal work of their life, and the colleague who never stops working might be the one who desperately needs an intervention.
+
+This reframing requires a lot of trust in the invisible processes of the mind and spirit.
+
+**Other interpretations**
+*Mystic:*
+We have come from the light of perception / self-perception / consciousness, which has self-generated from the primordial potential into the Source, our "Father." We are the sons and daughters of that Source of Consciousness, in the image of that Consciousness. We are here to act/move and to contemplate (on our actions)/rest, and thereby learn of our true nature and right way of being.
+
+*Stevan Davies writes of 50a:*
+"As all things came from the light (saying 77), so those who came from the light are distinguished not by their manner of origin but by their realization of the fact. The place in which the light came into being is the place of Gen 1:3. Because the light persists in the world as the kingdom of God, there is no idea here of a fall of the light. A person who is the restored unmanifest image of God will manifest to himself the primordial light which is upon the world (sayings 22, 24, 83, 84)."
+
+**Related text**
+James 1:17: Every good and perfect gift is from above, coming down from the Father of the heavenly lights, who does not change like shifting shadows.`,
+    contemplationPrompt: 'Are you functioning like a machine of constant output, or honouring the balance of movement and rest?',
+    concepts: [
+      {
+        term: 'The Light (Primordial Light)',
+        definition: 'The self-generated source of consciousness and the origin of all things. It is not a physical place or origin, but the underlying, subtle truth and our innate connection to the universe.'
+      },
+      {
+        term: 'Movement and Rest',
+        definition: 'The sign of the Father (and Mother) within. It represents the necessary cycle of action and stillness, reflecting true wholeness and conscious progression rather than frantic, unconscious repetition.'
+      },
+      {
+        term: 'The Innate Self (Child of the Living Father)',
+        definition: "A person's true, underlying identity. It is recognized not by physical birth, location, or societal labels, but by the conscious realization of one's connection to the primordial source."
+      }
+    ],
+    relatedSayings: [22, 24, 50, 77, 83, 84],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 51–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 64 }, (_, i) => ({
+    id: i + 51,
+    number: i + 51,
+    text: `Saying ${i + 51} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
