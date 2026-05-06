@@ -1384,12 +1384,67 @@ James 1:17: Every good and perfect gift is from above, coming down from the Fath
   },
 
   // ─────────────────────────────────────────────────────────────
-  // SAYINGS 51–114  Stubs — add text and reflections via admin
+  // SAYING 51  Stub — add text and reflection via admin
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 64 }, (_, i) => ({
+  ...Array.from({ length: 1 }, (_, i) => ({
     id: i + 51,
     number: i + 51,
     text: `Saying ${i + 51} — add the text via the admin panel.`,
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  })),
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYING 52  Full content
+  // ─────────────────────────────────────────────────────────────
+  {
+    id: 52,
+    number: 52,
+    text: 'His disciples said to him: Twenty-four prophets spoke in Israel, and they all spoke of you. He said to them: You have abandoned the living one before your eyes, and spoken about the dead.',
+    reflection: `**Texts in the New Testament that are similar:**
+
+**John 5:37–40:** Jesus tells the religious leaders, "You study the Scriptures diligently because you think that in them you have eternal life. These are the very Scriptures that testify about me, yet you refuse to come to me to have life."
+
+**John 8:52–53:** The authorities argue with Jesus, saying, "Now we know that you are demon-possessed! Abraham died and so did the prophets, yet you say that whoever obeys your word will never taste death. Are you greater than our father Abraham? He died, and so did the prophets."
+
+The disciples represent a material perspective by stating that the "twenty-four prophets spoke in Israel, and they all spoke of you." When they see Jesus, they see a prophecy being fulfilled. The twenty-four prophets refer to the number of books in the Hebrew Bible (the law). When they speak about the prophets, it means that they are looking to the authority and status of those seen as having the right credentials to speak about God. It speaks to the part of us that sees hierarchy in coming from the right family, history, and status.
+
+Jesus then says to them that they "have abandoned the living one before your eyes and spoken about the dead." It is like saying: you are looking, but you are not seeing. In Layton's translation it is clearer: "You have abandoned the one who is living in your presence, and you have spoken of those who are dead." The prophets they were discussing died long ago and had a specific role to play in society when they were alive. Jesus/the teacher notes how these old ways of thinking about God still have authority over his disciples.
+
+If they were present to what they saw in front of them — if all the layers fell off — they would see that the presence of God was in Jesus and in them. They would recognise themselves in the mirror Jesus was showing to them. However, like most of us, they were taught to seek external authority to decide for them and to take responsibility for their lives.
+
+The text is a reminder to stop denying ourselves and stop giving our power away — the gift that we received, our inner light — to dead things (law, status, rank, and so on) and to live from the inner light that has been inside us all along.
+
+**Additional note — Theological parallel: The Acts of Thomas (Section 170)**
+
+*"Since you do not believe in the living, how do you wish to believe in the dead? But do not fear. Jesus the Christ, through his great goodness, treats you humanely."*
+
+The Acts of Thomas is an early 3rd-century apocryphal narrative — a legendary account of the Apostle Thomas's missionary journeys to India. In it, a similar rebuke is given to people who place all their faith in historical figures while remaining spiritually blind to the living, divine reality right in front of them.`,
+    contemplationPrompt: 'To whom are we looking today to decide what and who is important? Think of how people introduce so-called "truths" by providing rank, titles, and historical relevance.',
+    concepts: [
+      {
+        term: 'External Authority vs. Inner Light',
+        definition: 'The tendency to rely on established, historical credentials (titles, texts, family lineage) rather than trusting the present, living divine presence and intuition within oneself.'
+      },
+      {
+        term: 'The "Living" vs. The "Dead"',
+        definition: 'A metaphor contrasting direct, present-moment spiritual experience (the living) with dogmatic, historical, or traditional religious structures that no longer hold active spiritual vitality (the dead).'
+      }
+    ],
+    relatedSayings: [3, 43, 52, 113],
+    published: true
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // SAYINGS 53–114  Stubs — add text and reflections via admin
+  // ─────────────────────────────────────────────────────────────
+  ...Array.from({ length: 62 }, (_, i) => ({
+    id: i + 53,
+    number: i + 53,
+    text: `Saying ${i + 53} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
