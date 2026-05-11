@@ -1473,10 +1473,52 @@ One should keep in mind that these are invitations for those who are open to rec
   // ─────────────────────────────────────────────────────────────
   // SAYINGS 54–114  Stubs — add text and reflections via admin
   // ─────────────────────────────────────────────────────────────
-  ...Array.from({ length: 61 }, (_, i) => ({
-    id: i + 54,
-    number: i + 54,
-    text: `Saying ${i + 53} — add the text via the admin panel.`,
+  {
+    id: 54,
+    number: 54,
+    text: 'Saying 54 — add the text via the admin panel.',
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+
+  {
+    id: 55,
+    number: 55,
+    text: 'Jesus said: He who does not hate his father and his mother cannot be a disciple to me. And (he who does not) hate his brothers and sisters and take up his cross like me, will not be worthy of me.',
+    reflection: `Similar texts in the Bible:
+Luke 14:26-27
+"If anyone comes to me and does not hate father and mother, wife and children, brothers and sisters—yes, even their own life—such a person cannot be my disciple. And whoever does not carry their cross and follow me cannot be my disciple." (NIV)
+Matthew 10:37-38
+"Anyone who loves their father or mother more than me is not worthy of me; anyone who loves their son or daughter more than me is not worthy of me. Whoever does not take up their cross and follow me is not worthy of me." (NIV)
+
+The Threshold of Growth
+There are different phases in the life cycle of a tree. A seed can lie dormant for many years and will wait for the right time to sprout. Jesus invites disciples who are ready to grow and expand further. To step into an expanded consciousness (more awareness), one must inevitably cross a threshold that separates you from the "ordinary world" of established social and familial norms. For the seeker, it usually starts with an unease or frustration with the world, society, family etc. They have questions about life, such as whether there is more to it than working or mere human existence. They struggle to fit society's mould, and this is usually when the invitation comes.
+
+Jesus is talking about a transformative journey here (the archetypal Hero's Journey). He understood that following him would require much more from his disciples, as their family and friends might accuse them of selfishness or abandonment for the choices they make—choices that don't look like following the conventional rules of society, leading others to think they no longer care. The friction doesn't necessarily come from malice, but from a divergence in reality. When you dismantle old paradigms and expand your awareness, your very presence can become an uncomfortable mirror for those who remain bound by conventional rules. To them, your growth may look like rejection, "hate," or antisocial behaviour simply because you no longer fit the shape of the person they used to know.
+
+Jesus' disciples may have been very eager to follow him, as he could teach them things that would open them to new possibilities and wider perspectives (which sounds exciting and adventurous). However, Jesus had already walked the path and knew that there was a naivety about following him. He knows that they won't be able to view the world in the same way once they have expanded their consciousness.
+
+It is important to note that Jesus doesn't ask everyone to be his disciple. He chooses them with intention, and they must choose the path as well. This text should thus not be read as a failing or shortcoming if you are close to your family and love spending time with them. It doesn't mean that you are not worthy, nor does it mean that you are doing something wrong. It isn't even about leaving your family behind and never talking to them again. It is about understanding that taking this road will alter your understanding of your family and friends, and therefore, it will change family dynamics. Not everyone is ready, or meant, to dismantle their current understanding of the world. Finding joy, comfort, and deep connection within the conventional family structure is not a failure or a sign of unworthiness; it is simply a different phase of human experience.
+
+Jesus requires his disciples to take up their cross like he did. To take up your cross is about taking responsibility for your life, making the necessary changes, and knowing that you will change and be changed in the process. The cross is not a mandate for physical martyrdom, but the ultimate symbol of radical personal responsibility. It is the heavy, solitary work of embodying what you learn. It means accepting the consequences of your own growth, knowing that you cannot unsee what you have seen, even if it permanently alters the dynamics of your most cherished relationships.`,
+    contemplationPrompt: 'When that profound internal shift happens and the old family dynamics are inevitably altered, how do you think one best navigates the tension between honouring that new, expanded consciousness and maintaining a bridge of love to those who might not understand the change?',
+    concepts: [
+      {
+        term: 'Hate',
+        definition: 'In ancient Semitic languages and idioms, to "hate" in a comparative context did not mean to hold malice, animosity, or emotional disgust. Rather, it was an idiom meaning "to love less" or to place secondary in priority. Jesus was using hyperbole to make a radical point: a disciple\'s loyalty and devotion to Him must be so absolute that, by comparison, even the deepest family loyalties look like "hate."'
+      }
+    ],
+    relatedSayings: [16, 99, 101, 105],
+    published: true
+  },
+
+  ...Array.from({ length: 59 }, (_, i) => ({
+    id: i + 56,
+    number: i + 56,
+    text: `Saying ${i + 56} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
