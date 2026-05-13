@@ -1515,10 +1515,54 @@ Jesus requires his disciples to take up their cross like he did. To take up your
     published: true
   },
 
-  ...Array.from({ length: 59 }, (_, i) => ({
-    id: i + 56,
-    number: i + 56,
-    text: `Saying ${i + 56} — add the text via the admin panel.`,
+  {
+    id: 56,
+    number: 56,
+    text: 'Saying 56 — add the text via the admin panel.',
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+  {
+    id: 57,
+    number: 57,
+    text: 'Jesus said: The kingdom of the Father is like a man who had [good] seed. His enemy came by night and sowed weeds among the good seed. The man did not allow them to pull up the weeds. He said to them: Lest you go and pull up the weeds, (and) pull up the wheat with it. For on the day of the harvest the weeds will be manifest; they will be pulled up and burned.',
+    reflection: `Similar text in the Bible:
+Matthew 13:24–30 (NIV)
+Jesus told them another parable: "The kingdom of heaven is like a man who sowed good seed in his field. But while everyone was sleeping, his enemy came and sowed weeds among the wheat, and went away. When the wheat sprouted and formed heads, then the weeds also appeared.
+"The owner's servants came to him and said, 'Sir, didn't you sow good seed in your field? Where then did the weeds come from?'
+"'An enemy did this,' he replied.
+"The servants asked him, 'Do you want us to go and pull them up?'
+"'No,' he answered, 'because while you are pulling the weeds, you may uproot the wheat with them. Let both grow together until the harvest. At that time I will tell the harvesters: First collect the weeds and tie them in bundles to be burned; then gather the wheat and bring it into my barn.'"
+Food for thought: In the original context of this story, the specific weed mentioned is "darnel." In its early stages of growth, darnel looks completely identical to wheat; they can only be told apart once they mature and bear seed. This serves as a powerful metaphor: humans often cannot immediately discern between what is good for us and what is not. We must wait for things to mature before we can see their true nature.
+The text: If you look at the inner life of a person who has good intentions and wants to see themselves and others thrive in a healthy, balanced manner (the good seed), the ego or external conditioning (the enemy) can often come and sow weeds among the plants that are still growing within.
+The wise person does not immediately pull up these false stories or negative ideas. Doing so prematurely might uproot the good ideas, as well as the essential teachings and learnings hidden within what appears to be bad. Instead, they wait until the plants have grown. Once mature, the person can clearly discern what is "wheat" and what are "weeds."
+The weeds, which are no longer useful and have served their purpose, can now be burned away. This highlights how one can extract good out of what is seemingly bad (spiritual alchemy) by allowing it time. When the day of the harvest comes, the weeds will be easy to identify and separate from what is healthy and good, leading to ultimate purification.`,
+    contemplationPrompt: 'Have you recognized how many of your toxic or painful experiences, after being given time, have turned into wisdom—allowing us to have a better perspective and make choices that brings us to healthier places/spaces?',
+    concepts: [
+      {
+        term: 'Spiritual Alchemy',
+        definition: 'The process of transforming negative, painful, or "toxic" internal experiences into profound wisdom and personal growth over time.'
+      },
+      {
+        term: 'Discernment',
+        definition: 'The ability to judge well; in this context, the cultivated patience to wait until thoughts and experiences mature before deciding whether they are beneficial (wheat) or harmful (weeds).'
+      },
+      {
+        term: 'The Inner Field',
+        definition: 'A metaphor for our inner landscape, where both authentic truths (good seeds) and ego-driven conditioning (weeds) are planted and grow together.'
+      }
+    ],
+    relatedSayings: [9, 21],
+    published: true
+  },
+
+  ...Array.from({ length: 57 }, (_, i) => ({
+    id: i + 58,
+    number: i + 58,
+    text: `Saying ${i + 58} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
