@@ -1559,10 +1559,34 @@ The weeds, which are no longer useful and have served their purpose, can now be 
     published: true
   },
 
-  ...Array.from({ length: 57 }, (_, i) => ({
-    id: i + 58,
-    number: i + 58,
-    text: `Saying ${i + 58} — add the text via the admin panel.`,
+  {
+    id: 58,
+    number: 58,
+    text: 'Jesus said: "Blessed is the man who has suffered; he has found life." Alternatively: Jesus said, "Blessed is the person who has laboured and found life."',
+    reflection: `Suffering is a difficult topic to discuss. Most of us have memories of times and places where we have suffered. This pain can be intense, especially when rooted in a lack of understanding. For example, we may push against something that is happening; by fighting or trying to prevent it, we only intensify and prolong our pain. Therefore, suffering is sometimes related to our unwillingness to move with the flow of life.
+
+This is not a judgement, but simply a part of the human experience. Jesus says that the man who has suffered is blessed. Often, the world around us sees someone who is suffering as "less than," or judges them as having done something wrong. As a result, we tend to hide our pain. Revealing it can sometimes lead to further isolation, as most people are uncomfortable with suffering and want to keep it as far away from themselves as possible.
+
+But Jesus focuses on the blessing. His perspective is profoundly different: He knows that suffering brings us back home, back to life. This does not mean we should romanticize suffering. Rather, it means we can recognize that it is not there to break us. Instead, it strips away what is unreal to point to what was always real. Ultimately, this brings us back to life, guiding us toward deeper relationships and a more profound sense of meaning.`,
+    contemplationPrompt: 'In what way has the poison become the cure in your own life?',
+    concepts: [
+      {
+        term: 'Suffered',
+        definition: 'In the Coptic manuscript of Saying 58, the phrase used is ϣⲡ ϩⲓⲥⲉ (shep hise). Shep means "to receive" or "to take on." Hise means "labour," "toil," "fatigue," or "hardship." Therefore, shep hise literally translates to "receiving hardship" or "taking on labor." This is why translators debate whether "suffered" or "laboured" is the more accurate English word. It implies an active, exhausting effort rather than passive victimization. In Gnostic texts, however, the paradigm is entirely different. Suffering is not a punishment or a legal transaction; it is a profound psychological and spiritual catalyst. However, Saying 58 suggests that when this inherent friction is met with conscious awareness (when it is actively laboured through, rather than blindly reacted to), it becomes the very friction needed to strike the spark of gnosis (knowledge). Suffering is the alchemical fire.'
+      },
+      {
+        term: 'Life',
+        definition: 'The Root Meaning: In the Greek language of the era when these texts were compiled, there were two distinct words for life. Bios refers to biological, physical existence—the daily survival of the body that eventually ends. Zoe, on the other hand, refers to absolute, spiritual, or divine vitality. It is the indestructible essence of being. When these sayings speak of finding "life," they are almost exclusively referring to Zoe. It is the direct experience of gnosis (deep, experiential knowledge). To find life is to remember the divine spark within, stepping out of a state of spiritual forgetfulness and into luminous awareness.'
+      }
+    ],
+    relatedSayings: [69, 2, 29, 112],
+    published: true
+  },
+
+  ...Array.from({ length: 56 }, (_, i) => ({
+    id: i + 59,
+    number: i + 59,
+    text: `Saying ${i + 59} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
