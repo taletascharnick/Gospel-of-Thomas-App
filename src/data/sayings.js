@@ -1583,10 +1583,36 @@ But Jesus focuses on the blessing. His perspective is profoundly different: He k
     published: true
   },
 
-  ...Array.from({ length: 56 }, (_, i) => ({
-    id: i + 59,
-    number: i + 59,
-    text: `Saying ${i + 59} — add the text via the admin panel.`,
+  {
+    id: 59,
+    number: 59,
+    text: 'Jesus said: Look upon the Living One so long as you live, that you may not die and seek to see him, and be unable to see him.',
+    reflection: `In the context of the Gospel of Thomas and similar early wisdom texts, "death" often does not merely mean biological passing. It frequently serves as a metaphor for spiritual ignorance or a state of unconscious "sleep". To "die" without seeing the Living One is to pass through the physical existence entirely asleep to the divine reality around you.
+
+**The deferred life syndrome**
+
+We are culturally conditioned to treat the present moment merely as a stepping stone to a better future—whether that future is a vacation, retirement, or the afterlife. Saying 59 radically challenges this by suggesting that the divine (and true joy) is only accessible in the eternal now. If we practice missing the present moment our whole lives, we will inevitably lack the capacity to see it at the end.
+
+Mainstream traditions often emphasize *believing* in a historical figure (e.g. no longer living) or *waiting* for a future event (e.g. the second coming). Saying 59 shifts the focus entirely from passive belief to direct experience. The "Living One" is an active, present reality that requires the practitioner to "look upon" and engage with it actively while they have the breath to do so.
+
+We tend to live in the past or for someday, in the future. We tend to be anywhere but here. We tend to live for weekends or events (getting married, getting the job etc.). We are not present to what is in front of us now. We often speak about how we miss those that have passed. However, when they are living next to us, we are not present. This is part of the tragedy of having this gift of life and not seeing it.
+
+The Living One can be interpreted as seeing God/The All in everything. However, we miss that God is with us, in us and all around us now. We can live with him now. To experience with joy and wonder all that is now.`,
+    contemplationPrompt: 'If we have never truly been separated from the Source, what drives our human tendency to project God into the "beyond" instead of awakening to the presence right here?\n\nThink about how we have looked for God in history, in future events, in the sky – everywhere that we are not.',
+    concepts: [
+      {
+        term: 'The Living One',
+        definition: 'The active, ever-present divine reality—often understood as Christ, God, or the awakened state of being. It emphasizes experiencing the divine in the present moment ("the now"), rather than treating God as a purely historical figure from the past or a distant promise waiting in the afterlife.'
+      }
+    ],
+    relatedSayings: [3, 38, 113],
+    published: true
+  },
+
+  ...Array.from({ length: 55 }, (_, i) => ({
+    id: i + 60,
+    number: i + 60,
+    text: `Saying ${i + 60} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
