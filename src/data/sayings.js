@@ -1609,10 +1609,34 @@ The Living One can be interpreted as seeing God/The All in everything. However, 
     published: true
   },
 
-  ...Array.from({ length: 55 }, (_, i) => ({
-    id: i + 60,
-    number: i + 60,
-    text: `Saying ${i + 60} — add the text via the admin panel.`,
+  {
+    id: 60,
+    number: 60,
+    text: '<They saw> a Samaritan carrying a lamb, who was going to Judaea. He said to his disciples: (What will) this man (do) with the lamb? They said to him: Kill it and eat it. He said to them: While it is alive he will not eat it, but (only) when he kills it (and) it becomes a corpse. They said to him: Otherwise he cannot do it. He said to them: You also, seek a place for yourselves in rest, that you may not become a corpse and be eaten.',
+    reflection: `Some Jews viewed Samaritans with deep hostility, regarding them as religious heretics, social outcasts and "half-breeds". When Jesus introduces a Samaritan, it usually signals to the listener that expectations are about to be subverted, forcing the disciples to look at the situation with fresh eyes (not with preconceived ideas/judgements). 
+A Samaritan carries a lamb. The lamb may feel a false sense of security in the Samaritan's arms, yet the disciples know it is being carried to its death. The lamb is unaware of the fact that he is being taken to be killed. Jesus's use of the word "corpse" invites us to pause and redefine life and death. The striking use of the word "corpse" blurs the line between the living and the dead. A person can be physically alive but entirely asleep, passively carried toward their own destruction—rendering them a corpse long before their physical end.
+When Jesus says "seek a place in rest," he is talking about anchoring yourself in your divine, eternal nature. In the ancient world, there was a heavy philosophical focus on the hierarchy of nature—what eats what. In Thomas, the spiritual realm must consume the physical (transforming it into spirit), otherwise, the physical realm will consume the spirit. If you do not establish your "rest," you become part of the food chain of the material world. When we come to rest in what we really are, we are no longer pulled in all directions. It becomes easier to discern. 
+Practically, it comes down to not being consumed by the modern drive for busyness, which keeps us spiritually asleep. When we lack awareness, our time, energy, and very identity is "slaughtered" and consumed by external forces (work, societal expectations, digital noise). It comes back to rest and movement.
+If we are always active in the world (e.g. think about the drive to be busy), we become like a corpse. We don't recognize that we are being slaughtered, because we are only focused on working. Ultimately, it comes down to the balance between rest and movement—both are essential. Rest allows us to receive and become deeply aware of what we are doing and why. This clarity makes our actions more intentional and protects us from being consumed by external forces.`,
+    contemplationPrompt: 'Where in your life are you moving mindlessly, unaware of the forces consuming your energy and time? How can you cultivate a deliberate practice of \'rest\' today to awaken to your true state and avoid being consumed by the noise of the world?',
+    concepts: [
+      {
+        term: 'corpse',
+        definition: 'A state of spiritual unconsciousness or mechanical busyness. Being physically alive but spiritually asleep, rendering one vulnerable to being mindlessly consumed or \'eaten\' by worldly demands and distractions.'
+      },
+      {
+        term: 'seek a place in rest',
+        definition: 'The deliberate act of stepping away from constant action to find stillness, silence, and internal awareness. It is a protective and restorative state that allows for clear discernment of one\'s true nature and purpose.'
+      }
+    ],
+    relatedSayings: [50, 56, 90],
+    published: true
+  },
+
+  ...Array.from({ length: 54 }, (_, i) => ({
+    id: i + 61,
+    number: i + 61,
+    text: `Saying ${i + 61} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
