@@ -1633,10 +1633,42 @@ If we are always active in the world (e.g. think about the drive to be busy), we
     published: true
   },
 
-  ...Array.from({ length: 54 }, (_, i) => ({
-    id: i + 61,
-    number: i + 61,
-    text: `Saying ${i + 61} — add the text via the admin panel.`,
+  {
+    id: 61,
+    number: 61,
+    text: `Jesus said, "Two will rest on a bed: the one will die, and the other will live." Salome said, "Who are you, man, that you ... have come up on my couch and eaten from my table?" Jesus said to her, "I am he who exists from the undivided. I was given some of the things of my father." "I am your disciple." "Therefore I say, if he is destroyed, he will be filled with light, but if he is divided, he will be filled with darkness."`,
+    reflection: `**Authority born from "Gnosis", Not Hierarchy**
+
+In the orthodox church, authority was strictly hierarchical (bishops, priests, apostolic succession) and male-dominated.
+
+In this text, Salome sits at the dinner table with Jesus and participates. Salome questions Jesus' authority to teach when he says that "two will rest on a bed: the one will die, and the other will live."
+
+In Gnosticism, authority is derived entirely from gnosis (direct, experiential inner knowing). Jesus has authority because he has realized his connection to the "undivided" source. Salome has the authority to sit at the table, question him, and declare herself his disciple because she possesses the spiritual maturity to recognize that truth. When the physical world (and its gender roles) is viewed as an illusion, spiritual equality becomes the natural default.
+
+To understand this text, we have to understand a different cosmology than the one that we were taught.
+
+**The Original Wholeness:** Before the physical universe existed, there was only the ultimate, undivided source — often called the Monad or the Pleroma (Divine Fullness). In this state, there are no opposites. There is no male or female, no life or death, no light or dark. Everything exists as a singular, perfect, androgynous whole.
+
+**The Fracture into Duality:** In Gnostic thought, the creation of the material world wasn't a triumph; it was a cosmic error or a fall from grace. The physical universe is inherently fractured. To exist in the material world is to be trapped in the "split" of binaries. The material realm operates on division — you cannot have physical life without physical death, or up without down.
+
+Then Jesus continues his teaching telling us something that sounds counterintuitive: if "he is destroyed, he will be filled with light, but if he is divided he will be filled with darkness." In traditional frameworks, destruction is seen as the ultimate negative — punishment or death. But in this cosmology, what must be "destroyed" is the illusion of separation.
+
+Depending on the translation of the original Coptic text, the word for "destroyed" is sometimes translated as "empty" or "desolate." It means to be emptied of the divided ego, the societal labels, and the binary identities (male/female, rich/poor, master/servant). Only when that separated, dualistic state "dies" can the original, undivided light rush in.`,
+    contemplationPrompt: `Think about how light fills all the space in a room. It doesn't discriminate between sides. Why do we expect God to choose between men and women, rich or poor, master or slave?`,
+    concepts: [
+      {
+        term: 'Who is Salome?',
+        definition: `The New Testament portrays Salome as a relatively minor figure — she appears briefly in the Gospel of Mark as one of the women at the crucifixion and as a "Myrrhbearer" who visits Jesus' empty tomb. However, in Gnostic and early apocryphal traditions, Salome is dramatically elevated. She emerges as a prominent, inner-circle disciple who engages Jesus in deep theological dialogue. In these texts, she isn't just a follower; she is a seeker of esoteric knowledge who helps illustrate some of the core tenets of Gnosticism — particularly the rejection of the physical world and the spiritual unification of opposites.`
+      }
+    ],
+    relatedSayings: [],
+    published: true
+  },
+
+  ...Array.from({ length: 53 }, (_, i) => ({
+    id: i + 62,
+    number: i + 62,
+    text: `Saying ${i + 62} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
