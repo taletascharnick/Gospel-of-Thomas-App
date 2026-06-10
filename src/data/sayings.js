@@ -1665,10 +1665,37 @@ Depending on the translation of the original Coptic text, the word for "destroye
     published: true
   },
 
-  ...Array.from({ length: 53 }, (_, i) => ({
-    id: i + 62,
-    number: i + 62,
-    text: `Saying ${i + 62} — add the text via the admin panel.`,
+  {
+    id: 62,
+    number: 62,
+    text: `Jesus said: I speak my mysteries to those [who are worthy of my] mysteries. What your right hand does, let not your left hand know what it does.`,
+    reflection: `**Similar text in Bible:** Matthew 6:3 — "But when you do a charitable deed, do not let your left hand know what your right hand is doing."
+
+In the Gospel of Matthew, the core mechanism of the teaching is about bypassing the ego. When we do things to be loved, admired, or even to "go to heaven," our ego acts as an internal accountant. The "left hand" is watching the "right hand" to keep score. Ultimately, it comes down to not seeing others as us. When we view people as separate entities to "help," our actions become a way to feel superior or earn praise. One can easily read Matthew and think, "Well, as long as I don't brag about it when I do nice things for others, I am a good person." We may stop there and miss the gold.
+
+The text in the Gospel of Thomas does strip away the external context of almsgiving. Why? In Gnostic texts, the goal is not moral perfection, but divine oneness (wholeness) through lived experience. So how is it possible for us to not know what our right hand does? The answer is to stop doing and return to wholeness. By saying the left hand shouldn't know what the right is doing, it points to a state of action where the "doer" disappears. The act of kindness simply flows through you as a natural expression of what is, rather than a transaction you are orchestrating for personal gain.
+
+When we realize that we are one with the Source of all things, we recognize that there is no separation. Separation makes us split things, like giving alms, into separate categories (i.e., something we should do). This creates the very division we are trying to avoid in the first place. By pairing "I speak my mysteries to those who are worthy" directly with the metaphor of the hands, the text implies that the ultimate spiritual mystery is the state of undivided oneness. You cannot understand the "mysteries" intellectually; you can only experience them when you stop causing division within yourself.
+
+When we are whole and we live our lives, we give and receive all the time without knowing it.
+
+**The Ancient and Modern Mind**
+
+While the ancients living in the 1st century didn't understand neurobiology or brain hemispheres, they used "right" and "left" as universal metaphors for profound dualities: conscious and unconscious, light and dark, male and female, spirit and matter.
+
+When the logical, analysing self (right hand—left brain) and the intuitive, connected self (left hand—right brain) are no longer separated, you achieve a state of flow.
+
+It was never about alms. It is about living fully. When you are in a state of wholeness, you don't try to do good; good simply happens through you because you no longer view yourself as separate from the person next to you.`,
+    contemplationPrompt: `What part of this text speaks to you?`,
+    concepts: [],
+    relatedSayings: [11, 14, 22, 67, 106],
+    published: true
+  },
+
+  ...Array.from({ length: 52 }, (_, i) => ({
+    id: i + 63,
+    number: i + 63,
+    text: `Saying ${i + 63} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
