@@ -1692,10 +1692,37 @@ It was never about alms. It is about living fully. When you are in a state of wh
     published: true
   },
 
-  ...Array.from({ length: 52 }, (_, i) => ({
-    id: i + 63,
-    number: i + 63,
-    text: `Saying ${i + 63} — add the text via the admin panel.`,
+  {
+    id: 63,
+    number: 63,
+    text: `Jesus said: There was a rich man who had many possessions. He said: I will use my possessions to sow and reap and plant, to fill my barns with fruit, that I may have need of nothing. Those were his thoughts in his heart; and in that night he died. He who has ears, let him hear.`,
+    reflection: `**Similar text in the New Testament:** Luke 12:13–21.
+
+The story is told about a "rich man" – an archetype. It is someone we can all recognize. If we define this archetype as anyone who uses external accumulation — whether that's money, status, accomplishments, or even knowledge — to build a fortress against the unpredictability of life, the "shoe fits" almost everyone at some point. This is why the text needn't scare us but can invite us to look deeper.
+
+Ways we tend to interpret the text when we look at it through the eyes of our ego: we are scared that Jesus is talking about us, so when we hear the story, we focus on the fact that the man is rich and then hear: "Oh, don't worry — I am not rich, so this isn't applicable to me. I don't have that much so I am okay." Strangely enough, it is still the same mindset that creates the problem. When we live as separated people, we confuse having with being. We start seeing the things around us as possessions — things to attain. We start focusing on having enough to never worry about anything or anyone. We become producers and consumers of things and therefore we see a need to obtain to be safe or to remain ahead of the curve. We avoid living. There is no judgement in this. But what is the text inviting us to see? What is the gift?
+
+We are looking at someone who has identified with having and possessing as something that makes them secure and whole. It is the idea of "I am what I have." The story takes a turn when the man's plan doesn't come to fruition as he died before he got to experience what he wanted. Interestingly, the text refers to the thoughts that were in his heart — pointing to the fact that there wasn't space for something more than having and possessing. His anxieties ran his life.
+
+We then encounter the familiar invocation: "He who has ears, let him hear." Far from a simple concluding remark, this phrase acts as an invitation for deeper reflection. It signals that the narrative operates well below the surface, quietly challenging the reader: if this resonates with your own experience, sit with it, internalize it, and let its deeper truth unfold. On the surface, we may hear the message to not think that we will be safe if we possess everything, or that we will be condemned for being rich. The issue isn't that the man is rich or that he plans. The issue isn't that he lives comfortably. The message doesn't speak to our ego. It speaks to our wholeness.
+
+There is a misunderstanding about our physical experience when we argue as the rich man does. The rich man wasn't rich at all if you listen closely. He was seeing scarcity and created from that scarcity. That is why he needed to sow and reap and plant, and to fill his barns with fruit — it helped him to feel more whole, more secure. But there is no mention of relationships with others or really enjoying nature. He was plagued by scarcity.
+
+What did the rich man actually have in the end? Nothing. He died without ever experiencing the life he desired, simply because he was always saving it for a future that never arrived.
+
+So then the question becomes: what are we working towards? When we understand life to be something to overcome or to survive, we don't live — we start possessing, competing, stressing, and splitting things. But a person who is truly whole doesn't seek riches, because they are already rich. They are not what they own, as they don't need to possess to feel whole. Their beingness and not their doingness makes them experience life in a deeper, more meaningful sense. The world is then not something to consume, but something for relationship, for living, for experiencing. The tragedy doesn't lie in the fact that the man was rich — it lies in what was really going on beneath the surface.
+
+When we argue the way the rich man does, we are saying that happiness or fulfilment lies somewhere outside of us, or somewhere in a future event. The future event never comes, and we are still in lack.`,
+    contemplationPrompt: `What did the rich man have when he died? What do you think his life was really like?`,
+    concepts: [],
+    relatedSayings: [3, 70, 109, 110],
+    published: true
+  },
+
+  ...Array.from({ length: 51 }, (_, i) => ({
+    id: i + 64,
+    number: i + 64,
+    text: `Saying ${i + 64} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
