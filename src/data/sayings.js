@@ -1719,10 +1719,82 @@ When we argue the way the rich man does, we are saying that happiness or fulfilm
     published: true
   },
 
-  ...Array.from({ length: 51 }, (_, i) => ({
+  ...Array.from({ length: 2 }, (_, i) => ({
     id: i + 64,
     number: i + 64,
     text: `Saying ${i + 64} — add the text via the admin panel.`,
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  })),
+
+  {
+    id: 66,
+    number: 66,
+    text: `Jesus said: "Show me the stone which the builders rejected; it is the cornerstone."`,
+    reflection: `This verse is interesting. It reminds us of the Bible text in which Peter is called the stone on which the church is built.
+
+> **Matthew 16:18**
+> And I tell you, you are Peter [Greek, Petros—a large piece of rock], and on this rock [Greek, petra—a huge rock like Gibraltar] I will build My church, and the gates of Hades (the powers of the infernal region) shall not overpower it [or be strong to its detriment or hold out against it]. (AMPC version)
+
+Here, we get the chance to let the text speak for itself. It is stripped of its context, and it allows us to sit with it and think for ourselves. So, the first question which comes to mind is: who are the builders?
+
+Well, one only has to think about one's lived experience to know which information is valued by society and what is being fought against or rejected. Some ideas/keys that could help people were withheld from them, as it would empower them in such a way as to no longer conform to controlling forces in the same way. This meant that that information was dangerous for the existing rulers or those who wanted to remain in power/control. It was, therefore, important for some people to provide a narrative/a foundational story that would keep people tethered to a certain frame and make them easier to be controlled.
+
+However, if one builds on a weak cornerstone (one that is built on fear, greed, or control), it cannot last. It tells us something about structures and how they function. It helps us to see that some structures aren't built to last. This allows us to look for the rejected keys/words that offer a cornerstone that can really provide stability when storms come our way.
+
+If we, for example, believe that we are sinners and need saving, we will create that narrative, and when the storms hit, we will wait for someone to save us — remaining in a state of fear, victimhood, or even anger if nobody shows up. However, when we recognize that we are the sons and daughters of the living Father, we reclaim our sovereignty and true origin. We no longer see the ocean as something that will destroy us, but as something that *is* us, and we learn to swim and move in a different way through life. We stop fighting the systems and recognize that we are not the systems that we try to keep there for safety, as they were never meant to last and never meant to protect like we may have thought at one time.
+
+**Definition: Cornerstone**
+A cornerstone was the critical first stone laid during construction. It determined the level, angle, and orientation for the entire structure. If the cornerstone was slightly off, the entire building would be structurally unstable and could eventually collapse. Beyond its physical necessity, the cornerstone held deep cultural, spiritual, and astronomical significance.
+
+- **Cosmic Orientation:** Ancient builders in Egypt, Mesopotamia, and the Levant laid buildings according to precise astronomical points, and the cornerstone established this vital compass orientation.
+
+### Traditions and Interpretations
+**1. The Greek vs. Aramaic Language Distinction**
+The linguistic debate centres heavily on the shift in gender between the two Greek words used in Matthew 16:18.
+
+**The Greek Wordplay**
+In the original Greek text of Matthew, the sentence reads: "You are Petros (masculine), and on this petra (feminine) I will build my church."
+
+- **Petros (Πέτρος):** A masculine noun typically meaning a detached stone, pebble, or boulder.
+- **Petra (πέτρα):** A feminine noun meaning a massive, immovable bedrock cliff or mountain ridge.
+
+Protestant apologists historically argued that Jesus used *Petros* for Peter to show he was just a small stone, but *petra* to show that the church's true foundation was Christ Himself or Peter's faith.
+
+**The Aramaic Reality**
+However, Jesus and his disciples spoke Aramaic as their daily language. Matthew's Greek gospel is a translation of those spoken words. In Aramaic, there is no distinction between a small stone and a bedrock cliff for this word; both are Kepha (כֵּיפָא). The underlying Aramaic statement would have sounded like this:
+
+"You are Kepha, and on this kepha I will build my church."`,
+    contemplationPrompt: `Think about the foundation as an archetype. How do we create, and what is the effect of our creations? For example, if you build on sand, the moment the waves come, they will destroy the house.`,
+    concepts: [
+      {
+        term: 'Cornerstone',
+        definition: 'The critical first stone laid during construction — it determined the level, angle, and orientation for the entire structure. If even slightly off, the whole building became unstable. Ancient builders also used it to establish cosmic and astronomical orientation, giving the structure its fundamental alignment with the world.'
+      },
+      {
+        term: 'The Builders',
+        definition: 'Those who shape the dominant structures of society — cultural, religious, and political. In this saying, "builders" points to the forces that decide which knowledge, stories, and foundations are acceptable, and which are rejected as dangerous or disruptive to existing power.'
+      },
+      {
+        term: 'Petros & Petra',
+        definition: 'Two distinct Greek words in Matthew 16:18. Petros (masculine) refers to a detached stone or boulder; Petra (feminine) refers to a massive, immovable bedrock. In the original Aramaic spoken by Jesus, no such distinction existed — both meanings were carried by a single word, Kepha.'
+      },
+      {
+        term: 'Kepha (כֵּיפָא)',
+        definition: 'The Aramaic word meaning both a small stone and a bedrock cliff — a unity that the Greek translation split into two distinct words. When Jesus said "You are Kepha, and on this kepha I will build my church," the wordplay was seamless in Aramaic, suggesting an identity between Peter and the foundation itself.'
+      }
+    ],
+    relatedSayings: [],
+    published: true
+  },
+
+  ...Array.from({ length: 48 }, (_, i) => ({
+    id: i + 67,
+    number: i + 67,
+    text: `Saying ${i + 67} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
