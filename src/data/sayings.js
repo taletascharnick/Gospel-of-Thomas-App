@@ -1791,10 +1791,57 @@ However, Jesus and his disciples spoke Aramaic as their daily language. Matthew'
     published: true
   },
 
-  ...Array.from({ length: 48 }, (_, i) => ({
-    id: i + 67,
-    number: i + 67,
-    text: `Saying ${i + 67} — add the text via the admin panel.`,
+  {
+    id: 67,
+    number: 67,
+    text: `Jesus said: "He who knows the all, (but) fails (to know) himself, misses everything." (Blatz)\n\nJesus said: "If anyone should become acquainted with the entirety and should fall short of all (?), that person falls short utterly." (Layton)`,
+    reflection: `This text reminds us of the text: "When you come to know yourselves, then you will become known, and you will realize that it is you who are the sons of the living father. But if you will not know yourselves, you dwell in poverty, and it is you who are that poverty."
+
+This is the key – the kingdom is within. One will feel "less than," betray yourself, perform and identify with what is small, and live on the surface. This means that you are not rooted in deep soil, and therefore you will also be more prone to being smothered by weeds or falling over. Going within is like growing a big root system and breaking the hard soil down, so that new life can be born and grow. It helps us to become more flexible throughout the changes that life brings and helps us to understand that who we are is not a problem to be solved or fixed, but that we are the sons of the living Father.
+
+Here is a metaphor that will make it more clear: When we treat the world around us and our world within as enemies, we behave like a virus in the system, and the system doesn't recognize us. However, when we recognize ourselves, the system recognizes us (think of resonance), and it therefore doesn't see us as a threat, but as part of the harmonious whole.
+
+The requirement is not that we go within and lie to ourselves. It is to go within, shine a light on what is there: the fear, the pain, the shadows, and things we try to hide because we think that we will be rejected. But we have rejected ourselves, and in rejecting ourselves, we also reject what is outside of us. When we look for the truth outside of us, we only see reflections, and reflections aren't the real/full truth of ourselves, so we still feel like something is amiss.
+
+### Some Bible verses that are similar:
+Psalm 18:25 shows some of the reflectiveness of the outside world, which we sometimes mistake for the whole: "With the merciful You will show Yourself merciful; With a blameless man You will show Yourself blameless."
+
+Matthew 7:21-23:
+
+> 21 "Not everyone who says to me, 'Lord, Lord,' will enter the kingdom of heaven, but only the one who does the will of my Father who is in heaven. 22 Many will say to me on that day, 'Lord, Lord, did we not prophesy in your name and in your name drive out demons and in your name perform many miracles?' 23 Then I will tell them plainly, 'I never knew you. Away from me, you evildoers!'"
+
+This verse also points to how surface-level ways of living don't recognize the full picture and think that we can somehow trick the system to see how good we are by doing "good" things.
+
+The world is sometimes obsessed with the information age. It tells us what knowledge is important/makes one important. However, Source doesn't measure in the same way. When pretense falls, we get to know ourselves, and when knowing ourselves, we are known (not necessarily by people around us), but we acknowledge our divinity and oneness with all, and we are recognized within the greater system.
+
+The sheep that leaves (that is seen as lost) is found eventually. The prodigal son finds out that the life with his father meant more than the life lived on the surface and is welcomed home. His father recognizes him, and he recognizes his father. The son returns as someone who sees and knows why he wants to return home.`,
+    contemplationPrompt: `Think about how our failure to recognize ourselves prevents us from seeing the blessings, support, and treasure that we are already worthy.`,
+    concepts: [
+      {
+        term: 'The All',
+        definition: 'In Gnostic and Thomas tradition, "the All" refers to the totality of existence — the divine whole, the complete reality of which all things are a part. To know the All without knowing oneself is to possess knowledge without wisdom; the doorway to the All runs through the self.'
+      },
+      {
+        term: 'Self-knowledge',
+        definition: 'Not intellectual self-analysis but a direct inner recognition of one\'s true nature and origin. Throughout the Gospel of Thomas, knowing yourself is equivalent to knowing the Father — the two are inseparable. Without this root, all outer knowledge remains rootless.'
+      },
+      {
+        term: 'Resonance',
+        definition: 'The principle that inner recognition creates outer recognition. When we are aligned with our true nature, we are perceived as part of the harmonious whole rather than as a foreign element. Like tuning forks, like recognises like — the system responds to what is genuinely present within us.'
+      },
+      {
+        term: 'Reflection',
+        definition: 'The outer world as a mirror of the inner world. What we encounter outside returns to us what we carry within — our mercy, our blame, our openness. Reflections are partial truths; they reveal something real but are never the full picture, which is why seeking truth only outward leaves us feeling something is always missing.'
+      }
+    ],
+    relatedSayings: [3, 56, 70, 80, 111],
+    published: true
+  },
+
+  ...Array.from({ length: 47 }, (_, i) => ({
+    id: i + 68,
+    number: i + 68,
+    text: `Saying ${i + 68} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
