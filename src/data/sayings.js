@@ -1838,10 +1838,71 @@ The sheep that leaves (that is seen as lost) is found eventually. The prodigal s
     published: true
   },
 
-  ...Array.from({ length: 47 }, (_, i) => ({
-    id: i + 68,
-    number: i + 68,
-    text: `Saying ${i + 68} — add the text via the admin panel.`,
+  {
+    id: 68,
+    number: 68,
+    text: `Saying 68 — add the text via the admin panel.`,
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+
+  {
+    id: 69,
+    number: 69,
+    text: `Jesus said: Blessed are those who have been persecuted in their heart; these are they who have known the Father in truth. Blessed are the hungry, for the belly of him who desires will be filled.`,
+    reflection: `To be persecuted in your heart may evoke different imagery for different people, depending on their experiences. But to some extent, we can all resonate with stages in our lives where we were in a profound state of internal conflict (and aware of it). If not, we have probably just focused that conflict outward. So, when Jesus says that we are blessed for being persecuted in our hearts, it sounds strange because it doesn't feel like a blessing. It feels like inner turmoil, guilt, and spiritual friction—not because of what the outside world is doing to you, but because of what you are wrestling with internally.
+
+Inner persecution is usually seen as a form of punishment by people. However, it can also be seen as the necessary crucible for spiritual awakening. It is part of the alchemical process of turning lead into gold. This process is a process of shaking illusions. It is the deep, sometimes agonizing friction that occurs when your higher awareness (or true self) clashes with your ego, your ingrained habits or your past actions. It doesn't allow you to settle for superficiality, but to really know yourself.
+
+**The Inner Persecutor:** Often, the part of you doing the "persecuting" is an internalized archetype—perhaps the strict inner critic, the perfectionist, or the judge. This part attacks your sense of self-worth or creates a constant hum of anxiety.
+
+**The Shadow at Work:** If there are aspects of yourself that you have repressed or rejected (your shadow), they do not disappear. They demand to be felt. This can manifest as an intense, heavy feeling in the heart—a sense of being hounded by your own unresolved grief, anger, or unlived potential. The persecution is actually an invitation (albeit a painful one) to integrate those rejected parts of yourself.
+
+On a practical, day-to-day level, being persecuted in your heart can look like:
+
+- **Moral Injury or Deep Regret:** Holding onto a past action that violated your own core values, resulting in a persistent, quiet self-punishment.
+- **The Imposter Syndrome:** A relentless internal voice that tells you that you are fraudulent, inadequate, or undeserving of your life, regardless of external evidence to the contrary.
+- **The Burden of Empathy:** Sometimes, highly sensitive people internalize the suffering of the world or those around them so deeply that it feels like a personal persecution, a heavy weight carried directly in the emotional center.
+
+Ultimately, being persecuted in your heart means you are engaged in the heavy lifting of being human. It is the painful, chaotic, but ultimately transformative space where deep self-knowledge is forged.
+
+"Blessed are the hungry, for the belly of him who desires will be filled" points to the person who is no longer satisfied with things as they are. They hunger for something more than what they are told is possible. Especially after going through such internal persecution, typical material rewards don't appeal to them in the same way anymore. Instead, they start looking for something real.`,
+    contemplationPrompt: `Matthew 5:8: Blessed are the pure in heart, for they shall see God — for him the vision of God is equivalent to knowing the Father in truth. Hunger for what is right (finding problems with the world as is).
+
+Could these two "seemingly" contrasting teachings actually be mapping a single spiritual journey? How does the agonizing stage of inner persecution break down our illusions so that the stage of a 'pure heart' can finally emerge?`,
+    concepts: [
+      {
+        term: 'The Inner Persecutor',
+        definition: 'An internalized archetype — the strict inner critic, the perfectionist, or the judge — that attacks one\'s sense of self-worth or creates a constant hum of anxiety. Recognizing this voice as a part of the psyche rather than the truth about oneself is a key step in inner work.'
+      },
+      {
+        term: 'The Shadow at Work',
+        definition: 'The repressed or rejected aspects of the self that do not disappear but demand to be felt. They manifest as a heavy feeling in the heart — grief, anger, or unlived potential — and the inner persecution they create is ultimately an invitation to integrate those rejected parts of the self.'
+      },
+      {
+        term: 'Moral Injury',
+        definition: 'The persistent, quiet self-punishment that arises from holding onto a past action that violated one\'s own core values. Unlike ordinary guilt that fades, moral injury lodges in the heart and becomes a source of ongoing inner persecution.'
+      },
+      {
+        term: 'Imposter Syndrome',
+        definition: 'A relentless internal voice that insists one is fraudulent, inadequate, or undeserving, regardless of external evidence. A form of inner persecution rooted in the gap between the constructed self-image and the unknown depths of one\'s actual nature.'
+      },
+      {
+        term: 'The Burden of Empathy',
+        definition: 'The experience of highly sensitive people who internalize the suffering of the world or those around them so deeply that it registers as a personal persecution — a heavy weight carried in the emotional center. A sign of deep relational attunement that requires conscious integration.'
+      }
+    ],
+    relatedSayings: [3, 58, 67],
+    published: true
+  },
+
+  ...Array.from({ length: 45 }, (_, i) => ({
+    id: i + 70,
+    number: i + 70,
+    text: `Saying ${i + 70} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
