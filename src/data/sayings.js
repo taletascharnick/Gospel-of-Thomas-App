@@ -1899,10 +1899,46 @@ Could these two "seemingly" contrasting teachings actually be mapping a single s
     published: true
   },
 
-  ...Array.from({ length: 45 }, (_, i) => ({
-    id: i + 70,
-    number: i + 70,
-    text: `Saying ${i + 70} — add the text via the admin panel.`,
+  {
+    id: 70,
+    number: 70,
+    text: `Jesus said: If you have gained this within you, what you have will save you. If you do not have this in [you], what you do not have in you [will] kill you.`,
+    reflection: `The Gospel of Thomas focuses on what is within you. We often hear that we are the temple or that the kingdom is found within.
+
+**1 Corinthians 6:19:** *"Do you not know that your body is a temple of the Holy Spirit who is in you, whom you have received from God? You are not your own;"*
+
+Jesus talks about the spark, the inner wisdom and knowledge (your inner knowing or intuition), or awakening spiritually — becoming aware of more than just material existence. So, why will this save us? Interestingly enough, salvation is often related to Jesus dying for our sins and saving us (becoming the external saviour). However, the Gospel of Thomas reminds us that saving doesn't come from the outside; it is actually what is within you that saves you.
+
+We can also relate this to the psyche. Remember the verse from Matthew 12:32: *"Anyone who speaks a word against the Son of Man will be forgiven, but anyone who speaks against the Holy Spirit will not be forgiven, either in this age or in the age to come."* We know from experience that we suffer immensely if we ignore or deny our inner knowing. It is what makes us real and alive. Without it, we are like puppets and are often possessed by unowned content.
+
+Now, the question becomes whether someone really doesn't have this within them, and I can't really speak to that. However, what I do find is that when people become too entangled in their material identity (and do not listen to that inner guidance), the voice grows softer and softer. When they no longer hear that inner voice, they become lost and feel separated. For the psyche, this is like living in hell. It destroys one's wholeness because the guidance that you received was helping you to remain whole.`,
+    contemplationPrompt: `How do we receive and listen more closely to this inner guidance so that life can overflow from us?`,
+    concepts: [
+      {
+        term: 'The Inner Spark',
+        definition: 'The divine wisdom, intuition, or inner knowing that resides within every person. In the Gospel of Thomas this is not a metaphor but the most real thing about us — the living source that, when connected to, orients the whole person toward wholeness and truth.'
+      },
+      {
+        term: 'Salvation from Within',
+        definition: 'The understanding that saving does not come from an external source but from aligning with the inner reality that is already present. This reframes salvation not as rescue from outside but as the fruit of self-knowledge and inner attunement.'
+      },
+      {
+        term: 'Unowned Content',
+        definition: 'A psychological concept describing the repressed or unacknowledged parts of the self that, when ignored, do not disappear but instead begin to drive behaviour unconsciously — making a person feel like a puppet, controlled by forces they do not recognise as their own.'
+      },
+      {
+        term: 'Material Entanglement',
+        definition: 'The state of being so absorbed in one\'s external, material identity — possessions, status, roles — that the inner voice grows progressively quieter. The more one identifies only with what is outer, the more cut off one becomes from the guidance that maintains inner wholeness.'
+      }
+    ],
+    relatedSayings: [3, 24, 67, 108, 113],
+    published: true
+  },
+
+  ...Array.from({ length: 44 }, (_, i) => ({
+    id: i + 71,
+    number: i + 71,
+    text: `Saying ${i + 71} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
