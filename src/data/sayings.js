@@ -1935,10 +1935,67 @@ Now, the question becomes whether someone really doesn't have this within them, 
     published: true
   },
 
-  ...Array.from({ length: 44 }, (_, i) => ({
+  ...Array.from({ length: 2 }, (_, i) => ({
     id: i + 71,
     number: i + 71,
     text: `Saying ${i + 71} — add the text via the admin panel.`,
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  })),
+
+  {
+    id: 73,
+    number: 73,
+    text: `Jesus said: The harvest is indeed great, but the labourers are few. But pray the Lord, that he send forth labourers into the harvest.`,
+    reflection: `This text carries different layers of meaning depending on one's perspective. Typically, it is read as a call to an external mission.
+
+Consider **Luke 10:1–4:**
+
+*After this the Lord appointed seventy-two others and sent them two by two ahead of him to every town and place where he was about to go. He told them, "The harvest is plentiful, but the workers are few. Ask the Lord of the harvest, therefore, to send out workers into his harvest field. Go! I am sending you out like lambs among wolves. Do not take a purse or bag or sandals; and do not greet anyone on the road."*
+
+In a traditional church setting, this passage is often interpreted to mean that the "harvest" consists of souls to be collected, while the "labourers" (disciples or missionaries) are those few individuals willing to go out into the world to share the message of the Kingdom — from the church's perspective, the promise of heaven.
+
+There is nothing inherently wrong with wanting to help others. However, it is vital to examine your motives for doing so. If you are not careful, 'helping' can become a way to control others, pushing them toward a path you deem correct rather than the one meant for them — potentially leading them further away from the Kingdom.
+
+Furthermore, if your service is fuelled by a desire for praise, a need to be favoured by God over others, or a fear that you are 'not enough' — or that you must earn your way into heaven — your efforts may be rooted in ego rather than true presence. We often forget that when the disciples' intentions were truly aligned with God's will, the outcome was vastly different from our own ego-driven efforts, which often aim merely to prove others wrong. Genuine service requires us to be aware of why we act, ensuring our labour comes from a place of clarity rather than a need for validation or security.
+
+However, if we understand the text through the lens that the Kingdom is within, a different image emerges. The message is for everyone willing to listen. Each of us has lived a life and can work this harvest. The task is not limited to an external figure coming to tell us the news, nor is it a mission to 'save' others who are unaware of a destination called heaven. Even though there are times when that external influence was necessary, the harvest ultimately comes from the experiences we have collected over years, decades, or lifetimes.
+
+There is sorting to be done. Yet, the labourers are few. In this context, few of us enter this inner plane to sort the chaff from the wheat. We do not take the time to consider what we have learned, what has served us well, and what has not. In many cases, we become like puppets, simply going through the motions, never allowing our experiences to truly transform us.
+
+Ultimately, the reward of that transformation is heaven here and now.
+
+So, wherever you are, keep what resonates and let the text speak to your current journey.`,
+    contemplationPrompt: `If your recent life experiences are the harvest, what is one belief or habit that acts as 'chaff' — taking up space without feeding your soul — and what is the 'wheat' that you are ready to gather and keep?`,
+    concepts: [
+      {
+        term: 'The Inner Harvest',
+        definition: 'The accumulated experiences, lessons, and encounters of a lifetime — not yet sorted or integrated. The inner harvest is already abundant; the question is whether we are willing to do the work of examining it.'
+      },
+      {
+        term: 'Chaff and Wheat',
+        definition: 'The ancient threshing metaphor applied inwardly: wheat represents the insights, values, and wisdom that genuinely nourish; chaff represents the habits, beliefs, and patterns we carry out of inertia, fear, or ego — taking up space without feeding the soul.'
+      },
+      {
+        term: 'Ego-driven Service',
+        definition: 'Service or spiritual effort motivated not by genuine presence but by a need for validation, praise, or divine favour. When the motive is unexamined, even seemingly good deeds can become a means of control or self-justification rather than true labour in the harvest.'
+      },
+      {
+        term: 'Inner Transformation',
+        definition: 'The process of allowing life experience to genuinely change us — moving from merely going through the motions to integrating what we have lived. This is the work of the labourer in the inner harvest, and the text suggests it is rare.'
+      }
+    ],
+    relatedSayings: [3, 70, 77],
+    published: true
+  },
+
+  ...Array.from({ length: 41 }, (_, i) => ({
+    id: i + 74,
+    number: i + 74,
+    text: `Saying ${i + 74} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
