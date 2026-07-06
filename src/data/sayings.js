@@ -1992,10 +1992,75 @@ So, wherever you are, keep what resonates and let the text speak to your current
     published: true
   },
 
-  ...Array.from({ length: 41 }, (_, i) => ({
+  ...Array.from({ length: 1 }, (_, i) => ({
     id: i + 74,
     number: i + 74,
     text: `Saying ${i + 74} — add the text via the admin panel.`,
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  })),
+
+  {
+    id: 75,
+    number: 75,
+    text: `Jesus said, 'There are many standing at the door, but it is the solitary [monachos] who will enter the bridal chamber.'`,
+    reflection: `Traditional readings of this parable often frame it as a "pass/fail" test — you either have oil or you don't, you're either "in" or you're "out." This study discards that transactional view entirely. You are not being tested here. You are not earning an invitation. **Worthiness is the baseline of existence, not the finish line.**
+
+The spiritual journey Saying 75 describes is a shift in *mode of engagement* — from a **Borrowed Narrative** (living by external scripts, waiting for others to define your worth and grant you entry) to an **Internal Reality** (embodying your own truth, carrying your own light).
+
+**The "Many" at the Door**
+
+The "many" are those who have zoomed in so deeply on the world that they have forgotten their own divinity. Standing at the door is a state of dependency — waiting for the Host to open it, for the Feast to begin, for permission to enter. This is the "Hard Mode" of existence: the belief that your worth is conditional, that you must be let in.
+
+The trap of the threshold is this: by looking *outward* for the door to open, you become a spectator of your own life. You wait for life to happen to you, not realising that you are the one creating the experience.
+
+**The *Monachos* — Undivided, Not Lonely**
+
+The word *monachos* does not mean "lonely." It means **undivided.** The *monachos* is the one who has stopped seeking external validation — who has realised that the Groom (the Divine, the Truth) is not coming from the outside. The Groom is the reality of their own consciousness.
+
+To be *monachos* is to carry your own light — the "oil" that cannot be borrowed. You no longer need the "many" to validate your existence or let you in. You are whole within yourself.
+
+**Entering the Chamber**
+
+The Bridal Chamber is not a physical place you arrive at after passing a test. It is the state of **Union** you inhabit when you realise you were never separate from the source. You can be physically present at the Feast with the many — playing your social roles — while remaining *monachos* in your heart. You are not escaping the world; you are simply no longer *of* the world's rules.
+
+This is the act of zooming out: seeing the game for what it is. You don't quit the game, but you stop believing the "Hard Mode" constraints are absolute. You play — but you play knowing you are inherently worthy and eternally connected.
+
+**The Sovereign Choice**
+
+The transition Saying 75 describes is a shift in *perception.* Nothing external changes. Everything internal does.
+
+*Also read: The Parable of the Ten Virgins (Matthew 25:1–13)*`,
+    contemplationPrompt: `On Solitude vs. Loneliness: How does it change your understanding of your own life to realise that *monachos* means "undivided" rather than "alone"? Do you feel "divided" (seeking validation from many sources) or "unified" (centred in your own truth)?\n\nOn the "Door": What "doors" are you currently waiting for someone else to open for you? (Career milestones, relationship approval, social status.) What would it look like to walk away from the door and realise the Chamber is already within you?\n\nOn Difficulty Levels: When you step into the "Hard Mode" of the feast — social pressures, drama, performance — can you maintain your *monachos* state? How do you remain undivided when the world demands you split yourself into pieces to fit in?\n\nOn the "Many": How can you view those standing at the door with compassion rather than elitism? They aren't "wrong" — they are simply zoomed in on a different part of the human experience.`,
+    concepts: [
+      {
+        term: 'Monachos (Undivided)',
+        definition: 'The Greek/Coptic word often translated "solitary" literally means undivided — one who is inwardly unified, no longer fractured by the need for external validation. It describes a mode of being, not a condition of isolation.'
+      },
+      {
+        term: 'The Bridal Chamber',
+        definition: 'Not a future destination earned by passing a test, but the present state of Union — the realisation that you were never separate from the source. It is entered through a shift in perception, not through permission granted from outside.'
+      },
+      {
+        term: 'Borrowed Narrative',
+        definition: 'The mode of existence in which you live by external scripts: waiting for others to open the door, to validate your worth, to grant you entry. Standing at the door is its emblematic image — dependency mistaken for devotion.'
+      },
+      {
+        term: '"And" Thinking',
+        definition: 'The capacity to be fully present in the world — at the Feast, among the many, playing social roles — while simultaneously remaining monachos in your heart. Not withdrawal from the world, but non-identification with its "Hard Mode" rules.'
+      }
+    ],
+    relatedSayings: [49, 22, 3],
+    published: true
+  },
+
+  ...Array.from({ length: 39 }, (_, i) => ({
+    id: i + 76,
+    number: i + 76,
+    text: `Saying ${i + 76} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
