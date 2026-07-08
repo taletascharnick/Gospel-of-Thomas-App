@@ -2057,10 +2057,54 @@ The transition Saying 75 describes is a shift in *perception.* Nothing external 
     published: true
   },
 
-  ...Array.from({ length: 39 }, (_, i) => ({
-    id: i + 76,
-    number: i + 76,
-    text: `Saying ${i + 76} — add the text via the admin panel.`,
+  {
+    id: 76,
+    number: 76,
+    text: `Jesus said: The kingdom of the Father is like a merchant who had a load (of goods) and found a pearl. That merchant was wise. He sold the load and bought for himself the pearl alone. You also, seek after his treasure which does not fail (but) endures, where moth does not come near to devour nor worm to destroy.`,
+    reflection: `**The story of subtraction**
+
+Typically, the merchant archetype is the master of **diversification**. They manage a portfolio of goods, navigate complex market dynamics, and measure success through the accumulation of variety. In this story the merchant is doing something strange – he is letting go of the many goods and focusing on one specific treasure.
+
+Stories like this challenge how we think. The merchant is expected to be one way. However, in the story he is portrayed as someone who's actions are counter intuitive. In a world driven by accumulation, the "wise" merchant practices **radical subtraction**.
+
+The load (of goods) is his earthly identity, roles and societal expectations. These are the things we carry to prove our worth to others — the "goods" that occupy our inventory. It usually keeps us in a divided state as we don't have time to focus on that which is important.
+
+The pearl refers to the internal world. By selling everything for the pearl alone, the merchant isn't just making a transaction; but is committing to oneness. The pearl represents a singular, unified truth that replaces the fragmented, material "load". Furthermore, if one thinks of the alchemy of the pearl, it gives us further insight into the story. The pearl is formed by a mollusk coating an irritant (it takes the many to make the one). Our divine self-recognition are often formed by the hardships and irritations of our earthly experience.
+
+When we stop investing all of our time and effort into worldly pursuits, we transform seeking from an external search for a reward into an internal cultivation of worth – something that is already true, but we struggle to see at times and therefore when we find it, we are willing to pursue it with everything we have as we recognize real worth.
+
+The warning about moths and worms acts as a boundary marker between the **transient** and the **eternal**. The identity you wear will not hold; it will change. By recognizing that physical identity and the material body are subject to decay, the focus is shifted toward the **Observer** — the part of the self that experiences the dance, the walk, and the world, but is not consumed by them. This is the "treasure that does not fail."
+
+This story isn't advocating for withdrawal or asceticism, but for **conscious engagement**. You can still enjoy the dance and the world, but your foundation is no longer at risk because you are no longer anchoring your value to things that can be destroyed.`,
+    contemplationPrompt: `This passage essentially asks: *What is the one thing you own that no one can take away, and that death cannot touch?*\n\nWhen we find that, we realize that everything else we have been "loading" into our cart — our reputations, our physical status, our anxieties about the future — is secondary. By selling off the need to manage those secondary things, we free up the "currency" of our attention to focus entirely on that singular, enduring truth.\n\n**Does this perspective shift how you prioritize your daily activities, or do you find that the "load" often creeps back into your cart despite this awareness?**`,
+    concepts: [],
+    relatedSayings: [],
+    published: true
+  },
+
+  {
+    id: 77,
+    number: 77,
+    text: `Jesus said: I am the light that is above them all. I am the all; the all came forth from me, and the all attained to me. Cleave a (piece of) wood; I am there. Raise up a stone, and you will find me there.`,
+    reflection: `For a materialist, these claims can seem contradictory: how can one be the "All" from which everything comes, yet also be found in the mundane act of splitting wood or lifting a stone? From my perspective, this is a profound way to explain the complexity of existence. It demonstrates that nothing is truly separate and that we cannot exist outside the "All," even if we perceive ourselves as distinct entities. This language is incredibly grounded; by using everyday tasks, the text shows that there is no separation between the observer and the stone or wood. It is a reminder that we often struggle to explain truths for which we lack the proper language. To label this simply as "pantheism" is an oversimplification; rather, it speaks to those who have integrated opposing concepts and can finally perceive the underlying oneness.
+
+When we measure and categorize the world, we separate things to make sense of them, but in doing so, we lose the fullness of the experience. In practice, this means participating in a greater story, whether you are cooking a meal or walking the dog. We are not separate from nature. Existence operates in a circular motion; we were present before birth and remain after death, even though the ego insists on measuring life as a linear experience to navigate this reality. We are born with this sense of oneness, only to be taught how to categorize and separate during our earthly experience. When we are quiet enough, we realize we were never separate to begin with — we simply return to being a child again. As the text concludes: from the primordial light, all comes forth, and to that light, all returns.
+
+Being the light means being everywhere, even within the logs and under the stones. Interestingly, logs and stones might appear to be the densest of things, seemingly devoid of light, yet we find that the light is present there just as it is everywhere else. If we see ourselves as dense, separate, and removed from that light, it inevitably distorts how we view everything else. Because we are interconnected, this sense of separation breeds judgment; for instance, when someone falls ill, we may fall into the trap of believing that health is the only indicator of worth, suggesting that they have done something wrong and are therefore unworthy of grace.
+
+Conversely, when we ourselves are unwell, this mindset leaves us blind to anything but the darkness, leading us to believe that God has abandoned us — a perspective born from the false assumption that God exists only "outside" of us. These moments of suffering challenge our core ideas of where the Divine is to be found. They force us to reconsider if grace is something earned through a state of "health" or "perfection," or if it is an inherent presence that remains, even in the depths of our own density and illness.
+
+The paradox of the earthly experience is this: we use our senses to judge things as heavy, dull, or separate, while the truth of their nature is that they are luminous and interconnected.`,
+    contemplationPrompt: `If the light is as present in the "dense" and "strenuous" moments of my life — my struggles, my physical limitations, and my daily labour — as it is in my moments of peace, what would change about the way I carry my burdens today?`,
+    concepts: [],
+    relatedSayings: [],
+    published: true
+  },
+
+  ...Array.from({ length: 37 }, (_, i) => ({
+    id: i + 78,
+    number: i + 78,
+    text: `Saying ${i + 78} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
