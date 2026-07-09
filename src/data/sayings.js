@@ -2101,10 +2101,84 @@ The paradox of the earthly experience is this: we use our senses to judge things
     published: true
   },
 
-  ...Array.from({ length: 37 }, (_, i) => ({
-    id: i + 78,
-    number: i + 78,
-    text: `Saying ${i + 78} — add the text via the admin panel.`,
+  {
+    id: 78,
+    number: 78,
+    text: `Jesus said: Why have you come out into the countryside? To see a reed shaken by the wind? Or to see a person dressed in fine clothing, like your rulers and powerful ones? They are dressed in fine clothing and they cannot know truth.`,
+    reflection: `The text echoes a passage found in the New Testament (Matthew 11:7–9 and Luke 7:24–26), where Jesus asks the crowds about John the Baptist — but in the Gospel of Thomas, the focus shifts slightly, making it a powerful critique of how human beings look for truth in all the wrong places.
+
+**Who Is Jesus Speaking To?**
+
+The typical assumption is the crowds that followed him. There might have been people of high rank who followed him out of suspicion or curiosity. But here, Jesus is turning a mirror back onto the ordinary people. He is essentially asking what they are really expecting to find. Why are they following him "out into the countryside"?
+
+Jesus usually spoke to those who were open to listen. Many of the people following him may have had other intentions. So here he is asking about their true motivations for following him.
+
+**The Critique of Mediocrity: "Did you come out into the countryside to see a reed shaken by the wind?"**
+
+If they have travelled all the way out into the wilderness — a place associated with testing, fasting, and John the Baptist — only to look for something as common as a blade of grass blowing in the wind, then their "seeking" is fundamentally superficial.
+
+He is exposing the leisure-seeking nature of the crowd. They are treating a spiritual encounter like a trip to the local market or a stroll through a park. They want a "nature show" — something to watch, observe, and talk about over dinner — rather than a transformative experience that demands anything from them.
+
+**The Illusion of "Nature" as Spiritual**
+
+There is also a deeper, more cynical layer to this. Sometimes, people mistake their own aimless wandering for a spiritual quest. By using the image of the reed, Jesus might be suggesting that many of the people following him are just as "shaken by the wind" as the reed itself. They are moved by whatever happens to be the popular trend or the latest movement, lacking any internal root or stability.
+
+They are looking for a spectacle because **they themselves are moved by every passing influence.**
+
+Spiritual seeking can become a way to avoid the actual work of integration.
+
+**The Trap of "The Fine Clothing"**
+
+We are easily fooled by the characters people play.
+
+In antiquity, fabric was a primary indicator of power. The elites wore soft, expensive, dyed clothing to signal that they didn't have to work in the fields. Jesus points out a profound paradox here: **the very garments that grant them authority in society are the things that blind them.**
+
+The "garments" are symbols of the ego, social roles, and institutional power. When someone is fully invested in protecting their status, their title, or their reputation, they *cannot recognise truth* because truth is inherently levelling. It doesn't care about titles.
+
+**The Desire for a King vs. The Hard Work of the Self**
+
+This connects deeply to 1 Samuel 8, where the Israelites beg for a king so they can "be like all the other nations," even though the prophet Samuel warns them that a king will tax them, take their children for armies, and enslave them. They wanted it anyway.
+
+Why? Because **having a king is psychologically easier than being personally responsible.**
+
+If you have a king, a saviour, or a guru on a pedestal:
+
+- They make the rules.
+- They take the blame when things go wrong.
+- You get to worship them instead of doing the messy, difficult inner work of changing yourself.
+
+When people make someone into a martyr or a king to worship, *they don't see themselves or you.* They are projecting their own unmet spiritual needs onto an external figure.
+
+**What Do We Do with This Text?**
+
+If we take this as a mirror, Jesus is challenging the listener to stop looking for truth in external packaging.
+
+If we look for truth in people who have "fine clothing" — whether that means money, massive social media followings, corporate titles, or religious robes — we will always be fooled. Similarly, if we treat spiritual teachers like fragile "reeds" or untouchable gods, we miss the point.
+
+The text invites us to drop the act, look past the "garments" of the people around us, and step out of the crowd that is just looking for a show. It asks us to become people who can recognise truth in the ordinary, unpolished "countryside" of our own lives.`,
+    contemplationPrompt: `In my own professional and personal life, what are the 'fine garments' or 'shaking reeds' that I am currently using to validate my authority or entertain my curiosity — and what is the uncomfortable truth I might be avoiding by focusing on those external things instead?`,
+    concepts: [
+      {
+        term: 'Reed shaken by the wind',
+        definition: 'An image of instability and superficiality — something that moves with every passing breeze. Used here to describe both the aimless seeker and the trivial spectacle they are looking for. The reed has no inner root; it is shaped entirely by external forces.'
+      },
+      {
+        term: 'Fine clothing',
+        definition: "In antiquity, clothing was the primary signal of social rank and power. To wear 'fine' or 'soft' garments was to announce that you did not labour. Jesus uses this image to represent the ego's investment in status, title, and reputation — the very things that prevent the powerful from recognising truth."
+      },
+      {
+        term: 'Countryside / Wilderness',
+        definition: 'A space associated with testing, stripping away, and encounter with the essential — John the Baptist lived and preached there. To travel there merely for entertainment is to miss the entire point of the journey.'
+      }
+    ],
+    relatedSayings: [3, 39, 56, 76],
+    published: true
+  },
+
+  ...Array.from({ length: 36 }, (_, i) => ({
+    id: i + 79,
+    number: i + 79,
+    text: `Saying ${i + 79} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
