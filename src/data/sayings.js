@@ -2175,10 +2175,44 @@ The text invites us to drop the act, look past the "garments" of the people arou
     published: true
   },
 
-  ...Array.from({ length: 36 }, (_, i) => ({
-    id: i + 79,
-    number: i + 79,
-    text: `Saying ${i + 79} — add the text via the admin panel.`,
+  {
+    id: 79,
+    number: 79,
+    text: 'Saying 79 — add the text via the admin panel.',
+    reflection: 'Reflection to be added. Use the admin panel to write your own.',
+    contemplationPrompt: '',
+    concepts: [],
+    relatedSayings: [],
+    published: false
+  },
+
+  {
+    id: 80,
+    number: 80,
+    text: 'Jesus said: He who has known the world has found the body; and he who has found the body, the world is not worthy of him.',
+    reflection: `The world can be seen as a construct — a mental framework or story we build for safety and predictability — and as an experience, a stage of becoming (from a linear perspective) that leads to something deeper.
+
+We create "files and folders" for the people and events around us because the raw, unfiltered vastness of reality is overwhelming. To engage with every person as an infinite, evolving mystery would be paralyzing; by narrowing people into roles — such as "the honest leader" or "the party friend" — we create a sense of control.
+
+However, the danger arises when we confuse the map (the story) with the territory (the person or the truth). The shock we feel when a "good" person does something "bad" is merely the collapse of our mental model. It isn't a failure of the person; it is a failure of our rigid, simplified filing system. When we are forced to see the discrepancy, it creates a "fissure" in our reality. This is often where the real work begins.
+
+**The Story of the Lost Son**
+
+In the beginning, the world — the stories, the popularity, the "boxes" — seems full of colour and promise. Our original house seems boring, so we participate in the world because we believe the narrative. As we move through experience, however, that narrative begins to lose its vitality. The things that once provided "pleasure" feel empty, or like a corpse. This is not a state of clinical depression, but rather a state of outgrowing. The transition from seeking worth in the world (the story) to finding the "treasure within" (the Self) is the point of the journey. The world, which once looked like a playground, now looks flat.
+
+The son then returns to the Father and his true home. The world — that story — is no longer worthy of him. He understands the true value of his home; having outgrown the "constructed world," he moves on. He recognises the treasure within, and what once provided much pleasure no longer holds the same appeal; it feels like a corpse (as referenced in the *Gospel of Thomas*).
+
+Framing the journey in this way removes the temptation to see the person who still lives in the world as "wrong." It is simply a different stage of becoming — much like the egg, the caterpillar, the chrysalis, and the butterfly.`,
+    contemplationPrompt: 'This metaphor of metamorphosis highlights the necessity of the "caterpillar" stage (a caterpillar constantly consumes), even though it must eventually be discarded; do you believe that one can consciously accelerate the transition through these stages, or is it a process that must be endured passively until the change is ready to happen?',
+    concepts: [],
+    relatedSayings: [],
+    published: true
+  },
+
+  ...Array.from({ length: 34 }, (_, i) => ({
+    id: i + 81,
+    number: i + 81,
+    text: `Saying ${i + 81} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
