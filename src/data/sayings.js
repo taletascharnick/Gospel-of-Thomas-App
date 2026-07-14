@@ -2209,10 +2209,39 @@ Framing the journey in this way removes the temptation to see the person who sti
     published: true
   },
 
-  ...Array.from({ length: 34 }, (_, i) => ({
-    id: i + 81,
-    number: i + 81,
-    text: `Saying ${i + 81} — add the text via the admin panel.`,
+  {
+    id: 81,
+    number: 81,
+    text: 'Jesus said: He who has become rich, let him become king, and he who has power, let him renounce (it).',
+    reflection: `There are two ways to look at the text that currently speaks to me.
+
+The first is to focus on the **inner kingdom**. We must recognize that the ego seeks power, yet it should renounce that power because, at its core, it is still poor. The one who is truly "rich"—having recognized their inherent fullness—is the one fit to be king in the inner kingdom. Because they don't require anything from the outside world, they bring total harmony to the inner system.
+
+It is important to clarify that this isn't "egoic" in a way that suggests withdrawing from life; you still eat food, visit people, and do work. Rather, it means that the *neediness*—the frantic urge that once dictated your life and made you feel that the external world held power over you—is no longer in the driver's seat. You are no longer fighting to contain a sense of control because the external world is no longer the source of your security. In this sense, we can distinguish between the ego and the Higher Self; the latter possesses the wisdom of "more information" and therefore does not need to grasp at straws.
+
+The second way to look at the text is through the lens of the **human journey**. The person who goes out into the world to live and experience it eventually becomes "rich" in experience. Through this, they realize that the power they once sought is not real and ultimately cannot fulfil them; only then are they truly able to renounce the role. Think of actors who strive to experience the world and become famous, only to find that the world is ultimately empty—an illusion—leading them to find meaning in something more grounded and real. Of course, this is not to say that everyone will choose to renounce that power.
+
+Ultimately, this saying points to a profound paradox of human existence: When you are finally able to give up the need for control, the irony—for us as humans—is that you actually gain it.
+
+Consider how we typically act when faced with the vast, daunting nature of the unknown: we grasp at anything to feel secure, even for a moment, yet we are left with the lingering sense that it hasn't truly helped. However, when we fix our relationship with the unknown, we feel calmer, knowing that our current circumstances are not the full story. By moving past the inner turmoil of frantically chasing people, jobs, or events to feel whole, decision-making becomes less dramatic and more grounded. Whether through the mastery of the inner kingdom or the exhaustion of external illusions, true power is found not in the grasping, but in the release.`,
+    contemplationPrompt: `When we look back at times we felt the most "turmoil," was it because the situation itself was difficult, or because we were fighting to control an outcome we didn't fully understand?
+
+**On the Nature of Friction:** If I stopped treating my current discomfort as a problem to be solved, what would I see the "turmoil" is actually trying to teach me?
+
+**On Trusting the Process:** What would it look like to treat my inner critic like a child who is just scared of the dark, rather than an authority figure telling me that I am failing?
+
+**On the "Unknown" as a Container:** If the unknown is a cocoon rather than an abyss, how does that change the way I hold the uncertainty I am currently facing?
+
+**On Surrender:** When the pressure of the chrysalis feels at its most intense, how can I consciously shift from "trying to survive" to "allowing the emergence"?`,
+    concepts: [],
+    relatedSayings: [],
+    published: true
+  },
+
+  ...Array.from({ length: 33 }, (_, i) => ({
+    id: i + 82,
+    number: i + 82,
+    text: `Saying ${i + 82} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
