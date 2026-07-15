@@ -2238,10 +2238,61 @@ Consider how we typically act when faced with the vast, daunting nature of the u
     published: true
   },
 
-  ...Array.from({ length: 33 }, (_, i) => ({
-    id: i + 82,
-    number: i + 82,
-    text: `Saying ${i + 82} — add the text via the admin panel.`,
+  {
+    id: 82,
+    number: 82,
+    text: 'Jesus said: He who is near to me is near the fire, and he who is far from me is far from the kingdom.',
+    reflection: `**The Fire of Integration and the Distance of Separation**
+
+**I. The Deconstruction of "Distance"**
+
+In our standard 3rd-density model of reality, we define our lives by coordinates: North/South, Up/Down, Left/Right. These measurements are tools, but when we start mistaking them as the ultimate model of reality, we create a spatial trap.
+
+If we look for Jesus or the Kingdom in the sky (space) or in a distant future (time), we treat the Divine as an object "over there". This creates a psychological distance (also called separation). For example, by viewing ourselves as "below" God, we solidify a hierarchical distance that prevents us from realizing that we are, in fact, an expression of that same Source — and we limit our potential.
+
+Nearness to Jesus is not a matter of physical proximity or moral proximity, but it is a matter of resonance. When you recognize who you truly are — not as a separate entity adrift in space, but as an integral part of the whole — you are immediately near the fire. You are no longer navigating toward a destination; you have arrived at the source of your own life.
+
+When you recognize that the kingdom is within (everywhere), the concept of "distance" vanishes. This shift in perspective fundamentally alters how we experience distance from others, transforming both the quality of our communication and the limits of what we believe is possible between us.
+
+**II. The Alchemy of the Fire**
+
+The text equates proximity to the Teacher with proximity to "the fire". Fire is not a tool for judgement or hell-fire; it is the primary agent of transmutation. In alchemy, the "lead" is the accumulation of heavy, dense energies — trauma, rigid belief systems, ego-attachments, and the sheer weight of living in 3rd-density reality.
+
+The influence of the Teacher (Jesus) acts as the furnace or the catalyst that provides the necessary heat to remember your true self. The internal fire can be seen as the "inner spark" within the human. This is the gold — the authentic self — that is waiting to be remembered and refined. The fire provides the necessary light to see the world as it truly is (oneness), burning away the "dross" — our ego, our attachment to mundane things, and the heavy, dead weight of our worldly conditioning. This allows the soul to move from a state of raw material to a state of maturity. In essence, it allows us to stop living as stories or myths.
+
+**The Shift from Story to Presence**
+
+The alchemical process described here offers a radical departure from how we usually live. By burning away the "dross" — the conditioned patterns, ego-defences, and past traumas — we are doing more than just becoming "better" people. We are transitioning from a state of raw material to a state of **maturity**.
+
+- **From "Living Stories" to Being:** For most of our lives, we operate through the lens of a "story." We define ourselves by our past, our grievances, our roles, and the narratives we have constructed to protect our sense of self. These stories are heavy; they are the "lead" that keeps us tethered to the 3rd-density illusion of distance.
+- **The Maturity of Essence:** To be "mature" in the alchemical sense is to stop performing the story and to start embodying the Essence. It is the realization that you do not need to "become" anything — you only need to allow the fire of truth to consume the layers that are not you.`,
+    contemplationPrompt: 'The Problem of Measurement: How often do we define our spiritual progress by "waiting" for a future event or looking toward a God we perceive as distant? How does this keep us from experiencing the present moment?',
+    concepts: [
+      {
+        term: 'Resonance',
+        definition: 'Nearness to the Teacher is not a matter of physical or moral proximity but of inner attunement — recognizing oneself as an expression of the same Source rather than a separate entity looking toward it from a distance.'
+      },
+      {
+        term: 'Transmutation',
+        definition: 'The alchemical process by which the "lead" of dense conditioning — trauma, ego-attachments, and rigid belief systems — is transformed by the heat of awareness into the "gold" of the authentic self.'
+      },
+      {
+        term: 'Dross',
+        definition: 'The impurities burned away in the alchemical fire: conditioned patterns, ego-defences, past traumas, and the stories we perform in place of genuine presence.'
+      },
+      {
+        term: '3rd-density',
+        definition: 'The ordinary material level of experience characterized by the illusion of separation, measurement, and distance — where the self mistakes the map (coordinates, hierarchy, narrative) for the territory.'
+      }
+    ],
+    relatedSayings: [10, 3, 80, 81],
+    published: true
+  },
+
+  ...Array.from({ length: 32 }, (_, i) => ({
+    id: i + 83,
+    number: i + 83,
+    text: `Saying ${i + 83} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
