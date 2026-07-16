@@ -2289,10 +2289,64 @@ The alchemical process described here offers a radical departure from how we usu
     published: true
   },
 
-  ...Array.from({ length: 32 }, (_, i) => ({
-    id: i + 83,
-    number: i + 83,
-    text: `Saying ${i + 83} — add the text via the admin panel.`,
+  {
+    id: 83,
+    number: 83,
+    text: 'Jesus said, "Images are visible to human beings. And the light within these (images) is hidden by the image of the father\'s light; it will be disclosed. And his image is hidden by his light."',
+    reflection: `**The Conflict Between the "Image" and the "Light"**
+
+The conflict between the "image" (the mental construct/projection) and the "light" (the unfiltered, infinite reality)
+
+In trying to understand the light — putting it into a container — we distort it. It is a byproduct of putting things into a container. When we label, define, or "figure out" a person or the Divine, we are essentially reducing a vast, dynamic reality into a static, manageable image.
+
+**1. The Illusion**
+
+By creating an image of a person (e.g. enemy, best friend, mother etc.), we stop interacting with their living, changing essence and begin interacting with our own internal script. The consequence of this is that the projection dims the light and creates a sense of density, separation and fear. We all experience this, and knowing that we do can empower us to challenge our own narratives.
+
+**2. Light is Both the Revealer and the Blinder**
+
+Because our human eyes and minds are limited, we use "light" (our interpretations) to categorize the world. If we see everything through the lens of a specific, narrow ideal (our "image" of what things should be), the light itself becomes an obstacle because it reinforces our preconceived notions. For example, if we project our ideas of "good" or "holy" onto the Divine, we become blind to the true, vast nature of the Source. It becomes a mirror of our own feelings rather than the raw, infinite truth. We can also easily fall into a state of controlling or worshipping the light, failing to recognize that we emanate from it — that we are one with it.
+
+**3. The Shift in Perception**
+
+If Jesus didn't project an image onto others (by being present), he was essentially practicing a form of "seeing" that bypassed the social and egoic masks. When we stop projecting our "ideal" or "fearing" images onto others, the "image" loses its power to obscure the light.
+
+Bringing the "light of the Father" into the inner plane (not projecting it outward) reveals the illusionary nature of these constructs. This is the process of de-conditioning: realizing that your previous "story" about yourself, others, and the Divine was not the Truth, but a projection.
+
+Movement from seeing the Image (the illusion) to the Light (the hidden truth — behind the image) is essentially a transition from judgment to presence. The more I learn the more I believe that we are so vast and infinite that there is some injustice to try to fit ourselves, others or the Divine into a mold. To acknowledge that we cannot "grasp" the fullness of a person or the Divine is not a failure of intelligence; it is the ultimate respect for their infinite nature. As we start to embody this, we provide others with the opportunity to reveal parts of themselves that would have previously been hidden; in doing so, we find that we feel more connected.
+
+**4. In Conclusion**
+
+The physical world ("images") is what we naturally see, but these images are incomplete. They act as a veil, obscuring the true essence — the "light" — that dwells within them. The "light of the Father" (the ultimate, divine reality) is so vast and radiant that it cannot be captured or defined. Because our human minds try to force this infinite light into a static "image" or concept, our own limited projections end up hiding the very light we seek. The text suggests that the light is not lost; it is simply "hidden." There is an inevitable process of "disclosure" where the true nature of reality will be revealed, stripping away the distortions created by our mental constructs.`,
+    contemplationPrompt: `The Power of "Opening to What Is": When you move from "forcing" to "opening," you shift your internal state from contraction to expansion. By accepting the present moment as it is, you stop blocking the light with your own demands. This is why you then "find many options": when your vision isn't narrowed by the need to control, you suddenly see the nuance, the opportunities, and the possibilities that were invisible to you while you were busy trying to force things into a mold.
+
+What would it actually feel like to stand in the middle of a situation without a 'mold' for how it should turn out, and simply observe the light as it is?`,
+    concepts: [
+      {
+        term: 'Image',
+        definition: 'The mental construct or projection we place over a person, ourselves, or the Divine. By reducing a vast, dynamic reality into a static, manageable image, we stop interacting with the living essence and begin interacting with our own internal script.'
+      },
+      {
+        term: 'Light',
+        definition: 'The unfiltered, infinite reality that dwells within all things. It is both the revealer and the blinder — our interpretations illuminate the world but can simultaneously obscure the deeper truth when our lens is too narrow.'
+      },
+      {
+        term: 'De-conditioning',
+        definition: 'The process of realizing that one\'s previous "story" about oneself, others, and the Divine was not the Truth but a projection — and releasing those constructs so that the hidden light can be disclosed.'
+      },
+      {
+        term: 'Presence',
+        definition: 'Seeing without projecting an image onto what is seen. When we meet a person or situation without a predetermined mold, the image loses its power to obscure the light, and genuine connection becomes possible.'
+      }
+    ],
+    relatedSayings: [3, 24, 77],
+    published: true
+  },
+
+  ...Array.from({ length: 31 }, (_, i) => ({
+    id: i + 84,
+    number: i + 84,
+    text: `Saying ${i + 84} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
