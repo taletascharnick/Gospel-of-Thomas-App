@@ -2343,10 +2343,52 @@ What would it actually feel like to stand in the middle of a situation without a
     published: true
   },
 
-  ...Array.from({ length: 31 }, (_, i) => ({
-    id: i + 84,
-    number: i + 84,
-    text: `Saying ${i + 84} — add the text via the admin panel.`,
+  {
+    id: 84,
+    number: 84,
+    text: 'Jesus said: When you see your likeness, you rejoice. But when you see your images which came into existence before you, which neither die nor are made manifest, how much will you bear?',
+    reflection: `When we see our superficial likeness mirrored in another person — someone of the same skin colour, family lineage, or cultural heritage — we feel a deep sense of safety and relief. We recognize a tiny, manageable reflection of ourselves. Conversely, anything that disrupts this narrow context is treated as "other," foreign, or threatening.
+
+If a person's starting orientation is clouded, cynical, or fixated on brokenness, their internal "model" projects that distortion onto everything else. They see shadows everywhere.
+
+Trapped in this story of reality, we unconsciously replay old childhood patterns, casting everyday people in the roles of figures from our past who hurt us. We become actors in a psychological play, reliving our wounds according to the scripts we believe about ourselves.
+
+If humans internalize a fundamental premise that they are inherently flawed, trapped, and defined by evil, they will actively build social, psychological, and moral models that hunt for corruption. They treat the shadows on the wall as reality, and consequently, their entire lived experience conforms to that illusion.
+
+In the Allegory of the Cave, the prisoners aren't just looking at shadows; they *believe* the shadows are the absolute truth because that is all they have ever known. What we encounter through our physical senses — sight, smell, and hearing — does not constitute true reality. Our senses are inherently limited, trapping us in a cycle where we mistake shadows for the world.
+
+One requires a deliberate "turning around" of the soul. Instead of letting the mind stay fixated on the lowest level of reality (flaws, passing physical desires, and temporary pains), the soul must be trained to look upward toward higher, unchanging truths. If you begin from a baseline assumption of inherent value, order, and light — the lower problems (flaws, errors, and evil) are seen merely as deficiencies or absences of the good, rather than the fundamental substance of reality.
+
+Beyond the physical plane lie images and archetypes that were never born from a father or mother. These forms cannot be created or destroyed; they live outside our temporal dimension. To witness the images that came into existence before us — the deep, underlying patterns of our past and the totality of consciousness across all times — is staggering. Our standard human container is simply too small to hold the fullness of ourselves.
+
+The text asks, "How much will you bear?" When the mind encounters the vastness of the Whole, the *rigid, defensive structure* of the ego doesn't have to be obliterated; it must expand and transform. You aren't being asked to erase yourself; you are being invited to change your form. The small, defensive self naturally feels threatened by that expansion because it requires outgrowing its old boundaries, but the underlying energy simply wakes up to what it has always been: whole, unbroken, and continuous across all time.`,
+    contemplationPrompt: 'If your current "human container" is too small to hold the fullness of your consciousness across time, what are you afraid would spill out if the container finally expanded?',
+    concepts: [
+      {
+        term: 'Likeness',
+        definition: 'The surface-level resemblance we recognize in others — shared appearance, lineage, or culture — that offers a comforting but narrow reflection of ourselves.'
+      },
+      {
+        term: 'Images which came into existence before you',
+        definition: 'Timeless archetypes and patterns that were never born and cannot die — the deep, underlying forms of consciousness that precede and exceed our individual, temporal identity.'
+      },
+      {
+        term: 'Allegory of the Cave',
+        definition: "Plato's image of prisoners mistaking shadows on a wall for reality. Used here to describe how limited sense-perception and a wounded self-story can be mistaken for the whole of truth."
+      },
+      {
+        term: 'Turning around of the soul',
+        definition: 'A deliberate reorientation away from fixation on flaws and passing sensation, toward higher, unchanging truths — so that evil is seen as an absence of the good rather than its own substance.'
+      }
+    ],
+    relatedSayings: [3, 83, 77],
+    published: true
+  },
+
+  ...Array.from({ length: 30 }, (_, i) => ({
+    id: i + 85,
+    number: i + 85,
+    text: `Saying ${i + 85} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
