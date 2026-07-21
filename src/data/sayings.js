@@ -2385,10 +2385,52 @@ The text asks, "How much will you bear?" When the mind encounters the vastness o
     published: true
   },
 
-  ...Array.from({ length: 30 }, (_, i) => ({
-    id: i + 85,
-    number: i + 85,
-    text: `Saying ${i + 85} — add the text via the admin panel.`,
+  {
+    id: 85,
+    number: 85,
+    text: 'Jesus said: Adam came into being out of a great power and a great wealth, and he was not worthy of you; for if he had been worthy, [he would] not [have tasted] of death.',
+    reflection: `Death in this context may symbolize a machine-like existence, echoing the ancient myth of Adam's creation. According to Gnostic tradition, Adam's physical body and psyche were formed, yet they remained lifeless until the divine spirit was breathed into them to animate the form. This narrative outlines the journey of the human soul: the vital spark or spirit that awakens Adam mirrors our own potential to come alive.
+
+The myth we received was told by people who did not separate things the way we do in a dualistic sense. They were telling the story of the inner world and how it affects the outer world. It tells us that while we identify only with our ego-self — the skin we wear and our thoughts — we are not yet truly living. We are still imprisoned in a story of competition, hierarchy and victimhood.
+
+It makes us fear death. It makes us think that there is a start and an end, and that we need to fear the end. It makes us enemies with ourselves. While we falsely believe ourselves to be flesh or mind (intellectual), we fear the end as we see our bodies as ending. We become set in our frame of mind — the story that we have built. If anything changes, we are afraid that our story won't hold. Therefore, we are like death because we see death in everything.
+
+However, when we meet the spark and operate from that place, we can let go of the story, as change does not change anything about our worth. We can finally allow ourselves to become bigger, have more space, and contain more light. In the Gnostic texts, Adam dies in the end after eating from the tree of good and evil (dualism). If he cannot reconcile and find union again — the source that gives life, which is the tree of life — he walks around like a program, like Pinocchio (just going along with what the world tells him to). We are like Adam; we sometimes become so automated and lifeless by only running a program that we forget we were supposed to become a real boy.
+
+In summary, when we consciously integrate body, mind, and spirit into a unified whole, we move beyond automated survival, anchoring ourselves in a deeper vitality that makes us fundamentally healthier, more resilient, and truly alive.`,
+    contemplationPrompt: `In what areas of your daily life are you operating on "autopilot" or following a rigid script, and what would it look like to bring your conscious, living spirit into those moments?
+
+How balanced is the relationship between your body, mind, and spirit right now, and which of these three needs more nurturance to help you feel fully whole?`,
+    concepts: [
+      {
+        term: 'Great power and great wealth',
+        definition: "The physical body and psyche formed at Adam's creation — a fully shaped form that remained lifeless until animated by the divine spirit breathed into it."
+      },
+      {
+        term: 'Tasting death',
+        definition: 'A machine-like, automated existence — living as a program rather than as a fully awakened being. Not the end of the body, but a life untouched by the vital spark.'
+      },
+      {
+        term: 'The spark',
+        definition: 'The vital spirit that animates Adam and mirrors our own potential to come alive — the point of contact where we stop identifying only with the ego-self.'
+      },
+      {
+        term: 'Tree of life vs. tree of good and evil',
+        definition: 'The tree of good and evil represents dualism, the split that leads to death; the tree of life represents the source and union that reconciles body, mind, and spirit into a whole.'
+      },
+      {
+        term: 'Pinocchio metaphor',
+        definition: 'Walking around "like a program," going along with what the world tells us, without ever becoming a "real boy" — an image for automated, lifeless living in place of true aliveness.'
+      }
+    ],
+    relatedSayings: [1, 11, 18],
+    published: true
+  },
+
+  ...Array.from({ length: 29 }, (_, i) => ({
+    id: i + 86,
+    number: i + 86,
+    text: `Saying ${i + 86} — add the text via the admin panel.`,
     reflection: 'Reflection to be added. Use the admin panel to write your own.',
     contemplationPrompt: '',
     concepts: [],
